@@ -1,16 +1,15 @@
-------
+---
 layout: post
-title: "yummy chroots. Building chroots with yum on fedora 16"
+title: "yummy chroots Building chroots with yum on fedora 16"
 date: 2012-03-07 16:59
 comments: true
-published: true
 categories:
 - linux
-------
+---
 
 We're going to build a minimal chroot directory for Fedora 16 using yum and rpm, we are using the ChrootDirectory functionality of Openssh which only came in >= 4.9p1
 
-Credit goes [http://prefetch.net/articles/yumchrootlinux.html](Here) for a great article getting me started on this.
+Credit goes [Here](http://prefetch.net/articles/yumchrootlinux.html) for a great article getting me started on this.
 
 As root:
 {% highlight bash %}
