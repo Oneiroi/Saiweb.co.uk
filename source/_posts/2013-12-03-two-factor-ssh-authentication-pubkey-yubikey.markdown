@@ -53,7 +53,7 @@ Create the file: /etc/ssh/yubikey_mappings with the content:
 username:yubikey_identity
 ```
 
-You can get your yubikey identity from [demo.yubicloud.com](http://demo.yubicloud.com)
+You can get your yubikey identity from [demo.yubico.com](http://demo.yubico.com)
 
 Edit /etc/pam.d/sshd so that the first lines read:
 
