@@ -7,7 +7,7 @@ categories:
 - linux
 - grub-pc
 - lvm
-- ecryption 
+- encryption 
 ---
 
 So finally I have Kali linux 1.0.6. installed as the main OS on my Lenovo X1 Carbon, this was not a trivial matter to say the least.
