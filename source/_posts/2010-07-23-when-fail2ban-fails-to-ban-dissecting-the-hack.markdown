@@ -21,11 +21,11 @@ But ever so occasional I find one that frankly intrigues me.
 
 Today is just such an occasion where I have had multiple Brute force login attempts, the ingenious part is this attack has been designed to bypass tools such as fail2ban, blockhosts etc, and this is how
 <ol>
-	<li>Attack is launched from <strong></strong></li>
-	<li><strong></strong> has PTR set for <strong></strong></li>
-	<li>Failed login attempts record <strong></strong> due to reverse lookup</li>
-	<li>There is no A record, attacker maintains their own nameservers for the <strong></strong></li>
-	<li>fail2ban notes failed logins, attempts to resolve <strong></strong> to an IP but fails, due to missing A record</li>
+	<li>Attack is launched from <strong>XXX.XXX.XXX.XXX</strong></li>
+	<li><strong></strong> has PTR set for <strong>sub.domain.tld</strong></li>
+	<li>Failed login attempts record <strong>sub.domain.tld</strong> due to reverse lookup</li>
+	<li>There is no A record, attacker maintains their own nameservers for the <strong>domain.tld</strong></li>
+	<li>fail2ban notes failed logins, attempts to resolve <strong>sub.domain.tld</strong> to an IP but fails, due to missing A record</li>
 	<li> Attacker can continue brute force attempts unhindered by being banned</li>
 </ol>
 I am still reading into how to counter this and will update this post as I figure out how to work around it, it's a very sneaky and frankly quiet clever method of working around most automated blacklisting/banning tools.
