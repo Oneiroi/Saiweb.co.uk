@@ -225,10 +225,10 @@ This will take some time to start up, note that if you want to load in an existi
 
 Download ejre-7u55-fcs-b13-linux-arm-vfp-hflt-client_headless-17_mar_2014.tar.gz from [here](http://www.oracle.com/technetwork/java/embedded/downloads/javase/index.html?ssSourceSiteId=otncn)
 
-"ARMv6/7 Linux - Headless - Client Compiler EABI, VFP, HardFP ABI, Little Endian1"
+"ARMv6/7 Linux - Headless - Client Compiler EABI, VFP, SoftFP ABI, Little Endian1"
 
 ```
-tar -zxvf ejre-7u55-fcs-b13-linux-arm-vfp-hflt-client_headless-17_mar_2014.tar.gz
+tar -zxvf ejre-7u55-fcs-b13-linux-arm-vfp-sflt-client_headless-17_mar_2014.tar.gz
 update-alternatives --install "/usr/bin/java" "java" "/path/to/ejre1.7.0_55/bin/java" 1
 update-alternatives --config java
 ...
