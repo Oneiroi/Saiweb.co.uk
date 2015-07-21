@@ -273,7 +273,7 @@ strings ./_Ledger.xlsx.extracted/xl/embeddings/oleObject1.bin
 C:\Users\Jamie H\Documents\CSCUK-Challenge-1\Stage 2\TransferCode.zip.003
 C:\Users\JAMIEH~1\AppData\Local\Temp\TransferCode.zip.003
 
-No I have TransferCoder.zip.003
+Now I have TransferCoder.zip.003
 
 #X101D4.docm
 
@@ -307,5 +307,7 @@ out.close()
 
 # The end ...
 
-Unfortunatly this is where I must end, I originally did the above work on June 30th 2015 in my evening, and was not able to pick it up again untill autoring this blog post ... past the deadline, the PDF file appears to be the final stage; oh well it was an interesting puzzle at least and a welcomed exercise of skills I do not nearly get to use enough.
+Unfortunatly this is where I must end, I originally did the above work on June 30th 2015 in my evening, and was not able to pick it up again untill autoring this blog post ... past the deadline, the PDF file appears to be the final stage. (Just cat the zip files togetheer and unzip to get the PDF file)
+
+Oh well it was an interesting puzzle at least and a welcomed exercise of skills I do not nearly get to use enough.
 
