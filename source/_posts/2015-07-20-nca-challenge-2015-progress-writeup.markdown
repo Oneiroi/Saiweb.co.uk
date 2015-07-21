@@ -183,13 +183,13 @@ DTMF: *
 
 ```
 
-Whilst it was needed it's worth noting that `sox` can be used to convert to a multimon native format
+Whilst it was not needed it's worth noting that `sox` can be used to convert to a multimon native format
 
 ```
 sox -t wav fl46-mono.wav -esigned-integer -b16 -r 22050 -t raw fl46-mono.raw
 ```
 
-Calling the number (via an anomized service of course) yeilfs a very faint voice reading numbers aloud, this is why having the call recording prior to dialing is such an advantage; some post processing to raise the volume and carefull listening yields: 533020565
+Calling the number (via an anonymized service of course) yeilds a very faint voice reading numbers aloud, this is why having the call recording prior to dialing is such an advantage; some post processing to raise the volume and carefull listening yields: 533020565
 
 # usb_key.gpg
 
