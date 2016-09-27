@@ -16,7 +16,7 @@ group :development do
 end
 
 gem 'sinatra', '~> 1.3.2'
-gem 'cloudfiles'
+gem 'fog'
 gem 'colored'
 gem 'mime-types'
 gem 'uri-handler'

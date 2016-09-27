@@ -1,7 +1,7 @@
 require "rubygems"
 require "bundler/setup"
 require "stringex"
-require "cloudfiles"
+require "fog"
 require "mime/types"
 require "find"
 require "colored"
@@ -9,8 +9,6 @@ require "uri-handler"
 require "digest/md5"
 
 cloudfiles_container = "oneiroi"
-cloudfiles_auth = CloudFiles::AUTH_UK
-
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "saiweb"
@@ -356,69 +354,6 @@ task :setup_github_pages, :repo do |t, args|
     end
   end
   puts "\n---\n## Now you can deploy to #{url} with `rake deploy` ##"
-end
-
-desc "Nuke all files in the .CDN_LOG_FILES container"
-task :cloudfileslognuke do
-    cf = CloudFiles::Connection.new(
-        :username => get_stdin("What is your cloudfiles username?: "),
-        :api_key => get_stdin("What is your api key?: "),
-        :auth_url => "#{cloudfiles_auth}"
-    )
-    container = cf.container(".CDN_ACCESS_LOGS")
-    cdn_files = container.objects
-    cdn_count = cdn_files.count
-    i = 0
-    cdn_files.each do |f|
-        container.delete_object(f)
-        print "\r Removed #{i}/#{cdn_count}"
-        i+=1
-    end
-end
-desc "Use cloudfiles to deploy the blog assets, assumes X-Container-Meta-Web-Index: index.html"
-task :cloudfiles do
-    #Adapted from code here: http://jondavidjohn.com/blog/2012/04/sync-static-assets-to-rackpace-cloudfiles-with-a-rake-task
-    cf = CloudFiles::Connection.new(
-        :username => get_stdin("What is your cloudfiles username?: "),
-        :api_key => get_stdin("What is your api key?: "),
-        :auth_url => "#{cloudfiles_auth}"
-    )
-    container = cf.container("#{cloudfiles_container}")
-    pub_dir = "public/"
-    local_files = Find.find(pub_dir).map { |i| i }
-    local_files[0] = pub_dir.to_s
-    i = 0
-    c = 0
-    n = 0
-    local_files.each do |f|
-        i+=1
-        unless File.directory?(f)
-            rPath = f[pub_dir.to_s.length..-1]
-            begin
-                cfMeta = container.object(rPath).object_metadata
-                h = Digest::MD5.hexdigest(File.read(f))
-                if h != cfMeta[:etag]
-                    c+=1
-                    send = true
-                else
-                    send = false
-                end
-            rescue
-                n+=1
-                send = true
-            end
-            if send == true 
-                puts "    +".green + " Uploading -> " + rPath
-                fp = open(f,'r')
-                t = MIME::Types.type_for(f)
-                obj = container.create_object rPath,false
-                obj.write fp
-                obj.content_type = t[0].to_s
-                fp.close
-            end
-        end
-        print "\rChecked #{i}/#{local_files.count} Changed #{c} New #{n}"
-    end
 end
 
 def ok_failed(condition)
