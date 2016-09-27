@@ -21,11 +21,11 @@ So if you take one thing away from this post please make sure it's:
 
 Simple enough right? of course this isn't a "cure all" and there's other vulnerabilites an mitigations to consider; but not for this post.
 
-# RFI
+# RFU
 
-Remote File Inclusion.
+Remote File Upload.
 
-So the site in question had a plugin which was out of date. This plugin had a RFI vulnerability which allowed attackers to upload arbitary code files then head to
+So the site in question had a plugin which was out of date. This plugin had a RFU vulnerability which allowed attackers to upload arbitary code files then head to
 
 https://thesite.com/wp-content/pluginname/uploadedfile.php 
 
@@ -33,7 +33,7 @@ To execute the attack.
 
 Standard, boring crap right ? 
 
-Well this post isn't to focuse on how it happened, nor why it happed. Simply put the php file itself I found very interesting.
+Well this post isn't to focus on how it happened, nor why it happed. Simply put the php file itself I found very interesting.
 
 # PHP Code obfustication
 
@@ -58,7 +58,7 @@ Z5Cu7f8PYmaBthyP3iqZk/ur0i1+64uyYe9XaiXkORQ/F90DEaY0m3MAxIptHs8lQMclnoIX27gTJnAv
 NpcyJgsM5Z8w/6dApQTxWU4/iA+QIKZATqlKYDpuScahCgOIlenxBhEsjB7s2mpG82vcs+/FoxuobVLZ
 ```
 
-Well, thats ... interesting ...
+Well, that's ... interesting ...
 
 Tail of the file
 
@@ -68,7 +68,8 @@ Tail of the file
 
 ## Long string is loooooooong ...
 
-So first it's a base64 encoded string; we know this due to the first line of code
+So first it's a base64 encoded string; we know this due to the first line of code which is doing some signature evasion itself.
+
 ```php
 $wp__wp='base'.(32*2).'_de'.'code';
 ```
@@ -99,7 +100,7 @@ So let's use some python ...
 ...
 ```
 
-So we have some raw intelligibile data, now the WTF continues ...
+So we have some raw intelligibile data, the WTF continues ...
 
 ## So what now?
 
