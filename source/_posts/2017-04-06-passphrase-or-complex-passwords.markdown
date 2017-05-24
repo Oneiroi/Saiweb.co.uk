@@ -124,8 +124,9 @@ as such when looking at possible combinations, start to factor in other human fa
 
 **Note** This is all 'napkin math' so please forgive me if I am wrong anywhere, and note it in the comments so I can fix in the post ;-)
 
-*Update*: corrected napkin math 2017-05-05 password example assumed `a-Z ` where as example given was `a-z ` corrected the math to account for `a-z ` as intended.
-*Update2*: corrected napkin math AGAIN 2017-05-24
+**Update**: corrected napkin math 2017-05-05 password example assumed `a-Z ` where as example given was `a-z ` corrected the math to account for `a-z ` as intended.
+
+**Update2**: corrected napkin math AGAIN 2017-05-24
  
 # Conclusion
 
@@ -134,7 +135,7 @@ Password complexity is no stronger than pass-phrase with complexity, if you mana
 *"Security at the expense of usability comes at the expense of security"* otherwise known as *AviD’s Rule of Usability*.
 
 1. Any policy must be simple to understand
-2. Any policy myst be simple to execute
+2. Any policy must be simple to execute
 
 In order to gain the expected result, otherwise you're going to get users whom develop poor habits and choose poor-passwords.
 
