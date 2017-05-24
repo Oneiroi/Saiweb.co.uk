@@ -55,7 +55,7 @@ I'm speaking in generalizations, if you do not do any of this then great! Use a 
 
 The downfall here is with a complexity requirement is poor choices of passwords and this is most prevalent where the target individual does not use a password manager and the password generation feature.
 
-**Note**: This is not a bashing of people not using password managers, password managers have their own issues (just see examples from Travis Ormandy or Dan Tentler) so please bare with me until the end I am simply speaking about human behavior being predictable of which *MANY* studies are available to back this up).
+**Note**: This is not a bashing of p:eople not using password managers, password managers have their own issues (just see examples from Travis Ormandy or Dan Tentler) so please bare with me until the end I am simply speaking about human behavior being predictable of which *MANY* studies are available to back this up).
 
 #Pass-phrases
 
@@ -112,20 +112,21 @@ Which may not seem like a huge difference until you work out that the former non
 Yes you're correct, but you're also wrong. Brute force is not the only attack you can carry out, let's use the example from before
 
 1. password is 58 characters
-2. password is comprised of only lowercase and space separation `58^57 == 4.0878x10^27` possible combinations
+2. password is comprised of *only lowercase and space separation* `58^27 == 4.0978x10^47` possible combinations
 4. We know this is a pass-phrase, so it's likely each part of said phrase uses complete words.
 5. We know the target uses the english language
-6. The english language has approximately `171,476` words this is by **FAR** much less than `4.09878x10^27` 
+6. The english language has approximately `171,476` words this is by **FAR** much less than `4.09785x10^47` 
 
-`171476` is `4.1846 x 10^-43`% of the address space when compared with the full size of the bruteforceable address space,
+`171476` is `4.1845 x 10^-43`% of the address space when compared with the full size of the bruteforceable address space,
 as such when looking at possible combinations, start to factor in other human factors such as poor word choice (names, places, colours etc ...) and you reduce the address space even further.
 
-`The problem is choice` to throw a quick pun in here and an obligatory matrix reference.
+`The problem is choice` to throw a quick pun in here (and an obligatory matrix reference).
 
 **Note** This is all 'napkin math' so please forgive me if I am wrong anywhere, and note it in the comments so I can fix in the post ;-)
 
 *Update*: corrected napkin math 2017-05-05 password example assumed `a-Z ` where as example given was `a-z ` corrected the math to account for `a-z ` as intended.
-
+*Update2*: corrected napkin math AGAIN 2017-05-24
+ 
 # Conclusion
 
 Password complexity is no stronger than pass-phrase with complexity, if you manage / are authoring a policy on password security then remember the following quote
