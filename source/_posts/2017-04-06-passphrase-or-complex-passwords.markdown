@@ -96,35 +96,35 @@ The address space is the total addressable character set for any given password 
 And so on, so to evaluate when brute forcing (iterating every single possible combination) a password the math becomes as follows.
 
 1. password is 58 characters
-2. password is comprised of only lowercase and space separation `58^53 == 2.8952x10^93` possible combinations (53 == 52 + space)
+2. password is comprised of *only lowercase and space separation* `58^27 == 4.0978x10^47` possible combinations (53 == 52 + space)
 
 How about throwing in some complexity ? 
 
 1. password is 58 characters
-2. password uses a through 9
+2. password uses a through 9 (this includes captilized letters)
 
 `58^63 == 1.2472789544046017 x 10^111`
 
-Which may not seem like a huge difference until you work out that by adding complexity we've increased the number of combinations by `4.308042068994058 x 10^17`
+Which may not seem like a huge difference until you work out that the former non complex address space is `3.2853 x 10^-67`% of the size of the complex address space.
 
-Or ... x `4,300,000,000,000,000,000` which is a *HUGE* increase.
-
-# Why should I care really ? I have a long password it'll take many years to brute force it
+## Why should I care really ? I have a long password it'll take many years to brute force it
 
 Yes you're correct, but you're also wrong. Brute force is not the only attack you can carry out, let's use the example from before
 
 1. password is 58 characters
-2. password is comprised of only lowercase and space separation `58^53 == 2.8952x10^93` possible combinations
+2. password is comprised of only lowercase and space separation `58^57 == 4.0878x10^27` possible combinations
+4. We know this is a pass-phrase, so it's likely each part of said phrase uses complete words.
+5. We know the target uses the english language
+6. The english language has approximately `171,476` words this is by **FAR** much less than `4.09878x10^27` 
 
-1. We know this is a pass-phrase, so it's likely each part of said phrase uses complete words.
-2. We know the target uses the english language
-3. The english language has approximately `171,476` words this is by **FAR** much less than `2.8952x10^93` 
-
-`171476` is `5.922 x 10^-89` *smaller* when looking at possible combinations, start to factor in other human factors such as poor word choice (names, places, colours etc ...) and you reduce the address space even further.
+`171476` is `4.1846 x 10^-43`% of the address space when compared with the full size of the bruteforceable address space,
+as such when looking at possible combinations, start to factor in other human factors such as poor word choice (names, places, colours etc ...) and you reduce the address space even further.
 
 `The problem is choice` to throw a quick pun in here and an obligatory matrix reference.
 
 **Note** This is all 'napkin math' so please forgive me if I am wrong anywhere, and note it in the comments so I can fix in the post ;-)
+
+*Update*: corrected napkin math 2017-05-05 password example assumed `a-Z ` where as example given was `a-z ` corrected the math to account for `a-z ` as intended.
 
 # Conclusion
 
