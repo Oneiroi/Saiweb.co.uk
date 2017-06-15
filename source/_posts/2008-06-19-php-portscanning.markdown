@@ -9,7 +9,7 @@ tags:
 categories: 
 - hacking
 - php
-wordpress_url: http://saiweb.co.uk/hacking/php-portscanning
+wordpress_url: https://saiweb.co.uk/hacking/php-portscanning
 comments: true
 ---
 This is another _old_ proof of concept I had several years ago, you can infact use PHP to scan ports, bare in mind the legality of this is still somewhat _hazy_ therefore if you must portscan I recomend you only do so on Systems you operate.
@@ -18,7 +18,7 @@ This is another _old_ proof of concept I had several years ago, you can infact u
 
 <strong></strong>
 
-UPDATE: Project file now available from <a href="http://svn.saiweb.co.uk/branches/port_scanning/trunk/port_scanning.php">http://svn.saiweb.co.uk/branches/port_scanning/trunk/port_scanning.php</a>
+UPDATE: Project file now available from <a href="https://svn.saiweb.co.uk/branches/port_scanning/trunk/port_scanning.php">https://svn.saiweb.co.uk/branches/port_scanning/trunk/port_scanning.php</a>
 
 Sample output:
 {% highlight bash %}----- PORT SCAN 11 TCP PORTS -----
@@ -46,4 +46,4 @@ This will increased the max execution time with a 5 second buffer.
 
 Please also note in most cases of "shared" hosting you will not be able to crate socketed connections, they will either be blocked by the hosting providers firewall, or disabled at the php runtime, therfor not giving an accurate result.
 
-Again please note this is a proof of concept, you may freely distribute the code under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT licence</a>
+Again please note this is a proof of concept, you may freely distribute the code under the <a href="https://www.opensource.org/licenses/mit-license.php">MIT licence</a>

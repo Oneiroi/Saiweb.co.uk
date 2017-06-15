@@ -9,18 +9,18 @@ tags:
 - "48139"
 categories: 
 - php
-wordpress_url: http://saiweb.co.uk/php/php-bug-48139
+wordpress_url: https://saiweb.co.uk/php/php-bug-48139
 comments: true
 ---
 Because a picture is worth over 9000 internets ... apparently
 
-<strong>UPDATE:</strong> AKA "hayabusayuri" <a href="http://209.85.229.132/search?q=cache:EDgsFNlfXkwJ:www.mmotricks.com/forums/eq2-downloads/2447-everquest-2-server-emulator-information-print.html+Beowulve%40gmail.com&cd=1&hl=en&ct=clnk&gl=uk&client=firefox-a">link</a> ... seriously who plays everquest? ... maybe all that time playing everquest finally made the guy snap ... and PHP & windows ... never a good combination ... infact Windows and internet is a bad combination
+<strong>UPDATE:</strong> AKA "hayabusayuri" <a href="https://209.85.229.132/search?q=cache:EDgsFNlfXkwJ:www.mmotricks.com/forums/eq2-downloads/2447-everquest-2-server-emulator-information-print.html+Beowulve%40gmail.com&cd=1&hl=en&ct=clnk&gl=uk&client=firefox-a">link</a> ... seriously who plays everquest? ... maybe all that time playing everquest finally made the guy snap ... and PHP & windows ... never a good combination ... infact Windows and internet is a bad combination
 
-<a href="http://bugs.php.net/bug.php?id=48139">
+<a href="https://bugs.php.net/bug.php?id=48139">
 LINKY</a>
 
 Screencap incase it is removed:
 
-<img alt="PHP BUG 48319" src="http://farm4.static.flickr.com/3583/3503836807_d54bee036b_o.png" title="PHP BUG 48139" class="alignnone" width="460" height="744" />
+<img alt="PHP BUG 48319" src="https://farm4.static.flickr.com/3583/3503836807_d54bee036b_o.png" title="PHP BUG 48139" class="alignnone" width="460" height="744" />
 
 (Thanks to the guys who forwarded me this)

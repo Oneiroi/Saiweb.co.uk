@@ -10,10 +10,10 @@ tags:
 - psychz
 categories: 
 - hacking
-wordpress_url: http://saiweb.co.uk/hacking/dissecting-the-hack-psychz-net
+wordpress_url: https://saiweb.co.uk/hacking/dissecting-the-hack-psychz-net
 comments: true
 ---
-For some background you may want to read the <a href="http://www.saiweb.co.uk/hacking/when-fail2ban-fails-to-ban-dissecting-the-hack">Original Story</a> leading to this write up.
+For some background you may want to read the <a href="https://www.saiweb.co.uk/hacking/when-fail2ban-fails-to-ban-dissecting-the-hack">Original Story</a> leading to this write up.
 
 The first thing that caught my attention was the fact Logwatch was reported login failures in the order of 1000's from unassigned.psychz.net without an accompanying fail2ban email notifying me the offender had been banned.
 
@@ -26,7 +26,7 @@ psychz.net maintains their own DNS servers,
 	<li>DNS1.PSYCHZ.NET</li>
 	<li>DNS2.PSYCHZ.NET</li>
 </ol>
-These provide a PTR but no A/CNAME record, as such fail2ban can not resolve an IP and the attacking ip is left to run their attack unhindered, see this log file: <a href="http://www.saiweb.co.uk/psychz-260710/fail2ban-grep.log">fail2ban name resolution failure log</a>
+These provide a PTR but no A/CNAME record, as such fail2ban can not resolve an IP and the attacking ip is left to run their attack unhindered, see this log file: <a href="https://www.saiweb.co.uk/psychz-260710/fail2ban-grep.log">fail2ban name resolution failure log</a>
 
 The only way therefor to gain the attacking ip was to match the ftp connection times to those of the reported login failures using iptables to log all accesses to ftp, quickly get a count of connecting ip's using:
 
@@ -38,7 +38,7 @@ grep kernel /var/log/messages | awk '{print $9}' | sed 's/SRC=//' | uniq -c | so
 390 173.224.217.41
 {% endhighlight %}
 
-A complete log can be found here: <a href="http://www.saiweb.co.uk/psychz-260710/iptables.log">iptables.log</a>, and a whois can be found here: <a href="http://blog.oneiroi.co.uk/uploads/2010/08/whois.txt">whois.txt</a>
+A complete log can be found here: <a href="https://www.saiweb.co.uk/psychz-260710/iptables.log">iptables.log</a>, and a whois can be found here: <a href="https://blog.oneiroi.co.uk/uploads/2010/08/whois.txt">whois.txt</a>
 
 Disclosure steps taken:
 <ol>

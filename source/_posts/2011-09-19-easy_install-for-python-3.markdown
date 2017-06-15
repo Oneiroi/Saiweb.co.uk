@@ -9,13 +9,13 @@ tags:
 - easy_install
 categories: 
 - python
-wordpress_url: http://saiweb.co.uk/python/easy_install-for-python-3
+wordpress_url: https://saiweb.co.uk/python/easy_install-for-python-3
 comments: true
 ---
 easy_install for python3 simple
 
 {% highlight bash %}
-curl -O http://python-distribute.org/distribute_setup.py
+curl -O https://python-distribute.org/distribute_setup.py
 python3 distribute_setup.py
 {% endhighlight %}
 

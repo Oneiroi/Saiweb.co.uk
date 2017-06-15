@@ -10,7 +10,7 @@ categories:
 - windows
 - hacking
 - security
-wordpress_url: http://saiweb.co.uk/windows/cryp_xed-3-removal
+wordpress_url: https://saiweb.co.uk/windows/cryp_xed-3-removal
 comments: true
 ---
 <p><script type="text/javascript"><!--
@@ -22,10 +22,10 @@ google_ad_height = 60;
 //-->
 </script><br />
 <script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script></p>
-<p><a href="http://www.trendmicro.com/vinfo/virusencyclo/default5.asp?VName=CRYP_XED-3">Trend Micro Page</a></p>
+<p><a href="https://www.trendmicro.com/vinfo/virusencyclo/default5.asp?VName=CRYP_XED-3">Trend Micro Page</a></p>
 <p>
-<p>After all the problems I had with Cryp-TAP-2 (<a href="http://www.saiweb.co.uk/windows/cryp_tap-2-removal">here</a>) I'm going strait for the <a href="http://download.bleepingcomputer.com/sUBs/ComboFix.exe">COMBOFIX</a> option! I'll update with how I get on.</p>
+<p>After all the problems I had with Cryp-TAP-2 (<a href="https://www.saiweb.co.uk/windows/cryp_tap-2-removal">here</a>) I'm going strait for the <a href="https://download.bleepingcomputer.com/sUBs/ComboFix.exe">COMBOFIX</a> option! I'll update with how I get on.</p>
 <p><strong>UPDATE:</strong> Everything looks good so far, booted into safe mode, and ran combofix, the system is now rebooting normally, now waiting on the log report.</p>
 <p><strong>UPDATE2: </strong> Combofix did the job YET again! getting a popup or too still about the system restore volume, from the look of the report this little bugger hooks itself into system processes (explorer.exe svchost.exe)</p>

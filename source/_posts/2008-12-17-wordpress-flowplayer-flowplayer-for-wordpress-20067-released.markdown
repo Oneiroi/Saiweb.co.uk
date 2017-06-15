@@ -8,11 +8,11 @@ tags:
 - wordpress
 categories: 
 - php
-wordpress_url: http://saiweb.co.uk/php/wordpress-flowplayer-flowplayer-for-wordpress-20067-released
+wordpress_url: https://saiweb.co.uk/php/wordpress-flowplayer-flowplayer-for-wordpress-20067-released
 comments: true
 ---
-After much head banging you can now get a tagged release from <a href="http://wordpress.org/extend/plugins/word-press-flow-player/">http://wordpress.org/extend/plugins/word-press-flow-player/</a>
+After much head banging you can now get a tagged release from <a href="https://wordpress.org/extend/plugins/word-press-flow-player/">https://wordpress.org/extend/plugins/word-press-flow-player/</a>
 
 If you have this plugin installed allready you should receive an update notification from wordpress shortly.
 
-Please report any issues via our trac system <a href="http://trac.saiweb.co.uk/saiweb">http://trac.saiweb.co.uk/saiweb</a>
+Please report any issues via our trac system <a href="https://trac.saiweb.co.uk/saiweb">https://trac.saiweb.co.uk/saiweb</a>

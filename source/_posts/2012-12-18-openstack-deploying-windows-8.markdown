@@ -25,7 +25,7 @@ You can not start the instance using virtio for the hard disk, it simply puts it
 
 Attach a second drive that uses virtio bus, why you may ask? Windows 8 will now boot and in turn have a device attached which it can not recognize.
 
-Before booting you will also need to attach [this iso](http://alt.fedoraproject.org/pub/alt/virtio-win/latest/images/bin/) as a cdrom, at the time of writing you can use the Win7 drivers for Windows 8. (iso version 0.1-30)
+Before booting you will also need to attach [this iso](https://alt.fedoraproject.org/pub/alt/virtio-win/latest/images/bin/) as a cdrom, at the time of writing you can use the Win7 drivers for Windows 8. (iso version 0.1-30)
 
 <h2>Square peg, round hole == Bigger hammer</h2>
 
@@ -49,9 +49,9 @@ In this case the device manager needs to be launched to resolve the issue a labo
 12. Reconfigure the KVM instance, remove the VirtIO disk, change the primary disk bus to VirtIO
 13. Start windows, and wait ... and wait ...
 14. Once the start menu has booted you will begin to notice performance picks up after a while, I assume this is due to background tasks running.
-15. Run any updates that may be outstanding and shutdown the instance. I would also advise [configuring remove desktop](http://www.guidingtech.com/13469/hot-to-enable-remote-desktop-in-windows-8/)
+15. Run any updates that may be outstanding and shutdown the instance. I would also advise [configuring remove desktop](https://www.guidingtech.com/13469/hot-to-enable-remote-desktop-in-windows-8/)
 16. Convert to qcow2 (if you want), and import into glance as you would any other image.
-17. Create or modify a [security group](http://docs.openstack.org/essex/openstack-compute/starter/content/Security_Overview-d1e2505.html) if you have opted to allow Remote Desktop.
+17. Create or modify a [security group](https://docs.openstack.org/essex/openstack-compute/starter/content/Security_Overview-d1e2505.html) if you have opted to allow Remote Desktop.
 
 And boot the image as normal, ensuring that the selected "flavor" has enough disk space to start the instance.
 
@@ -59,7 +59,7 @@ As for meta data injection, for say account setup I have no idea at this time, p
 
 <h2>Credits</h2>
 
-[this blog](http://cloud101.eu/blog/2012/05/31/how-to-create-a-windows-2008-r2-image-for-openstack-with-virtio-support/) for noting the 'dirty hack' workaround in Windows 8 R2
+[this blog](https://cloud101.eu/blog/2012/05/31/how-to-create-a-windows-2008-r2-image-for-openstack-with-virtio-support/) for noting the 'dirty hack' workaround in Windows 8 R2
 
-and [James P](http://twitter.com/parters) for having way more patience with windows than I will ever have.
+and [James P](https://twitter.com/parters) for having way more patience with windows than I will ever have.
  

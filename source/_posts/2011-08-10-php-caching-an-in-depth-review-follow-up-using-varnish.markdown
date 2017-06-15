@@ -10,18 +10,18 @@ tags:
 categories: 
 - php
 - hosting
-wordpress_url: http://saiweb.co.uk/php/php-caching-an-in-depth-review-follow-up-using-varnish
+wordpress_url: https://saiweb.co.uk/php/php-caching-an-in-depth-review-follow-up-using-varnish
 comments: true
 ---
 Ok, so following up on PHP & Caching with Varnish, let's cut to the hard facts shall we?
 
-Using the same tests as <a href="http://www.saiweb.co.uk/hosting/php-caching-an-in-depth-review" title="PHP & Caching an in depth review"></a>
+Using the same tests as <a href="https://www.saiweb.co.uk/hosting/php-caching-an-in-depth-review" title="PHP & Caching an in depth review"></a>
 
 
- ab -c 100 -n 500 -g ./saiweb-nocache-nogzip.bpl http://www.saiweb.co.uk/
+ ab -c 100 -n 500 -g ./saiweb-nocache-nogzip.bpl https://www.saiweb.co.uk/
 This is ApacheBench, Version 2.3 <$Revision: 655654 $>
-Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
-Licensed to The Apache Software Foundation, http://www.apache.org/
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, https://www.zeustech.net/
+Licensed to The Apache Software Foundation, https://www.apache.org/
 
 Benchmarking www.saiweb.co.uk (be patient)
 Completed 100 requests
@@ -69,7 +69,7 @@ Percentage of the requests served within a certain time (ms)
   99%     51
  100%     53 (longest request)
 
-<a href="http://blog.oneiroi.co.uk/uploads/2011/08/Out.png"><img src="http://blog.oneiroi.co.uk/uploads/2011/08/Out.png" alt="ab -c 100 -n 500 -g ./saiweb-nocache-nogzip.bpl http://www.saiweb.co.uk/" title="ab -c 100 -n 500 -g ./saiweb-nocache-nogzip.bpl http://www.saiweb.co.uk/" width="640" height="480" class="aligncenter size-full wp-image-1070" /></a>
+<a href="https://blog.oneiroi.co.uk/uploads/2011/08/Out.png"><img src="https://blog.oneiroi.co.uk/uploads/2011/08/Out.png" alt="ab -c 100 -n 500 -g ./saiweb-nocache-nogzip.bpl https://www.saiweb.co.uk/" title="ab -c 100 -n 500 -g ./saiweb-nocache-nogzip.bpl https://www.saiweb.co.uk/" width="640" height="480" class="aligncenter size-full wp-image-1070" /></a>
 
 
 2716.92 requests per second with a server load average of 0.1, and in this case varnish is serving cache from disk.

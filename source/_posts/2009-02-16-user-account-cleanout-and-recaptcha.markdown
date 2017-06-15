@@ -8,14 +8,14 @@ tags:
 - wp-recaptcha
 categories: 
 - general
-wordpress_url: http://saiweb.co.uk/general/user-account-cleanout-and-recaptcha
+wordpress_url: https://saiweb.co.uk/general/user-account-cleanout-and-recaptcha
 comments: true
 ---
 Due to the several hundred registered accounts in the last couple of days I have had a clean out.
 
-And implemented the <a href="http://www.blaenkdenum.com/wp-recaptcha/">WP-reCaptcha</a> plugin to help reduce the amount of spam signups and comments.
+And implemented the <a href="https://www.blaenkdenum.com/wp-recaptcha/">WP-reCaptcha</a> plugin to help reduce the amount of spam signups and comments.
 
-So in short I am sorry if yours was a genuine account victim of the clean out, but you can sign back up and <a href="http://recaptcha.net/learnmore.html">help digitize historic books in the process</a>.
+So in short I am sorry if yours was a genuine account victim of the clean out, but you can sign back up and <a href="https://recaptcha.net/learnmore.html">help digitize historic books in the process</a>.
 
 The plugin also utilizes the Mail Hide functionality show here: <a href="mailto:d.busby@saiweb.co.uk">HIDDEN EMAIL</a> to help protect email addresses.
 

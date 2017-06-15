@@ -10,7 +10,7 @@ tags:
 - froomi
 categories: 
 - general
-wordpress_url: http://saiweb.co.uk/general/updates-froomi-flowplayer-for-wordpress
+wordpress_url: https://saiweb.co.uk/general/updates-froomi-flowplayer-for-wordpress
 comments: true
 ---
 As most have no doubt noticed the plugin is delayed ... _again_
@@ -20,11 +20,11 @@ Too many projects, too few hours in the day.
 Froomi - All in one HTTP Server, Search Engine, Pseudo Streaming Media server
 (Might add transcoding)
 
-This project is up on google code: <a href="http://code.google.com/p/froomi/">http://code.google.com/p/froomi/</a>
+This project is up on google code: <a href="https://code.google.com/p/froomi/">https://code.google.com/p/froomi/</a>
 
 So far the HTTP module is basically complete and already has GZIP compression support for browsers that send the appropriate header to indicate they support it.
 
-I will being working on the Pseudo streaming component shortly, to recap this is in an Alpha state at the moment, I will be putting the server live on http://www.froomi.com shortly once the Pseudo streaming component is complete.
+I will being working on the Pseudo streaming component shortly, to recap this is in an Alpha state at the moment, I will be putting the server live on https://www.froomi.com shortly once the Pseudo streaming component is complete.
 
 Flowplayer for wordpress, is still in development the code base has been completely re-written as per the previews you can now see the meta boxes in action, along with the license detection, I think I am going to cut a couple of features and just get the next release out the door (yes RTMP will still be in this release!).
 

@@ -37,6 +37,6 @@ One thing to note that whilst tags are present within git, subversion tags do no
 
 What does this do? it will checkout the tag from subversion: tag_name and setup a local git branch to track it.
 
-If you are ready however to make the jump to git you can [http://gitready.com/advanced/2009/02/16/convert-git-svn-tag-branches-to-real-tags.html](Conver git-svn tags to real git tags).
+If you are ready however to make the jump to git you can [https://gitready.com/advanced/2009/02/16/convert-git-svn-tag-branches-to-real-tags.html](Conver git-svn tags to real git tags).
 
 

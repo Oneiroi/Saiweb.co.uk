@@ -7,7 +7,7 @@ tags: []
 
 categories: 
 - uncategorized
-wordpress_url: http://saiweb.co.uk/uncategorized/name-and-shame-volume-1-82-98-131-66
+wordpress_url: https://saiweb.co.uk/uncategorized/name-and-shame-volume-1-82-98-131-66
 comments: true
 ---
 So I've decided to start some name and shame posts for "naughty" ip's that trip an ids, turn up in my log audits etc ... and who are woefully ill prepared ...
@@ -115,7 +115,7 @@ Jun 12 20:02:51 132 vsftpd: pam_unix(vsftpd:auth): authentication failure; logna
 3306/tcp open  mysql
 {% endhighlight %}
 
-<strong>You need to read <a href="http://www.saiweb.co.uk/security/cloaking-your-web-apps-the-hooded-apache">this</a> NOW!</strong>
+<strong>You need to read <a href="https://www.saiweb.co.uk/security/cloaking-your-web-apps-the-hooded-apache">this</a> NOW!</strong>
 
 {% highlight bash %}
 Server: Apache/2.2.0 (Fedora) PHP/5.2.9 with Suhosin-Patch

@@ -11,7 +11,7 @@ tags:
 - fix
 categories: 
 - linux
-wordpress_url: http://saiweb.co.uk/linux/gluster-resolving-a-split-brain-in-a-replicated-setup
+wordpress_url: https://saiweb.co.uk/linux/gluster-resolving-a-split-brain-in-a-replicated-setup
 comments: true
 ---
 Initially this took about ~7hours to diagnose and fix, with what I have learned about the inner workings of gluster and the tools I am providing opensource this should cut resolution time down to ~5minutes.
@@ -32,7 +32,7 @@ Firs you must meet the following conditions:
 	<li>Grab a copy of <a href="https://github.com/Oneiroi/sysadmin/tree/master/gluster">stripxattr.py</a> make sure you READ the README for installation requirements and usage</li>
 	<li>Run stripxattr.py against the backing filesystem on the "bad" node ONLY <strong>NOT AGAINST A GLUSTER MOUNT</strong></li>
 	<li>From the "good" node, not rsync the data: rsync -gioprtv --progress /path/to/filesystem root@<bad_node>:/path/to</li>
-	<li>From the "good" node, trigger an "<a href="http://docs.redhat.com/docs/en-US/Red_Hat_Storage_Software_Appliance/3.2/html/User_Guide/sect-User_Guide-Managing_Volumes-Self_heal.html">auto heal</a>" this will re-populate the xattr data (this must be done on a glusterfs mount not nfs/cifs/etc...)</li>
+	<li>From the "good" node, trigger an "<a href="https://docs.redhat.com/docs/en-US/Red_Hat_Storage_Software_Appliance/3.2/html/User_Guide/sect-User_Guide-Managing_Volumes-Self_heal.html">auto heal</a>" this will re-populate the xattr data (this must be done on a glusterfs mount not nfs/cifs/etc...)</li>
 	<li>Download <a href="https://github.com/Oneiroi/sysadmin/tree/master/gluster">listxattr.py</a> once the self heal has completed see the README file for a "quick and dirty" consistency check</li>
 	<li>All being well you have now resolved a split-brain and can return your node to service</li>
 </ol>
@@ -48,5 +48,5 @@ So what is the resolution int his case?
 
 Selective use, use glusterfs for filesystems that you need distributed locking, often in large production deploys php files will not change often, in this case NFS is perfect.
 
-If you are still writing php sessions to a file system then <a href="http://www.saiweb.co.uk/php/high-availability-joomla-wordpress-load-balance-persistant-php-database-sessions">STOP IT</a> and use a database! (Better yet use memcache).
+If you are still writing php sessions to a file system then <a href="https://www.saiweb.co.uk/php/high-availability-joomla-wordpress-load-balance-persistant-php-database-sessions">STOP IT</a> and use a database! (Better yet use memcache).
 

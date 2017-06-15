@@ -10,9 +10,9 @@ categories:
 - nginx
 ---
 
-Following on from [The Hooded Apache](http://blog.oneiroi.co.uk/hacking/linux/security/cloaking-your-web-apps-the-hooded-apache/), I thought it was about time to cover Nginx configuration.
+Following on from [The Hooded Apache](https://blog.oneiroi.co.uk/hacking/linux/security/cloaking-your-web-apps-the-hooded-apache/), I thought it was about time to cover Nginx configuration.
 
-Nginx [is not exempt from security issues](http://web.nvd.nist.gov/view/vuln/defail?vulnId=CVE-2012-2089), and as with apache certain versions can vulnerable to a specific attack, as such the first line of defense is you hide your nginx version.
+Nginx [is not exempt from security issues](https://web.nvd.nist.gov/view/vuln/defail?vulnId=CVE-2012-2089), and as with apache certain versions can vulnerable to a specific attack, as such the first line of defense is you hide your nginx version.
 
 This can be done via:
 

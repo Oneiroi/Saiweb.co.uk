@@ -10,7 +10,7 @@ categories:
 - hacking
 - linux
 - green_giant
-wordpress_url: http://saiweb.co.uk/hacking/green-giant-ebay-con-artists
+wordpress_url: https://saiweb.co.uk/hacking/green-giant-ebay-con-artists
 comments: true
 ---
 <div style=''>So I got my "adjusted" postage ... the seller has increased the

@@ -13,7 +13,7 @@ categories:
 - networking
 - cisco
 - voip
-wordpress_url: http://saiweb.co.uk/networking/cisco-catalyst-3560-and-8021q-voip
+wordpress_url: https://saiweb.co.uk/networking/cisco-catalyst-3560-and-8021q-voip
 comments: true
 ---
 Some VoiP devices require the use of 802.1Q, encapsulation protocol, to set this up you are going to have to do this using telnet, and on a per port basis.

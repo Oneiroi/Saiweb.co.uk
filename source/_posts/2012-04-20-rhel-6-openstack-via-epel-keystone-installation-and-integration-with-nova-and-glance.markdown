@@ -7,10 +7,10 @@ categories:
 - openstack
 ---
 
-{% img http://blog.oneiroi.co.uk/openstack-cloud-software-vertical-small.png %}
+{% img https://blog.oneiroi.co.uk/openstack-cloud-software-vertical-small.png %}
 
-In this post I follow on from [Setting up Nova and Glance](http://saiweb.co.uk/openstack/rhel-6-openstack-via-epel-nova-and-glance-on-kvm/), and now moving installing and Integrating keystone.
-I'd first like to [give credit to IBM developerWorks](https://www.ibm.com/developerworks/mydeveloperworks/wikis/home/wiki/OpenStack?lang=en#configure-nova-api) the guys in #openstack @ freenode IRC, and [Psycle Interactive](http://psycle.com) without whom I would not of been able to complete this write up.
+In this post I follow on from [Setting up Nova and Glance](https://saiweb.co.uk/openstack/rhel-6-openstack-via-epel-nova-and-glance-on-kvm/), and now moving installing and Integrating keystone.
+I'd first like to [give credit to IBM developerWorks](https://www.ibm.com/developerworks/mydeveloperworks/wikis/home/wiki/OpenStack?lang=en#configure-nova-api) the guys in #openstack @ freenode IRC, and [Psycle Interactive](https://psycle.com) without whom I would not of been able to complete this write up.
 
 Please be aware the following applies to 2011.3 ONLY! (Diablo Final) the configuration to come in Essex is far simpler, if when reading this post your packages are 2012.X you have just installed essex and this is not relevant, anyway here we go ...
 
@@ -18,7 +18,7 @@ Please be aware the following applies to 2011.3 ONLY! (Diablo Final) the configu
 yum install openstack-keystone
 ```
 
-Keystone itself has it's own tirade of concepts to get to grips with ... tenant, user, role, service, token etc ... I'm not going to go into detail on those concetps, for that [Please see the documentation](http://keystone.openstack.org/).
+Keystone itself has it's own tirade of concepts to get to grips with ... tenant, user, role, service, token etc ... I'm not going to go into detail on those concetps, for that [Please see the documentation](https://keystone.openstack.org/).
 
 <strong>Configuring mySQL</strong>
 
@@ -151,8 +151,8 @@ SUCCESS: Service keystone created successfully.
 Here I managed to confuse myself, so let me be clear, this needs the nova_api service ip, not each compute node, meaning you only need one endpoint.
 
 ```
-keystone-manage endpointTemplates add regionOne nova http://<nova_api_ip>:8774/v1.1/%tenant_id% http://<nova_api_ip>:8774/v1.1/%tenant_id% http://<nova_api_ip>:8774/v1.1/%tenant_id% 1 1
-SUCCESS: Created EndpointTemplates for nova pointing to http://<nova_api_ip>:8774/v1.1/%tenant_id%
+keystone-manage endpointTemplates add regionOne nova https://<nova_api_ip>:8774/v1.1/%tenant_id% https://<nova_api_ip>:8774/v1.1/%tenant_id% https://<nova_api_ip>:8774/v1.1/%tenant_id% 1 1
+SUCCESS: Created EndpointTemplates for nova pointing to https://<nova_api_ip>:8774/v1.1/%tenant_id%
 ```
 
 The 3 URL arguments are for publicURL, internalURL, adminURL (No idea if that is the order).
@@ -160,15 +160,15 @@ The 3 URL arguments are for publicURL, internalURL, adminURL (No idea if that is
 <u>Glance</u>
 
 ```
-keystone-manage endpointTemplates add regionOne nova http://<glance_ip>:9292/v1 http://<nova_api_ip>:9292/v1 http://<nova_api_ip>:9292/v1 1 1
-SUCCESS: Created EndpointTemplates for glance pointing to http://<glance_ip>:9292/v1
+keystone-manage endpointTemplates add regionOne nova https://<glance_ip>:9292/v1 https://<nova_api_ip>:9292/v1 https://<nova_api_ip>:9292/v1 1 1
+SUCCESS: Created EndpointTemplates for glance pointing to https://<glance_ip>:9292/v1
 ```
 
 <u>Keystone</u>
 
 ```
-keystone-manage endpointTemplates add pi-whc keystone http://<keystone_ip>:5000/v2.0 http://<keystone_ip>:5000/v2.0 http://<keystone_ip>:5000/v2.0 1 1
-SUCCESS: Created EndpointTemplates for keystone pointing to http://<keystone_ip>:5000/v2.0.
+keystone-manage endpointTemplates add pi-whc keystone https://<keystone_ip>:5000/v2.0 https://<keystone_ip>:5000/v2.0 https://<keystone_ip>:5000/v2.0 1 1
+SUCCESS: Created EndpointTemplates for keystone pointing to https://<keystone_ip>:5000/v2.0.
 ```
 
 <strong>Configuring Nova</strong>
@@ -222,7 +222,7 @@ service_port = 5000
 auth_host = <keystone_ip>
 auth_port = 35357
 auth_protocol = http
-auth_uri = http://<keystone_ip>:5000/
+auth_uri = https://<keystone_ip>:5000/
 admin_token = 999888777666
 ```
 
@@ -231,7 +231,7 @@ admin_token = 999888777666
 Check that your configuration is working:
 
 ```
-curl -d '{"auth": {"tenantName": "adminTenant", "passwordCredentials":{"username": "adminUser", "password": "password"}}}' -H "Content-type: application/json" http://<keystone_ip>:35357/v2.0/tokens | python -mjson.tool
+curl -d '{"auth": {"tenantName": "adminTenant", "passwordCredentials":{"username": "adminUser", "password": "password"}}}' -H "Content-type: application/json" https://<keystone_ip>:35357/v2.0/tokens | python -mjson.tool
 ```
 
 Now restart openstack-nova-api
@@ -243,7 +243,7 @@ service openstack-nova-api restart
 <u>Verifying nova keystone integration</u>
 
 ```
-nova --debug --username=adminUser --apikey=<password> --url=http://<keystone_ip>:5000/v2.0 --version=1.1 list
+nova --debug --username=adminUser --apikey=<password> --url=https://<keystone_ip>:5000/v2.0 --version=1.1 list
 connect: (<keystone_ip>, 5000)
 send: 'POST /tokens HTTP/1.1\r\nHost: <keystone_ip>:5000\r\nContent-Length: 69\r\ncontent-type: application/json\r\naccept-encoding: gzip, deflate\r\nuser-agent: python-novaclient\r\n\r\n'
 send: '{"passwordCredentials": {"username": "adminUser", "password": "<password>"}}'
@@ -273,8 +273,8 @@ novaclient.exceptions.BadRequest: Expecting auth (HTTP 400)
 Don't PANIC! it seems there was never a 2011.3 build for python-novaclient, as such we can "cheat" a little, and use 2012.1-1
 
 ```
-rpm -Uvh http://pbrady.fedorapeople.org/openstack-el6/python-novaclient-2012.1-1.el6.noarch.rpm
-nova --debug --os_username=adminUser --os_password=<password> --os_tenant_name=adminTenant --os_auth_url=http://<keystone_ip>:5000/v2.0/ usage-list
+rpm -Uvh https://pbrady.fedorapeople.org/openstack-el6/python-novaclient-2012.1-1.el6.noarch.rpm
+nova --debug --os_username=adminUser --os_password=<password> --os_tenant_name=adminTenant --os_auth_url=https://<keystone_ip>:5000/v2.0/ usage-list
 connect: (<keystone_ip>, 5000)
 send: 'POST /v2.0/tokens HTTP/1.1\r\nHost: <keystone_ip>:5000\r\nContent-Length: 110\r\ncontent-type: application/json\r\naccept-encoding: gzip, deflate\r\naccept: application/json\r\nuser-agent: python-novaclient\r\n\r\n'
 send: '{"auth": {"tenantName": "adminTenant", "passwordCredentials": {"username": "adminUser", "password": "psycle"}}}'
@@ -299,8 +299,8 @@ You can also follow diablo more closely by using griddynamics' rpm package
 
 ```
 rpm -e --nodeps python-novavclient
-rpm -Uvh http://yum.griddynamics.net/yum/diablo/python-novaclient-2011.3-b2489.noarch.rpm
-nova --debug --username adminUser --password <password> --tenant_name adminTenant --auth_url http://<keystone_ip>:5000/v2.0/ usage-list
+rpm -Uvh https://yum.griddynamics.net/yum/diablo/python-novaclient-2011.3-b2489.noarch.rpm
+nova --debug --username adminUser --password <password> --tenant_name adminTenant --auth_url https://<keystone_ip>:5000/v2.0/ usage-list
 connect: (<keystone_ip>, 5000)
 send: 'POST /v2.0/tokens HTTP/1.1\r\nHost: <keystone_ip>:5000\r\nContent-Length: 110\r\ncontent-type: application/json\r\naccept-encoding: gzip, deflate\r\naccept: application/json\r\nuser-agent: python-novaclient\r\n\r\n'
 send: '{"auth": {"tenantName": "adminTenant", "passwordCredentials": {"username": "adminUser", "password": "<password>"}}}'
@@ -324,7 +324,7 @@ Usage from 2012-03-26 to 2012-04-24:
 
 <strong>BE WARNED</strong>
 
-Most of the other commands for myself are presently returning 404 / 500 errors, with the [Essex Release Impending](http://pbrady.fedorapeople.org/openstack-el6/) the current EPEL advice seems to be to use Essex, I will update as/when I can with futher information on these issues.
+Most of the other commands for myself are presently returning 404 / 500 errors, with the [Essex Release Impending](https://pbrady.fedorapeople.org/openstack-el6/) the current EPEL advice seems to be to use Essex, I will update as/when I can with futher information on these issues.
 
 For instance on a: flavor-create a 500 error is encountered with the following logged in api.log
 
@@ -359,7 +359,7 @@ service_port = 5000
 auth_host = <keystone_ip>
 auth_port = 35357
 auth_protocol = http
-auth_uri = http://<keystone_ip>:5000/
+auth_uri = https://<keystone_ip>:5000/
 admin_token = 999888777666
 ```
 
@@ -383,7 +383,7 @@ service_port = 5000
 auth_host = <keystone_ip>
 auth_port = 35357
 auth_protocol = http
-auth_uri = http://<keystone_ip>:5000/
+auth_uri = https://<keystone_ip>:5000/
 admin_token = 999888777666
 ```
 
@@ -400,7 +400,7 @@ Starting openstack-glance-registry:                        [  OK  ]
 <u>testing Keystone</u>
 
 ```
-nova --debug --username adminUser --password <password> --tenant_name adminTenant --auth_url http://<keystone_ip>:5000/v2.0/ image-list
+nova --debug --username adminUser --password <password> --tenant_name adminTenant --auth_url https://<keystone_ip>:5000/v2.0/ image-list
 connect: (<keystone_ip>, 5000)
 send: 'POST /v2.0/tokens HTTP/1.1\r\nHost: <keystone_ip>:5000\r\nContent-Length: 110\r\ncontent-type: application/json\r\naccept-encoding: gzip, deflate\r\naccept: application/json\r\nuser-agent: python-novaclient\r\n\r\n'
 send: '{"auth": {"tenantName": "adminTenant", "passwordCredentials": {"username": "adminUser", "password": "<password>"}}}'

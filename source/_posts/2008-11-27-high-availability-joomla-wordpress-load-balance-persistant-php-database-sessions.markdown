@@ -14,12 +14,12 @@ tags:
 categories: 
 - mysql
 - php
-wordpress_url: http://saiweb.co.uk/mysql/high-availability-joomla-wordpress-load-balance-persistant-php-database-sessions
+wordpress_url: https://saiweb.co.uk/mysql/high-availability-joomla-wordpress-load-balance-persistant-php-database-sessions
 comments: true
 ---
 If you've seen the new twitter feed to the right you may of seem some ramblings about 'cura'.
 
-Cura is a PHP class I have authored in Co-operation with <a href="http://www.psycle.com/en/">Psycle Interactive</a> (The company I now work for, so be sure to thank them for allowing me to publish this write up!)
+Cura is a PHP class I have authored in Co-operation with <a href="https://www.psycle.com/en/">Psycle Interactive</a> (The company I now work for, so be sure to thank them for allowing me to publish this write up!)
 
 <strong>So what does it do?</strong>
 Cura sets several call back objects in your PHP application that re-directs all session data to a mySQL database.
@@ -48,10 +48,10 @@ So secret option number 3 is to use a database, you can remove the single point 
 
 Because everything is in a database whenever your web application is run (web1, web2) it will read the data from one source, allowing persistent sessions across your whole platform without the need for single mount points or session replication.
 
-The source files are available from: <a href="http://svn.saiweb.co.uk/branches/cura-php/trunk">http://svn.saiweb.co.uk/branches/cura-php/trunk/</a>
+The source files are available from: <a href="https://svn.saiweb.co.uk/branches/cura-php/trunk">https://svn.saiweb.co.uk/branches/cura-php/trunk/</a>
 
 {% highlight bash %}
-svn co http://svn.saiweb.co.uk/branches/cura-php/trunk/
+svn co https://svn.saiweb.co.uk/branches/cura-php/trunk/
 {% endhighlight %}
 
 To deploy this solution simply add the following lines to any file that calls session_start();
@@ -65,4 +65,4 @@ the rest of your file...
 {% endhighlight %}
 Ensure that you have created a 'sessions' table as per the provided sessions.sql file in your database.
 
-I will be adding simplified support for wordpress and joomla shortly these will become available from: <a href="http://svn.saiweb.co.uk/branches/cura-php/trunk/">http://svn.saiweb.co.uk/branches/cura-php/trunk/</a>
+I will be adding simplified support for wordpress and joomla shortly these will become available from: <a href="https://svn.saiweb.co.uk/branches/cura-php/trunk/">https://svn.saiweb.co.uk/branches/cura-php/trunk/</a>

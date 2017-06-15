@@ -10,7 +10,7 @@ categories:
 - linux
 - php
 - acies
-wordpress_url: http://saiweb.co.uk/linux/acies-update
+wordpress_url: https://saiweb.co.uk/linux/acies-update
 comments: true
 ---
 <p>Well the XML rendering API has been giving me no end of head ache during the development ... the end is in sight however.</p>

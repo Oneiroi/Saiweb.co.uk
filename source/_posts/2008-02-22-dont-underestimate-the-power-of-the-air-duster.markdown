@@ -10,7 +10,7 @@ tags:
 - security
 categories: 
 - hacking
-wordpress_url: http://saiweb.co.uk/hacking/dont-underestimate-the-power-of-the-air-duster
+wordpress_url: https://saiweb.co.uk/hacking/dont-underestimate-the-power-of-the-air-duster
 comments: true
 ---
 As the old adage goes, any security measure is pretty pointless if the attacker has physical access to the machine.
@@ -23,6 +23,6 @@ Scary stuff, there's even some information as to what data still remains in the 
 
 Check the video at this link out:
 
-<a href="http://citp.princeton.edu/memory/" title="http://citp.princeton.edu/memory/" target="_blank">http://citp.princeton.edu/memory/</a>
+<a href="https://citp.princeton.edu/memory/" title="https://citp.princeton.edu/memory/" target="_blank">https://citp.princeton.edu/memory/</a>
 
-[via: <a href="http://www.engadget.com/2008/02/21/cold-boot-disk-encryption-attack-is-shockingly-effective/" title="Engadget" target="_blank">engadget</a> ]
+[via: <a href="https://www.engadget.com/2008/02/21/cold-boot-disk-encryption-attack-is-shockingly-effective/" title="Engadget" target="_blank">engadget</a> ]

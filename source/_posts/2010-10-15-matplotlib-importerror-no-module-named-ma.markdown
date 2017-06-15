@@ -14,7 +14,7 @@ tags:
 categories: 
 - mac
 - python
-wordpress_url: http://saiweb.co.uk/mac/matplotlib-importerror-no-module-named-ma
+wordpress_url: https://saiweb.co.uk/mac/matplotlib-importerror-no-module-named-ma
 comments: true
 ---
 ImportError: No module named ma

@@ -12,7 +12,7 @@ tags:
 - utf8
 categories: 
 - mysql
-wordpress_url: http://saiweb.co.uk/mysql/mysql-forcing-utf-8-compliance-for-all-connections
+wordpress_url: https://saiweb.co.uk/mysql/mysql-forcing-utf-8-compliance-for-all-connections
 comments: true
 comments: true
 ---
@@ -55,7 +55,7 @@ Every client connection will now default to utf-8 encoding and not latin-1, remo
 
 This will work for PHP, C++, ruby etc... as the client encoding is now handeled server side, rather that waiting on the client to issue a SET NAMES command.
 
-<strong>UPDATE 30/03/09</strong>: Added "skip-character-set-client-handshake" this ignores the clients request to set the connection charset, this info courtesy of "wardo" <a href="http://word.wardosworld.com/?p=164 ">http://word.wardosworld.com/?p=164 </a>
+<strong>UPDATE 30/03/09</strong>: Added "skip-character-set-client-handshake" this ignores the clients request to set the connection charset, this info courtesy of "wardo" <a href="https://word.wardosworld.com/?p=164 ">https://word.wardosworld.com/?p=164 </a>
 
 <strong>UPDATE 10/09/09</strong>
 

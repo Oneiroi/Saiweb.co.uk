@@ -7,7 +7,7 @@ tags:
 - google mini
 categories: 
 - general
-wordpress_url: http://saiweb.co.uk/general/google-mini-cant-boot-wont-boot
+wordpress_url: https://saiweb.co.uk/general/google-mini-cant-boot-wont-boot
 comments: true
 ---
 First off let me start by saying if your google mini is still in warranty <strong>APPLY FOR AN IN WARRANTY REPAIR.</strong>
@@ -55,7 +55,7 @@ I check the "usual suspects", swap out the CPU (p4) with a known working CPU sam
 
 ** One CMOS clear, and several expletives later **
 
-No dice, this blue box is doing it's best to give me cause to launch it out of the window, at this point more irony sets in as I realise that even Microsoft's <a href="http://en.wikipedia.org/wiki/Blue_Screen_of_Death">B.S.O.D</a> is more informative than this ....
+No dice, this blue box is doing it's best to give me cause to launch it out of the window, at this point more irony sets in as I realise that even Microsoft's <a href="https://en.wikipedia.org/wiki/Blue_Screen_of_Death">B.S.O.D</a> is more informative than this ....
 
 Then it hits me ... SuperMicro are bound to have a support department for their server boards?
 
@@ -71,4 +71,4 @@ If so then there could be a issue with the used memory test them 1 by 1 or test 
 
 So in summary a new DIMM is on order, total hardware cost £18, I make that a 99.1% saving.
 
-With thanks to: <a href="http://www.anandtech.com/IT/showdoc.aspx?i=2523&amp;p=3">Anandtech.com</a> and <a href="http://www.supermicro.com/">SuperMicro</a>
+With thanks to: <a href="https://www.anandtech.com/IT/showdoc.aspx?i=2523&amp;p=3">Anandtech.com</a> and <a href="https://www.supermicro.com/">SuperMicro</a>

@@ -10,12 +10,12 @@ tags:
 - build
 categories: 
 - freenas
-wordpress_url: http://saiweb.co.uk/freenas/using-freenas-for-disaster-recovery-part-1
+wordpress_url: https://saiweb.co.uk/freenas/using-freenas-for-disaster-recovery-part-1
 comments: true
 ---
-As the company I am working for (<a href="http://www.psycle.com">Psycle Interactive Ltd</a>) grow there became an increasing need to store and share large files between machines, granted we are all on MACs here, but the "drop box" becomes inconvenient when you want to share that file with multiple people.
+As the company I am working for (<a href="https://www.psycle.com">Psycle Interactive Ltd</a>) grow there became an increasing need to store and share large files between machines, granted we are all on MACs here, but the "drop box" becomes inconvenient when you want to share that file with multiple people.
 
-As such I looked for ways to build a "cost effective" NAS, and now following the success of a recent build using <a href="http://www.freenas.org/">FreeNAS</a> for deploying an office NAS with 2.7TB of usable disk space I/we have developed a concept for using these relatively cheap NAS systems for Disaster Recovery Purposes.
+As such I looked for ways to build a "cost effective" NAS, and now following the success of a recent build using <a href="https://www.freenas.org/">FreeNAS</a> for deploying an office NAS with 2.7TB of usable disk space I/we have developed a concept for using these relatively cheap NAS systems for Disaster Recovery Purposes.
 
 This NAS build at the time of writing costs £740.54 inc VAT, for a 4TB system, giving approx 2.7TB of usable diskspace in a RAID 5 configuration, try getting a pre-built model for that, here's a comparison
 <ul>

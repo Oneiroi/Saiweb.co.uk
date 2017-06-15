@@ -9,7 +9,7 @@ tags:
 categories: 
 - linux
 - apache
-wordpress_url: http://saiweb.co.uk/linux/optimizing-apache-for-high-load-sites-part-2
+wordpress_url: https://saiweb.co.uk/linux/optimizing-apache-for-high-load-sites-part-2
 comments: true
 ---
 This is going to be quite an extension from what I had planned, instead of providing just a list of results post optimization I am going to provide a basic list of modules loaded as part of a basic apache install, and provide a description for each, the ones I have disabled are mods I have deemed not required for my purposes, use your own best judgment before switching things off...
@@ -166,7 +166,7 @@ ENABLED: Attempts to correct misspelled 	    URLs. (Ignores case etc..)
 <ul>
 	<li> LoadModule userdir_module modules/mod_userdir.so</li>
 </ul>
-ENABLED: Allow public_html userdir and use of http://servername/~username, I have disabled this as can be used to verify the presence of a valid username to be used in a brute force attack
+ENABLED: Allow public_html userdir and use of https://servername/~username, I have disabled this as can be used to verify the presence of a valid username to be used in a brute force attack
 <ul>
 	<li> LoadModule alias_module modules/mod_alias.so</li>
 </ul>
@@ -211,7 +211,7 @@ ENABLED: Version dependent configuration (Can be handy when writing configs to h
 
 Source's used:
 
-Module information can be found HERE: <a href="http://www-uxsup.csx.cam.ac.uk/~jw35/courses/apache/html/a2617.htm">http://www-uxsup.csx.cam.ac.uk/~jw35/courses/apache/html/a2617.htm</a>
+Module information can be found HERE: <a href="https://www-uxsup.csx.cam.ac.uk/~jw35/courses/apache/html/a2617.htm">https://www-uxsup.csx.cam.ac.uk/~jw35/courses/apache/html/a2617.htm</a>
 
 {% highlight bash %}
 ----- MEMORY USAGE REPORT FOR 'apache' -----
@@ -235,7 +235,7 @@ Still a long way to go to bring the memory foot print down to a minimal level, b
 
 <strong>UPDATE</strong>
 
-Following the improvements to the appmem script in <a href="http://www.saiweb.co.uk/uncategorized/linux-the-sysadmin-script-part-4">part 4</a> here are the new figures.
+Following the improvements to the appmem script in <a href="https://www.saiweb.co.uk/uncategorized/linux-the-sysadmin-script-part-4">part 4</a> here are the new figures.
 
 With all mods enabled:
 
@@ -247,7 +247,7 @@ Total Resident Set Size: 112 MB
 Mem/PID: 3 MB
 {% endhighlight %}
 
-Results attained running "ab -n 1000 -c 100 http://xxx.xxx.xxx.xxx/".
+Results attained running "ab -n 1000 -c 100 https://xxx.xxx.xxx.xxx/".
 
 Results with disabled mods (listed above):
 

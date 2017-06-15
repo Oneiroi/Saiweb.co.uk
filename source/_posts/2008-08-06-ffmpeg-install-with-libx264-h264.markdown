@@ -9,14 +9,14 @@ tags:
 - libx264
 categories: 
 - linux
-wordpress_url: http://saiweb.co.uk/linux/ffmpeg-install-with-libx264-h264
+wordpress_url: https://saiweb.co.uk/linux/ffmpeg-install-with-libx264-h264
 comments: true
 ---
 The information for this is VERY very sparse, so here is a summary of what I have found.
 
 <b><u>Install libx264</u></b>
 
-Get the libx264 package from here: <a href="http://www.videolan.org/developers/x264.html">http://www.videolan.org/developers/x264.html</a>
+Get the libx264 package from here: <a href="https://www.videolan.org/developers/x264.html">https://www.videolan.org/developers/x264.html</a>
 
 Extracts the bz2 file 
 

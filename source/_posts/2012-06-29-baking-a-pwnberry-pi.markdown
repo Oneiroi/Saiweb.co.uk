@@ -11,7 +11,7 @@ categories:
 - netsec 
 ---
 
-Earlier in the month I made reference in my Google+ posting that I had begun prototyping a pentesting "drop box" using the (Raspberry Pi)[http://www.raspberrypi.org] as the brains.
+Earlier in the month I made reference in my Google+ posting that I had begun prototyping a pentesting "drop box" using the (Raspberry Pi)[https://www.raspberrypi.org] as the brains.
 
 This is now 19 days since, and I realised I had not gotten around to writing a blog post on the project.
 
@@ -62,7 +62,7 @@ Couple the above with airdrop-ng for active denial of all wifi in the area, and 
 
 Whilst I don't have a working demo at this time, perhaps some photos of the "build" would suffice?
 
-{% img http://blog.oneiroi.co.uk/images/pwnberry-ingredients.jpg %}
+{% img https://blog.oneiroi.co.uk/images/pwnberry-ingredients.jpg %}
 
 Running left to right:
 
@@ -72,7 +72,7 @@ Running left to right:
 4. Raspberry PI
 5. ALFA awus036nh
 
-{% img http://blog.oneiroi.co.uk/images/pwnberrypi-weatherproof-box.jpg %}
+{% img https://blog.oneiroi.co.uk/images/pwnberrypi-weatherproof-box.jpg %}
 
 All boxed in the "Premium" container, aka rubber sealed tupperware of doom ...
 

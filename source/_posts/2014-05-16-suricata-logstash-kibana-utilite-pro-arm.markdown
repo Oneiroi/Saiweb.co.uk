@@ -27,11 +27,11 @@ I'm currently in the process of overhauling my pesonal work network, this includ
 * 1 x Internal Wifi 802.11b/g/n 
 * 1 x USB Alfa AWUS036NHR
 
-[Complete Utilite Pro Spec](http://utilite-computer.com/web/utilite-pro-specifications) 
+[Complete Utilite Pro Spec](https://utilite-computer.com/web/utilite-pro-specifications) 
 
 Ships with Ubuntu 12:04 LTS
 
-You can of course change the OS on the Utlite pro to things such as [Kali](http://www.kali.org/penetration-testing/ultimate-pentesting-pwnbox-2013-utilite/) and [Arch assault](https://archassault.org/) the caveat being if you want to install on the mSATA and not run from the sdcard you're going to need to use the serial connection.
+You can of course change the OS on the Utlite pro to things such as [Kali](https://www.kali.org/penetration-testing/ultimate-pentesting-pwnbox-2013-utilite/) and [Arch assault](https://archassault.org/) the caveat being if you want to install on the mSATA and not run from the sdcard you're going to need to use the serial connection.
 
 My USB -> Serial adapter has a male connector, the connector for the Utilite also provides a male DB9 connection ... so an adapter is on order.
 
@@ -46,12 +46,12 @@ So as can be seen here I'm sitting the device inline, with the intent to have it
 
 # Suricata
 
-The packages available from the ubuntu arm repos are 1.x and I want the new 2.x builds (Archassault however took my feedback and have [built the 2.x packages](https://twitter.com/ArchAssault/status/463332656101355521)) so in the interim to receiving the required equipment to install [Arch on arm](http://archlinuxarm.org/platforms/armv7/freescale/utilite) all the prototyping will need to use the unbuntu install.
+The packages available from the ubuntu arm repos are 1.x and I want the new 2.x builds (Archassault however took my feedback and have [built the 2.x packages](https://twitter.com/ArchAssault/status/463332656101355521)) so in the interim to receiving the required equipment to install [Arch on arm](https://archlinuxarm.org/platforms/armv7/freescale/utilite) all the prototyping will need to use the unbuntu install.
 
 ## Building Suricata 2.x on ubuntu 12.04 ARM
 
 ```
-wget http://www.openinfosecfoundation.org/download/suricata-2.0.tar.gz
+wget https://www.openinfosecfoundation.org/download/suricata-2.0.tar.gz
 tar -zxvf suricata-2.0.tar.gz
 cd suricata-2.0
 ```
@@ -223,7 +223,7 @@ This will take some time to start up, note that if you want to load in an existi
 
 ##### Install oracle java
 
-Download ejre-7u55-fcs-b13-linux-arm-vfp-hflt-client_headless-17_mar_2014.tar.gz from [here](http://www.oracle.com/technetwork/java/embedded/downloads/javase/index.html?ssSourceSiteId=otncn)
+Download ejre-7u55-fcs-b13-linux-arm-vfp-hflt-client_headless-17_mar_2014.tar.gz from [here](https://www.oracle.com/technetwork/java/embedded/downloads/javase/index.html?ssSourceSiteId=otncn)
 
 "ARMv6/7 Linux - Headless - Client Compiler EABI, VFP, SoftFP ABI, Little Endian1"
 
@@ -256,6 +256,6 @@ cd /path/to/kibana/apps/dashboards/
 curl -o suricata2.json https://gist.githubusercontent.com/regit/8849943/raw/15f1626090d7bb0d75bca33807cfaa4199b767b4/Suricata%20dashboard
 ```
 
-In your browser now go to http://your_device/path/to/kibana/#/dashboard/file/suricata2.json
+In your browser now go to https://your_device/path/to/kibana/#/dashboard/file/suricata2.json
 
 {% img /images/suricata.png %}

@@ -13,7 +13,7 @@ tags:
 - red debt collection
 categories: 
 - uncategorized
-wordpress_url: http://saiweb.co.uk/uncategorized/lowell-portfolio-1-ltd
+wordpress_url: https://saiweb.co.uk/uncategorized/lowell-portfolio-1-ltd
 comments: true
 ---
 UPDATE 26/07/09 -----
@@ -42,7 +42,7 @@ Well I'm having none of it ...
 	<li>First things first DO NOT TELEPHONE THEM, they will try to extract personal information from you, and attempt you get you to admit to the debt.</li>
 	<li> Keep and file any letter from them as evidence.</li>
 	<li> If they do telephone you demand everything in writing and hang up, at no point admit to the debt, it is down to them to provide evidence of the debt, an admission on your part absolves them of any "burden of proof"</li>
-	<li> As posted here: <a href="http://www.moneysupermarket.com/COMMUNITY/forums/t/lowell-portfolio-1-16516.aspx">http://www.moneysupermarket.com/COMMUNITY/forums/t/lowell-portfolio-1-16516.aspx</a> by <a href="http://www.moneysupermarket.com/community/members/boyboynova.aspx">boyboynova</a> respons with the following template letter RECORDED DELIVERY.</li>
+	<li> As posted here: <a href="https://www.moneysupermarket.com/COMMUNITY/forums/t/lowell-portfolio-1-16516.aspx">https://www.moneysupermarket.com/COMMUNITY/forums/t/lowell-portfolio-1-16516.aspx</a> by <a href="https://www.moneysupermarket.com/community/members/boyboynova.aspx">boyboynova</a> respons with the following template letter RECORDED DELIVERY.</li>
 </ol>
 Response template:
 
@@ -111,6 +111,6 @@ After a friendly telephone conversation with one of ScotCall's agents I stated  
 
 More updates to come.
 
-<strong>UPDATE 26/01/2009: Lowell On Watchdog</strong> http://www.bbc.co.uk/blogs/watchdog/2009/01/the_chase_for_debts_not_always.html
+<strong>UPDATE 26/01/2009: Lowell On Watchdog</strong> https://www.bbc.co.uk/blogs/watchdog/2009/01/the_chase_for_debts_not_always.html
 
 <strong>UPDATE 23/07/2009: Claim dropped!</strong> Well I can say after sending this letter via email and a very long discussion on the phone with one of their supervisors, Lowell have said "They are unable to provide a signed credit agreement" and that "Their client in the interest of taking a commercial view, without admitting liability have agreed to clear their claim", I have a letter confirming the amount owed is now £0.00

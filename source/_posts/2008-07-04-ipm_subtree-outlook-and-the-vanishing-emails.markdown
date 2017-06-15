@@ -10,7 +10,7 @@ tags:
 - ipm_subtree
 categories: 
 - windows
-wordpress_url: http://saiweb.co.uk/windows/ipm_subtree-outlook-and-the-vanishing-emails
+wordpress_url: https://saiweb.co.uk/windows/ipm_subtree-outlook-and-the-vanishing-emails
 comments: true
 ---
 Outlook is one of those programs we all love to hate at some point in time, particularly when it does something completely random like say _lose_ that selection of emails you were trying to move to another folder, if you can find these emails i.e. one was flagged and showing up under "flagged for follow up", the "in folder" field displays IPM_SUBTREE.
@@ -33,7 +33,7 @@ When copying / moving email to a folder in outlook (Grandchild object), the emai
 
 The IPM_SUBTREE and higher up folders / containers are not visible in outlook, so to the end user these emails are lost.
 
-To the sys admin however you now know they are simply "misplaced", to recover these you need a program that can see the IPM_SUBTREE, this is available from <a href="http://support.microsoft.com/?kbid=887724">http://support.microsoft.com/?kbid=887724</a> "MFCMAPI_BIN.exe"
+To the sys admin however you now know they are simply "misplaced", to recover these you need a program that can see the IPM_SUBTREE, this is available from <a href="https://support.microsoft.com/?kbid=887724">https://support.microsoft.com/?kbid=887724</a> "MFCMAPI_BIN.exe"
 
 You will need to run this from the computer that is having problems, the user will also most likely need local administrative rights on that machine, alternatively as a Domain Administrator, set yourself with full rights to the problem mail box, and create a new outlook profile.
 

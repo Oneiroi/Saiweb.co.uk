@@ -7,7 +7,7 @@ tags: []
 
 categories: 
 - general
-wordpress_url: http://saiweb.co.uk/general/burying-heads-in-the-sand
+wordpress_url: https://saiweb.co.uk/general/burying-heads-in-the-sand
 comments: true
 ---
 Here in the UK there appears to be a major shift in mentality as the country looks set to slide into a major slowdown. Far from accepting the reality of the situation, all sense of reality seems to have gone out of the window with both Alastair Darling and The Bank of England downplaying the effects of the banking crisis on the economy.
@@ -16,4 +16,4 @@ The latest news coming out of the North East, however, leads one to conclude tha
 We hear today that the North East Regional Development Agency is “upbeat over jobs”. This is despite 2,000 jobs going at Northern Rock contributing to a 7% cut in the region’s banking and insurance sector jobs and a strike over job cuts in the regions job centres. We then hear that there are 1,100 vacancies in the financial sector which should cater for about half the people who will be out of work this year.
 Rather than being kept in the dark by agencies more concerned with damaging reputations it’s high time they come clean about what’s really happening….
 
-[VIA: <a href="http://www.p45now.com" title="Where will the axe fall?">p45now.com</a>]
+[VIA: <a href="https://www.p45now.com" title="Where will the axe fall?">p45now.com</a>]

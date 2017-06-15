@@ -27,7 +27,7 @@ Why are we using Arch and not raspbian? simply because of time constraints, Arch
 
 As I'll be imaging multiple SD cards I wront a [bash script to save some time](https://gist.githubusercontent.com/Oneiroi/405834baecb5c732c982/raw/6243d812d0802a224c65e4e2a91fd246769cbb3e/rpi2_cluster_prep_sdcard.sh)
 
-This assumes you have allready done the partitioning per the [arch installation document](http://archlinuxarm.org/platforms/armv7/broadcom/raspberry-pi-2)
+This assumes you have allready done the partitioning per the [arch installation document](https://archlinuxarm.org/platforms/armv7/broadcom/raspberry-pi-2)
 
 *WARNING* Make sure you do not blindly use my script, the device paths may be different and you do not want to be wiping out the wrong device.
 
@@ -119,9 +119,9 @@ So there we have it, 20 available ARM cores all running in a docker swarm, seems
 common/Cycles.h:76:2: error: #error No high-precision counter available for your OS/arch
 ```
 
-* [Unanswered userlist quesiton on this issue](http://lists.ceph.com/pipermail/ceph-users-ceph.com/2015-January/045880.html)
+* [Unanswered userlist quesiton on this issue](https://lists.ceph.com/pipermail/ceph-users-ceph.com/2015-January/045880.html)
 * [Github pull fixing this issue for PowerPC only](https://github.com/ceph/ceph/pull/4507)
-* [This blog post gives some hope on finding a fix](http://blog.regehr.org/archives/794)
+* [This blog post gives some hope on finding a fix](https://blog.regehr.org/archives/794)
 
 ```
 asm volatile ("mrc p15, 0, %0, c15, c12, 1" : "=r" (cc));
@@ -129,7 +129,7 @@ asm volatile ("mrc p15, 0, %0, c15, c12, 1" : "=r" (cc));
 
 * Write up notes on getting Logstash 1.5.0 and docker on ARM to play nice together
 * Complete setup of openvswitch 
-* Explore deployment of [cuckoo sandbox](http://www.cuckoosandbox.org/)
+* Explore deployment of [cuckoo sandbox](https://www.cuckoosandbox.org/)
 * Explore Hadoop components
 * Write up notes on distccd setup (this really speeds up compilation time)
 * Write up systemd entries for swarm (allow automatic swarm cluster startup on reboot).
@@ -140,7 +140,7 @@ I'm uploading photos and screenshots of the cluster as progress is made [here](h
 
 # Why Pi2?
 
-We can't all get our hands on a [HP moonshot](http://www8.hp.com/uk/en/products/servers/moonshot/), I debated for some what to use, the Pi2 won out due to 
+We can't all get our hands on a [HP moonshot](https://www8.hp.com/uk/en/products/servers/moonshot/), I debated for some what to use, the Pi2 won out due to 
 
 * Price
 * Form factor

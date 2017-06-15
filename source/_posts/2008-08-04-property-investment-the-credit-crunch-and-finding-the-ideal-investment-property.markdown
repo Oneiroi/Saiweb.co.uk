@@ -9,19 +9,19 @@ tags:
 - investment property
 categories: 
  - property-investment
-wordpress_url: http://saiweb.co.uk/property investment/property-investment-the-credit-crunch-and-finding-the-ideal-investment-property
+wordpress_url: https://saiweb.co.uk/property investment/property-investment-the-credit-crunch-and-finding-the-ideal-investment-property
 comments: true
 ---
 " <i>
 Property Investment is the best investment opportunity thanks to the growth of the World economy.
 However the property industry is cloaked in mystery and untruths such that many people are at risk of missing the real opportunity.
 
-And what about UK Buy-to-Let? Off-plan in Romanian property or Bulgaria, Czech or Poland? Rennovate? Self-build? Property Development? Building a European Property Portfolio? Let us help you assess and understand... </i>" : source <a href="http://www.propertysecrets.net">Propertysecrets.net</a>
+And what about UK Buy-to-Let? Off-plan in Romanian property or Bulgaria, Czech or Poland? Rennovate? Self-build? Property Development? Building a European Property Portfolio? Let us help you assess and understand... </i>" : source <a href="https://www.propertysecrets.net">Propertysecrets.net</a>
 
 It has been a while since I posted anything about Property Investment, however with the current financial climate it may be the time again to look at Property Investment, one thing to look for in particular is "panic sales", people worried about a Property Price Crash and bailing out before anything happens, this is text book knee jerk reaction to media ravings of a Property Price Crash, something they have been ranting about for years, and as much as I would love a cheap property I can't see this happening anytime soon.
 
 This means they are selling at heavily discounted prices, and whilst there is always risk involved you are buying Below Market Value making these properties ideal Investment Property, increasing the potential for profit, which is the whole idea behind Propery Investment.
 
-If you are intrested in Property Investment and finding that ideal Investment Property, I suggest you checkout <a href="http://www.propertysecrets.net/">Propertysecrets.net</a>, specifically the <a href="http://www.propertysecrets.net/tag_browser/property_investment.html">Property Investment</a> page.
+If you are intrested in Property Investment and finding that ideal Investment Property, I suggest you checkout <a href="https://www.propertysecrets.net/">Propertysecrets.net</a>, specifically the <a href="https://www.propertysecrets.net/tag_browser/property_investment.html">Property Investment</a> page.
 
-UPDATE: <a href="http://www.Propertysecrets.net">Propertysecrets.net</a> are offering a 35% discount on 2 year membership at the moment <a href="https://www.propertysecrets.net/0979/sales_form.html">HERE</a>
+UPDATE: <a href="https://www.Propertysecrets.net">Propertysecrets.net</a> are offering a 35% discount on 2 year membership at the moment <a href="https://www.propertysecrets.net/0979/sales_form.html">HERE</a>

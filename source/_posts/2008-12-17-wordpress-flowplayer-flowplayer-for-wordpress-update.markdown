@@ -8,7 +8,7 @@ tags:
 - wordpress
 categories: 
 - php
-wordpress_url: http://saiweb.co.uk/php/wordpress-flowplayer-flowplayer-for-wordpress-update
+wordpress_url: https://saiweb.co.uk/php/wordpress-flowplayer-flowplayer-for-wordpress-update
 comments: true
 ---
 With the release of wordpress 2.7 and flowplayer 3.x I thought it was time to update the plugin.
@@ -16,7 +16,7 @@ With the release of wordpress 2.7 and flowplayer 3.x I thought it was time to up
 A development copy as always can be obtained from:
 
 {% highlight bash %}
-svn co http://svn.saiweb.co.uk/branches/wordpress-flowplayer/trunk
+svn co https://svn.saiweb.co.uk/branches/wordpress-flowplayer/trunk
 {% endhighlight %}
 
 However please remember that it is development and most like will not work.
@@ -27,10 +27,10 @@ Anyway enough talk here are some screen shots of upcoming version of the plugin 
 
 I am adding a section to the admin menu to allow input of a license key, and a link at the bottom of the menu to allow you to purchase a commercial license.
 
-Purchasing a commercial license helps to support the Flowplayer project and continue it's development, for a list of features in flowplayer 3.x see: <a href="http://flowplayer.org/documentation/index.html   ">http://flowplayer.org/documentation/index.html</a>
+Purchasing a commercial license helps to support the Flowplayer project and continue it's development, for a list of features in flowplayer 3.x see: <a href="https://flowplayer.org/documentation/index.html   ">https://flowplayer.org/documentation/index.html</a>
 
 Certain features i.e. custom logo, will only work with a commercial license.
 
-Please direct any requests for support on this plugin to our TRAC system: <a href="http://trac.saiweb.co.uk/saiweb">http://trac.saiweb.co.uk/saiweb</a>
+Please direct any requests for support on this plugin to our TRAC system: <a href="https://trac.saiweb.co.uk/saiweb">https://trac.saiweb.co.uk/saiweb</a>
 
 <strong>UPDATE 2: </strong>V 2.x of this plugin should be release this evening.

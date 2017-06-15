@@ -19,14 +19,14 @@ categories:
 - nagios
 - networking
 - linux
-wordpress_url: http://saiweb.co.uk/nagios/nagios-customization-alerting-via-sms-or-anything-you-like
+wordpress_url: https://saiweb.co.uk/nagios/nagios-customization-alerting-via-sms-or-anything-you-like
 comments: true
 ---
-So I find myself needing to tweak my <a href="http://www.nagios.org/" title="Nagios" target="_blank">Nagios</a> installation a little bit, in this case I found the need for "out of hours" SMS alerts.
+So I find myself needing to tweak my <a href="https://www.nagios.org/" title="Nagios" target="_blank">Nagios</a> installation a little bit, in this case I found the need for "out of hours" SMS alerts.
 
-<a href="http://www.nagios.org/" title="Nagios" target="_blank">Nagios</a> doesn't cater for this natively, rather it does however allow you to create your own custom commands, this allows you to specify a script to be executed.
+<a href="https://www.nagios.org/" title="Nagios" target="_blank">Nagios</a> doesn't cater for this natively, rather it does however allow you to create your own custom commands, this allows you to specify a script to be executed.
 
-Now I am going to assume you are already quite familiar with <a href="http://www.nagios.org/" title="Nagios" target="_blank">Nagios</a> , so here is the command definition from my installation.
+Now I am going to assume you are already quite familiar with <a href="https://www.nagios.org/" title="Nagios" target="_blank">Nagios</a> , so here is the command definition from my installation.
 
 <font color="#c0c0c0">
 </font>
@@ -46,7 +46,7 @@ as the command_line does not seem to work, so just add "#!/path/to/php -q" to th
 The php script used here takes $argv[1] and passes it into a function specific to the SMS api I use, the phone number and API definitions are hard coded ito the script.
 You don't really need me to upload my script, and if you do then you shouldn't be attempting this ...
 
-Basically <a href="http://www.nagios.org/" title="Nagios" target="_blank">Nagios</a> will execute the script, as defined at command_line, the script can do anything you choose.
+Basically <a href="https://www.nagios.org/" title="Nagios" target="_blank">Nagios</a> will execute the script, as defined at command_line, the script can do anything you choose.
 
 Now to implement the command so it is actually used, I am pretty sure this entry in "timeperiods.cfg" is the default but just incase here it is.
 
@@ -87,7 +87,7 @@ alias                   Nagios Administrators
 members                 nagios-admin,out_of_hours
 }</font>
 
-So there you have it, you now have the ground work to potentially make <a href="http://www.nagios.org/" title="Nagios" target="_blank">Nagios</a> fire you alerts anyway you like, you could go as far as having it call you via attached modem, if you _realy_ want, but when you want your servers talking to you via phone call is the day you need to switch to decaff, and head out to the pub once in a while.
+So there you have it, you now have the ground work to potentially make <a href="https://www.nagios.org/" title="Nagios" target="_blank">Nagios</a> fire you alerts anyway you like, you could go as far as having it call you via attached modem, if you _realy_ want, but when you want your servers talking to you via phone call is the day you need to switch to decaff, and head out to the pub once in a while.
 
 Now just "nagios -v /path/to/nagios.cfg" to do a quick sanity check and make sure there are no errors (if you have any go back and fix them and run nagios -v again!), if all is ok /etc/init.d/nagios restart (or equivalent for your distribution).
 

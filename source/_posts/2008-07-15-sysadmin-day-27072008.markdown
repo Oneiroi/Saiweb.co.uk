@@ -7,10 +7,10 @@ tags:
 - sysadmin day
 categories: 
 - uncategorized
-wordpress_url: http://saiweb.co.uk/uncategorized/sysadmin-day-27072008
+wordpress_url: https://saiweb.co.uk/uncategorized/sysadmin-day-27072008
 comments: true
 ---
 <p>Or that would be 07/25/2008 for the US readers.</p>
-<p>It is here again, the last friday of july is <a href="http://en.wikipedia.org/wiki/System_Administrator_Appreciation_Day">System Administrator Appreciation Day</a></p>
+<p>It is here again, the last friday of july is <a href="https://en.wikipedia.org/wiki/System_Administrator_Appreciation_Day">System Administrator Appreciation Day</a></p>
 <p>So get them a card / lifetimes supply of coffee / beer / LOTS AND LOTS of BEER</p>
 <p>Or  you may find next time that file goes _missing_ there may be a delay in restoring it ;-)</p>

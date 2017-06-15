@@ -13,7 +13,7 @@ tags:
 categories: 
 - linux
 - apache
-wordpress_url: http://saiweb.co.uk/linux/apache-php-frameworks-and-multi-site-htaccess
+wordpress_url: https://saiweb.co.uk/linux/apache-php-frameworks-and-multi-site-htaccess
 comments: true
 ---
 If like me you have a PHP framework, that runs multiple sites, you no doubt have thought at some point in time ...

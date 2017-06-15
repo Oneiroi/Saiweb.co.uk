@@ -7,13 +7,13 @@ tags:
 - twitter
 categories: 
 - linux
-wordpress_url: http://saiweb.co.uk/linux/update-twitter-in-a-single-line
+wordpress_url: https://saiweb.co.uk/linux/update-twitter-in-a-single-line
 comments: true
 ---
 As it turns out twitter account can be updated in a single line, this makes writing "bots" just that little bit easier.
 
 {% highlight bash %}
-/usr/bin/curl --basic --user "username:password" --data-ascii "your tweet" http://twitter.com/statuses/update.json
+/usr/bin/curl --basic --user "username:password" --data-ascii "your tweet" https://twitter.com/statuses/update.json
 {% endhighlight %}
 
 This also returns JSON should you want to parse the reply data.

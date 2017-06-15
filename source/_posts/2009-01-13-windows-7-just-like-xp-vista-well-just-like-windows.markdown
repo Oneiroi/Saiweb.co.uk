@@ -8,7 +8,7 @@ tags:
 - bsod
 categories: 
 - windows
-wordpress_url: http://saiweb.co.uk/windows/windows-7-just-like-xp-vista-well-just-like-windows
+wordpress_url: https://saiweb.co.uk/windows/windows-7-just-like-xp-vista-well-just-like-windows
 comments: true
 ---
 So I decided to take Windows 7 for a spin in VMWare fusion, downloaded the shiny new 3.15GB x64 ISO and away I went ...

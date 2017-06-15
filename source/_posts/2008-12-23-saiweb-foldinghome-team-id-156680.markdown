@@ -12,12 +12,12 @@ categories:
 - windows
 - linux
 - mac
-wordpress_url: http://saiweb.co.uk/windows/saiweb-foldinghome-team-id-156680
+wordpress_url: https://saiweb.co.uk/windows/saiweb-foldinghome-team-id-156680
 comments: true
 ---
 For those not in the know Folding@Home is a piece of software that runs in the background of your desktop, server, heck even your PS3.
 
-I originaly started out back in 99/2000 with the united devices cancer research client, their website of UD.com however seems to have long since slipped into web history, no doubt due to their nature of charging for CPU time on 'thier' grid, which was made of donor machines ... Folding @ Home however is  Open Source and not run by some shady business but by a variety of labs and Educational bodies (<a href="http://folding.stanford.edu/English/About">http://folding.stanford.edu/English/About</a>).
+I originaly started out back in 99/2000 with the united devices cancer research client, their website of UD.com however seems to have long since slipped into web history, no doubt due to their nature of charging for CPU time on 'thier' grid, which was made of donor machines ... Folding @ Home however is  Open Source and not run by some shady business but by a variety of labs and Educational bodies (<a href="https://folding.stanford.edu/English/About">https://folding.stanford.edu/English/About</a>).
 
 Ok so what is this 'folding' all about?
 
@@ -27,7 +27,7 @@ The problem faced when looking at protein folding is the shear number of possibl
 
 Rather than a large super computer which is limited in budget, size and power distributed computing takes place by assigning a small work load to a 'volunteer machine', what this has lead to is a virtual super computer larger than any other, driven by software, and at the time of writing claims some 260,000 Active CPU's
 
-So please install this small piece of software on your machine by visiting the downloads page here: <a href="http://folding.stanford.edu/English/Download">http://folding.stanford.edu/English/Download</a>
+So please install this small piece of software on your machine by visiting the downloads page here: <a href="https://folding.stanford.edu/English/Download">https://folding.stanford.edu/English/Download</a>
 
 Once you have the client running please join the Saiweb team <strong>156680</strong>
 

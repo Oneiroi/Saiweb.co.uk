@@ -9,12 +9,12 @@ tags:
 - jing
 categories: 
 - uncategorized
-wordpress_url: http://saiweb.co.uk/uncategorized/jing-pro-mp4-quality-issue
+wordpress_url: https://saiweb.co.uk/uncategorized/jing-pro-mp4-quality-issue
 comments: true
 ---
 Ok I purchased Jing PRO to do some more video posts to saiweb ... unfortunately the MP4 quality is lack luster. 
 
-[FLOWPLAYER=http://blog.oneiroi.co.uk/uploads/2009/01/jing_mp4_bad.mp4,300,179]
+[FLOWPLAYER=https://blog.oneiroi.co.uk/uploads/2009/01/jing_mp4_bad.mp4,300,179]
 
 To be honest I'd rather have a large size MP4 I can run through my own encode (i.e. FFMPEG) and get the quality I want ...
 

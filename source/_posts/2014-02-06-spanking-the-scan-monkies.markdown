@@ -15,7 +15,7 @@ Hello 2014, do I have your attention?
 
 **Early warning** This is a satirical blog post, with colourful language of which the sole intent is to troll automated scanners and script kiddies, those of a disposition nature should stop reading now.
  
-Shortly after watching [@chrisjohnriley](https://twitter.com/chrisjohnriley)'s Defcon 21 talk [defense by numbers](http://www.youtube.com/watch?v=I3pNLB3Cq24),
+Shortly after watching [@chrisjohnriley](https://twitter.com/chrisjohnriley)'s Defcon 21 talk [defense by numbers](https://www.youtube.com/watch?v=I3pNLB3Cq24),
 I began thinking how I could implement so of the methods within nginx, taking them to another level by trolling and generally pissing off anyone scanning the server.
 
 Some background on this nginx server does nothing but bounce old domains, and links to their appropriate place on this blog, so it's out of the way not something you'd typically see attacked en mass.
@@ -56,7 +56,7 @@ if only those scanners could fully appreciate the midi tones of Rick Astley melo
 
 Yup no hostnames were being sent as part of the request, so China telecom doesn't love my blog afterall ... well screw you guys! I thought we had something but you were just a fake ...
 
-[but wait there's more](http://www.youtube.com/watch?v=i_RLYSaPvak) just as the sweet verses dictate; we're never going to give you up, so if you're making so many requests in such a short time you must want to stay connected to me for as long as possible, it's ok I've got you covered.
+[but wait there's more](https://www.youtube.com/watch?v=i_RLYSaPvak) just as the sweet verses dictate; we're never going to give you up, so if you're making so many requests in such a short time you must want to stay connected to me for as long as possible, it's ok I've got you covered.
 
 ```
 iptables -A INPUT -p tcp --dport 80 -m state --state NEW -m recent --set

@@ -14,12 +14,12 @@ tags:
 - 5.0.37
 categories: 
 - mysql
-wordpress_url: http://saiweb.co.uk/mysql/mysql-5-0-37-community-profiling-sql-queries
+wordpress_url: https://saiweb.co.uk/mysql/mysql-5-0-37-community-profiling-sql-queries
 comments: true
 ---
 Whilst there indeed seems to be a veritable plethora of SQL profiling / benchmarking tools, most of them with insane commercial license fees (&gt;= $400 per annum on most)
 
-I have found it intriguing that as of mySQL community edition &gt;= 5.0.37 mySQL offers an inbuilt method for profiling SQL queries, as can be see <a href="http://dev.mysql.com/doc/refman/5.0/en/show-profiles.html">here</a> the downside is that this is session based, meaning it can only provide profiling information for the current connection, almost useless for trying to profile a running web app (that is without code modification to set profiling and harvest the data).
+I have found it intriguing that as of mySQL community edition &gt;= 5.0.37 mySQL offers an inbuilt method for profiling SQL queries, as can be see <a href="https://dev.mysql.com/doc/refman/5.0/en/show-profiles.html">here</a> the downside is that this is session based, meaning it can only provide profiling information for the current connection, almost useless for trying to profile a running web app (that is without code modification to set profiling and harvest the data).
 
 However it can be useful if you have a known slow query.
 
@@ -128,7 +128,7 @@ Will give you an output similar to:
 17 rows in set (0.00 sec)
 {% endhighlight %}
 
-this is very similar to a <a href="http://en.wikipedia.org/wiki/Strace">stack trace</a> you may run on a problematic script, or <a href="http://www.xdebug.org">xdebug</a> + <a href="http://code.google.com/p/webgrind/">webgrind</a>, and will gain futher insight into your SQL should <a href="http://dev.mysql.com/doc/refman/5.0/en/explain.html">EXPLAIN</a> no give you enough of an insight.
+this is very similar to a <a href="https://en.wikipedia.org/wiki/Strace">stack trace</a> you may run on a problematic script, or <a href="https://www.xdebug.org">xdebug</a> + <a href="https://code.google.com/p/webgrind/">webgrind</a>, and will gain futher insight into your SQL should <a href="https://dev.mysql.com/doc/refman/5.0/en/explain.html">EXPLAIN</a> no give you enough of an insight.
 
 I'll post more information on this as I get time to work with it more, this is still knew to me, and aside from knowing how to use it I know relatively little about this profiling functionality, please feel free to post references / examples in the comments.
 

@@ -12,11 +12,11 @@ categories:
 - php
 - apache
 - hosting
-wordpress_url: http://saiweb.co.uk/general/new-host
+wordpress_url: https://saiweb.co.uk/general/new-host
 comments: true
 ---
 Due to latency issues, and the lack of multi site support I have ditched my old web-host.
 
- In favour of an all singing all dancing NEW ONE! <a href="http://my.nativespace.co.uk/aff.php?aff=044" title="nativespace advanced afordable hosting">nativespace</a> thus-far I have had excellent ticket turn around (all in 30 mins or less), and my initial sales enquiry (consisting of a lot of lengthy questions)  responded to in .... 6 minutes!
+ In favour of an all singing all dancing NEW ONE! <a href="https://my.nativespace.co.uk/aff.php?aff=044" title="nativespace advanced afordable hosting">nativespace</a> thus-far I have had excellent ticket turn around (all in 30 mins or less), and my initial sales enquiry (consisting of a lot of lengthy questions)  responded to in .... 6 minutes!
 
 So thus far definitely on my recommended list

@@ -10,7 +10,7 @@ tags:
 categories: 
 - general
 - flowplayer
-wordpress_url: http://saiweb.co.uk/general/all-quiet-on-the-front
+wordpress_url: https://saiweb.co.uk/general/all-quiet-on-the-front
 comments: true
 ---
 No I have not faded into cyber oblivion, things have just been way to busy on the work front to post any updates.
@@ -19,8 +19,8 @@ Such is the case with project deadlines, and frankly I'd rather be rushed off my
 
 That said I do have a few projects in the works first and foremost is the Wordpress-Flowplayer 2.1.0.0 release,
 <ol>
-	<li>I have secured the latest version of flowplayer courtesy of the guys over at <a href="http://flowplayer.org">flowplayer.org</a>,</li>
-	<li>I am working on integrating the <a href="http://mediamelon.com">mediamelon</a> CDN service, which will be bundled with 2.1.0.0</li>
+	<li>I have secured the latest version of flowplayer courtesy of the guys over at <a href="https://flowplayer.org">flowplayer.org</a>,</li>
+	<li>I am working on integrating the <a href="https://mediamelon.com">mediamelon</a> CDN service, which will be bundled with 2.1.0.0</li>
 	<li>With any luck provided I can get the code right this will also allow the use of 3rd party plugins</li>
 	<li>Working on an advance 'scripting' area to allow you to embed your own syntax in the plugin hook.</li>
 </ol>

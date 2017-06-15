@@ -8,7 +8,7 @@ tags: []
 categories: 
 - general
 - security
-wordpress_url: http://saiweb.co.uk/general/user-cleanup
+wordpress_url: https://saiweb.co.uk/general/user-cleanup
 comments: true
 ---
 Due to the security issues with wordpress pre 2.6.5, I have deleted all registered users.

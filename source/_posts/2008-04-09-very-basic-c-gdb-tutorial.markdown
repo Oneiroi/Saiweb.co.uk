@@ -9,7 +9,7 @@ tags:
 - c
 categories: 
 - linux
-wordpress_url: http://saiweb.co.uk/linux/very-basic-c-gdb-tutorial
+wordpress_url: https://saiweb.co.uk/linux/very-basic-c-gdb-tutorial
 comments: true
 ---
 a very basic video tutorial covering how to compile with debug information, load your app into gdb, set breakpoints and step through it.

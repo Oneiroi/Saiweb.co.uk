@@ -8,7 +8,7 @@ tags: []
 categories: 
 - linux
 - bash-script
-wordpress_url: http://saiweb.co.uk/linux/linux-generating-file-manifests-and-then-checking-them
+wordpress_url: https://saiweb.co.uk/linux/linux-generating-file-manifests-and-then-checking-them
 comments: true
 ---
 This issue has come about whilst having to migrate a positively huge number of files, and have to check the integrity of the transfer.

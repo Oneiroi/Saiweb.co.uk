@@ -11,10 +11,10 @@ tags:
 categories: 
 - linux
 - hosting
-wordpress_url: http://saiweb.co.uk/linux/make-your-webapp-shine-with-varnish-%e2%80%93-part-2-backends
+wordpress_url: https://saiweb.co.uk/linux/make-your-webapp-shine-with-varnish-%e2%80%93-part-2-backends
 comments: true
 ---
-Pre-req reading: <a href="http://www.saiweb.co.uk/linux/make-your-webapp-shine-with-varnish-part-1">Part 1</a>
+Pre-req reading: <a href="https://www.saiweb.co.uk/linux/make-your-webapp-shine-with-varnish-part-1">Part 1</a>
 
 In this part we will cover setting up a backend. A backend is your application server, whether this be apache / nginx / iis (IIS - <strong>I</strong>s <strong>I</strong>nherently <strong>S</strong>tupid) you are telling varnish where it should sends it's requests to.
 <strong>

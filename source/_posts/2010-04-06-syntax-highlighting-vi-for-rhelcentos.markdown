@@ -12,7 +12,7 @@ tags:
 - rhel
 categories: 
 - linux
-wordpress_url: http://saiweb.co.uk/linux/syntax-highlighting-vi-for-rhelcentos
+wordpress_url: https://saiweb.co.uk/linux/syntax-highlighting-vi-for-rhelcentos
 comments: true
 ---
 The default install of VI is very basic, and being as I spend a lot of my time in there I find syntax highlighting invaluable, to get this however you will need the vim-enhanced package.
@@ -28,4 +28,4 @@ alias vi='/usr/bin/vim'
 
 And you're done:
 
-<a href="http://blog.oneiroi.co.uk/uploads/2010/04/2010-04-06_1649.png"><img class="alignnone size-full wp-image-849" title="vi-syntaxt-highlight" src="http://blog.oneiroi.co.uk/uploads/2010/04/2010-04-06_1649.png" alt="" width="201" height="92" /></a>
+<a href="https://blog.oneiroi.co.uk/uploads/2010/04/2010-04-06_1649.png"><img class="alignnone size-full wp-image-849" title="vi-syntaxt-highlight" src="https://blog.oneiroi.co.uk/uploads/2010/04/2010-04-06_1649.png" alt="" width="201" height="92" /></a>

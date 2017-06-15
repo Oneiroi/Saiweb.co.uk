@@ -33,7 +33,7 @@ Loading, please wait...
 Unable to find LVM volume kali/root
 ```
 
-[Help is however at hand](http://mstramgram.com/kali-encrypted-lvm-install-fails-to-boot/), boot back into the live distro forensics mode, and what follows is my somewhat condensed and modified procedure
+[Help is however at hand](https://mstramgram.com/kali-encrypted-lvm-install-fails-to-boot/), boot back into the live distro forensics mode, and what follows is my somewhat condensed and modified procedure
 
 ```
 blkid /dev/sda5
@@ -57,5 +57,5 @@ reboot
 
 As for UEFI / EFI ? Don't even get me started there nothing I have spent long evening hours looking into works for kali, not using the fedora shim nothing at this time; I'm very annoyed at this and will post again once I arrive to a resolution.
 
-In the interim [CaptTofu](http://patg.net/docker/2014/03/03/ansible.html) release some interesting material on leveraging [Docker](http://docker.io) to test PXC deploys, he's even go so far to produce some Ansible playbooks for the deployment process; I've been helping to work in some respect on the Ansible side and I can see a lot of potential in docker aswell as a lot of issues (it is a very young project it reminds me a lot of OpenStack hack in the diablo RC days), I encourage you to check this out.
+In the interim [CaptTofu](https://patg.net/docker/2014/03/03/ansible.html) release some interesting material on leveraging [Docker](https://docker.io) to test PXC deploys, he's even go so far to produce some Ansible playbooks for the deployment process; I've been helping to work in some respect on the Ansible side and I can see a lot of potential in docker aswell as a lot of issues (it is a very young project it reminds me a lot of OpenStack hack in the diablo RC days), I encourage you to check this out.
 

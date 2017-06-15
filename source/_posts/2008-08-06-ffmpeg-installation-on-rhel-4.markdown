@@ -17,20 +17,20 @@ tags:
 - xvid
 categories: 
 - linux
-wordpress_url: http://saiweb.co.uk/linux/ffmpeg-installation-on-rhel-4
+wordpress_url: https://saiweb.co.uk/linux/ffmpeg-installation-on-rhel-4
 comments: true
 ---
 Just try to find documentation on this ... absolute nightmare is an understatement, so here are my notes of the steps I took to compile ffmpeg with a selection of codecs:
 
 {% highlight bash %}
 up2date automake autoconf libtool
-wget http://downloads.sourceforge.net/faac/faac-1.26.tar.gz
-wget http://downloads.sourceforge.net/faac/faad2-2.6.1.tar.gz
-wget http://superb-west.dl.sourceforge.net/sourceforge/lame/lame-3.98b6.tar.gz
-wget http://downloads.xiph.org/releases/ogg/libogg-1.1.3.tar.gz
-wget http://downloads.xiph.org/releases/theora/libtheora-1.0beta2.tar.gz
-wget http://downloads.xiph.org/releases/vorbis/libvorbis-1.2.0.tar.gz
-wget http://downloads.xvid.org/downloads/xvidcore-1.1.3.tar.gz
+wget https://downloads.sourceforge.net/faac/faac-1.26.tar.gz
+wget https://downloads.sourceforge.net/faac/faad2-2.6.1.tar.gz
+wget https://superb-west.dl.sourceforge.net/sourceforge/lame/lame-3.98b6.tar.gz
+wget https://downloads.xiph.org/releases/ogg/libogg-1.1.3.tar.gz
+wget https://downloads.xiph.org/releases/theora/libtheora-1.0beta2.tar.gz
+wget https://downloads.xiph.org/releases/vorbis/libvorbis-1.2.0.tar.gz
+wget https://downloads.xvid.org/downloads/xvidcore-1.1.3.tar.gz
 wget ftp://ftp.videolan.org/pub/videolan/x264/snapshots/x264-snapshot-20080805-2245.tar.bz2
 {% endhighlight %}
 

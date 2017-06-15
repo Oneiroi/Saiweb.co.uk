@@ -8,7 +8,7 @@ tags:
 categories: 
 - linux
 - mysql
-wordpress_url: http://saiweb.co.uk/linux/cant-change-to-run-as-user-mysql-please-check-that-the-user-exists
+wordpress_url: https://saiweb.co.uk/linux/cant-change-to-run-as-user-mysql-please-check-that-the-user-exists
 comments: true
 ---
 So you've recently made a change to your mysql installation and see the following in

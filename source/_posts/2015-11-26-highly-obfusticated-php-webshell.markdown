@@ -197,4 +197,4 @@ Fuzzy logic sure, look for long strings of seemingly random content, still I can
 1. SELinux set ON, will limit what the web server process can access (it's not going to stop it getting access to your database servers, and if you have `httpd_can_network_connect` set to true, it's not going to stop it creating a reverse shell either, check out `httpd_can_connect_db` to maintain web app functionality but make it harder for attackers)
 2. KEEP UP TO DATE WITH PATCHES, Web application, system packages ... patch all the things!
 3. WAF and/or IPS (inspect POST & GET, for SQL, known shell commands and block (will not prevent file download / upload))
-4. PHP disable_functions ([I covered this back in 2008](https://www.flickr.com/photos/31732936@N06/3079949402/), [cyberciti has a good write up](http://www.cyberciti.biz/faq/linux-unix-apache-lighttpd-phpini-disable-functions/))
+4. PHP disable_functions ([I covered this back in 2008](https://www.flickr.com/photos/31732936@N06/3079949402/), [cyberciti has a good write up](https://www.cyberciti.biz/faq/linux-unix-apache-lighttpd-phpini-disable-functions/))

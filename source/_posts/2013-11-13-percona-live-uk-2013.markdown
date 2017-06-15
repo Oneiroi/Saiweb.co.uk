@@ -9,7 +9,7 @@ categories:
 
 Percona Live London 2013 drew to a close yesterday, following some truely great talks.
 
-I myself presented [a talk on security](http://slidesha.re/1dl3LoY) which it appears was very well received, and I am hopeful this talk will make it into the line up for [percona live 2014](https://www.percona.com/live/mysql-conference-2014).
+I myself presented [a talk on security](https://slidesha.re/1dl3LoY) which it appears was very well received, and I am hopeful this talk will make it into the line up for [percona live 2014](https://www.percona.com/live/mysql-conference-2014).
 
 My talk was well received and there was a lot of great Q&A both during and after the session ... though I did run 15 minutes over [sorry Tim](https://twitter.com/tmcallaghan) I'll have to buy you a beer by way of appology at the next confernece.
 

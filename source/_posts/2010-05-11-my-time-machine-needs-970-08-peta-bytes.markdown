@@ -11,9 +11,9 @@ tags:
 - bytes
 categories: 
 - mac
-wordpress_url: http://saiweb.co.uk/mac/my-time-machine-needs-970-08-peta-bytes
+wordpress_url: https://saiweb.co.uk/mac/my-time-machine-needs-970-08-peta-bytes
 comments: true
 ---
-<a href="http://blog.oneiroi.co.uk/uploads/2010/05/time_machine_wtf.png"><img src="http://blog.oneiroi.co.uk/uploads/2010/05/time_machine_wtf.png" alt="" title="time_machine_wtf" width="475" height="217" class="alignnone size-full wp-image-862" /></a>
+<a href="https://blog.oneiroi.co.uk/uploads/2010/05/time_machine_wtf.png"><img src="https://blog.oneiroi.co.uk/uploads/2010/05/time_machine_wtf.png" alt="" title="time_machine_wtf" width="475" height="217" class="alignnone size-full wp-image-862" /></a>
 
 In one of those you don't believe it until you have seen it moments not bad for a mac book pro with only a 350gb HD ...

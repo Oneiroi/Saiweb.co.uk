@@ -11,10 +11,10 @@ categories:
 - linux
 - apache
 - bash-script
-wordpress_url: http://saiweb.co.uk/linux/linux-the-sysadmin-script-part-3
+wordpress_url: https://saiweb.co.uk/linux/linux-the-sysadmin-script-part-3
 comments: true
 ---
-<strong>PART 3 IS INACCURATE, THE BELOW SCRIPT IS FOR REFERENCE ONLY, IT HAS BEEN REPLACED IN <a href="http://www.saiweb.co.uk/uncategorized/linux-the-sysadmin-script-part-4">PART 4</a></strong>
+<strong>PART 3 IS INACCURATE, THE BELOW SCRIPT IS FOR REFERENCE ONLY, IT HAS BEEN REPLACED IN <a href="https://www.saiweb.co.uk/uncategorized/linux-the-sysadmin-script-part-4">PART 4</a></strong>
 
 In part 3, I am going to cover a bash function that will allow you to profile the memory usage of any application by name.
 
@@ -66,7 +66,7 @@ This script does require that pmap is installed, if the script can not find it, 
 
 As always any problems, post a comment.
 
-UPDATE: Apparently I need to point out that if you haven't read <a href="http://www.saiweb.co.uk/linux/linux-the-sysadmin-script-part-2">PART 2</a>! then the colored output will not work ... That's why this entry is titled part 3, it does assume a degree of competence on your part in realizing part's 1 and 2 may just be required reading ...
+UPDATE: Apparently I need to point out that if you haven't read <a href="https://www.saiweb.co.uk/linux/linux-the-sysadmin-script-part-2">PART 2</a>! then the colored output will not work ... That's why this entry is titled part 3, it does assume a degree of competence on your part in realizing part's 1 and 2 may just be required reading ...
 
 <strong>NOTE: The above provides a complete memory footprint of the indvidual PID, the same as VIRT in top.</strong>
 

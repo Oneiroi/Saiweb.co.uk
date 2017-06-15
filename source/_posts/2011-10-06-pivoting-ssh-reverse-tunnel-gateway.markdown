@@ -13,7 +13,7 @@ tags:
 - win
 categories: 
 - linux
-wordpress_url: http://saiweb.co.uk/linux/pivoting-ssh-reverse-tunnel-gateway
+wordpress_url: https://saiweb.co.uk/linux/pivoting-ssh-reverse-tunnel-gateway
 comments: true
 ---
 They say necessity is the mother of invention, if this is true then surely the mother of all fuck ups is shoddy customer service, say an isp that will randomly shut down a port because it has high bandwidth usage without asking the customer about it first, and flat out refusing to do anything for 24hrs ...

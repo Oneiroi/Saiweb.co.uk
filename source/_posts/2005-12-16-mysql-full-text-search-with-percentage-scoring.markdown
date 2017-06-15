@@ -11,7 +11,7 @@ tags:
 categories: 
 - mysql
 - php
-wordpress_url: http://saiweb.co.uk/mysql/mysql-full-text-search-with-percentage-scoring
+wordpress_url: https://saiweb.co.uk/mysql/mysql-full-text-search-with-percentage-scoring
 comments: true
 ---
 ** Note I am not the "Buzz" from 3dbuzz.com this is just a coincidence **
@@ -118,7 +118,7 @@ As you can see id 1 has the higher score this is because "sion" is found both in
 
 The "relevance score" is calculated by hard code formulae within mySQL.
 
-Full details on this formulae can be found here :<a href=" http://dev.mysql.com/doc/internals/en/full-text-search.html"> http://dev.mysql.com/doc/internals/en/full-text-search.html</a>
+Full details on this formulae can be found here :<a href=" https://dev.mysql.com/doc/internals/en/full-text-search.html"> https://dev.mysql.com/doc/internals/en/full-text-search.html</a>
 
 This covers the mySQL side of the system.
 

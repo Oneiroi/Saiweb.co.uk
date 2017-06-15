@@ -11,7 +11,7 @@ tags:
 - auth
 categories: 
 - python
-wordpress_url: http://saiweb.co.uk/python/python-urllib2-basic-http-authentication
+wordpress_url: https://saiweb.co.uk/python/python-urllib2-basic-http-authentication
 comments: true
 ---
 I meant to write this up over a week ago now, basically the need arose for one of my Python scripts to use HTTP Basic authentication when grabbing the output from a URL.
@@ -22,17 +22,17 @@ Quick description, the script will attempt to connect to a URL and read the data
 
 Printing out to the console at each point.
 
-Subversion:<a href="http://svn.saiweb.co.uk/branches/python/urllib2_httpbasic_auth.py"> http://svn.saiweb.co.uk/branches/python/urllib2_httpbasic_auth.py</a>
+Subversion:<a href="https://svn.saiweb.co.uk/branches/python/urllib2_httpbasic_auth.py"> https://svn.saiweb.co.uk/branches/python/urllib2_httpbasic_auth.py</a>
 
 Highlighted source (at the time of writing)
 
 {% highlight python %}
 #!/usr/bin/env python
 """
-    Author: David Busby (http://saiweb.co.uk)
+    Author: David Busby (https://saiweb.co.uk)
     Program: Python HTTP Basic Auth Exa
     Copyright: David Busby 2009. All rights reserved.
-    License: http://creativecommons.org/licenses/by-sa/2.0/uk/
+    License: https://creativecommons.org/licenses/by-sa/2.0/uk/
 """
 
 import urllib2, base64
@@ -45,7 +45,7 @@ urls = {
 def main():
    ulen = len(urls)
    for i in range(0,ulen):
-       url = "http://%s" % (urls[i]["url"])
+       url = "https://%s" % (urls[i]["url"])
        req = urllib2.Request(url)
        try:
            res = urllib2.urlopen(req)

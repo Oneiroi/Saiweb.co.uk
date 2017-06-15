@@ -8,7 +8,7 @@ categories:
 - openstack 
 ---
 
-{% img http://blog.oneiroi.co.uk/openstack-cloud-software-vertical-small.png %}
+{% img https://blog.oneiroi.co.uk/openstack-cloud-software-vertical-small.png %}
 In this post I will cover getting openstack nova and glance services installed from EPEL and configured to the point where an image can be started, this assumes
 
 1. You have a mysql instance installed and running
@@ -21,7 +21,7 @@ I will also be carrying out mySQL configuration of glance and nova, for 2011.3 (
 <strong>Install EPEL</strong>
 
 {% highlight bash %}
-rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-5.noarch.rpm
+rpm -Uvh https://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-5.noarch.rpm
 {% endhighlight %}
 
 <strong>Install Nova and Glance</strong>
@@ -37,7 +37,7 @@ yum should take care of all the dependencies here, and install both with a minim
 
 First thing's first KVM is going to install with it's own default bridged networking, this provides NAT.
 
-Which is also noted as being <a href="http://www.cyberciti.biz/faq/linux-kvm-disable-virbr0-nat-interface/">very slow</a> (There is/was an note on the wiki@ linux-kvm.org but I have been unable to locate it at the time of writing)
+Which is also noted as being <a href="https://www.cyberciti.biz/faq/linux-kvm-disable-virbr0-nat-interface/">very slow</a> (There is/was an note on the wiki@ linux-kvm.org but I have been unable to locate it at the time of writing)
 
 If you are only setting this up for experimentation you can run with the default networking, simply use vibr0 in your nova.conf instead of br0, and ensure you have ipv4 forwarding enabled.
 
@@ -213,7 +213,7 @@ Once you have made the change, unlike nova all you need do is start glance and i
 for i in api registry; do chkconfig openstack-glance-$i on; service openstack-glance-$i start; done
 {% endhighlight %}
 
-Now were going to need an image, I'm using the <a href="http://www.backtrack-linux.org/">BT5-R2</a> .iso as an example, you could use any of the pre-generated images out there, or even build them using <a href="http://fedoraproject.org/wiki/Getting_started_with_OpenStack_Nova#Building_an_Image_With_Oz">oz</a>
+Now were going to need an image, I'm using the <a href="https://www.backtrack-linux.org/">BT5-R2</a> .iso as an example, you could use any of the pre-generated images out there, or even build them using <a href="https://fedoraproject.org/wiki/Getting_started_with_OpenStack_Nova#Building_an_Image_With_Oz">oz</a>
 
 ```
 glance add name="BT5-R2-Gnome-x64" is_public=True container_format=ovf disk_format=raw < ./BT5R2-GNOME-64.iso

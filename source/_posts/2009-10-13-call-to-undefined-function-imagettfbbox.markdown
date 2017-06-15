@@ -7,7 +7,7 @@ tags: []
 
 categories: 
 - php
-wordpress_url: http://saiweb.co.uk/php/call-to-undefined-function-imagettfbbox
+wordpress_url: https://saiweb.co.uk/php/call-to-undefined-function-imagettfbbox
 comments: true
 ---
 <strong>Call to undefined function imagettfbbox()</strong>

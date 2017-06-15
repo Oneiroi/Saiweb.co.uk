@@ -14,7 +14,7 @@ categories:
 - linux
 - microsoft_office_2003
 - security
-wordpress_url: http://saiweb.co.uk/hacking/honeypotting-for-viruses-statement-of-fees-200809
+wordpress_url: https://saiweb.co.uk/hacking/honeypotting-for-viruses-statement-of-fees-200809
 comments: true
 ---
 Getting this email on a regular basis?
@@ -33,9 +33,9 @@ Yes it is a virus the attached .doc.exe file seems to vary daily in it's choice 
 
 So far it has been:
 
-<a href="http://www.trendmicro.com/vinfo/virusencyclo/default5.asp?VName=TROJ_AGENT.ANID">TROJ_AGENT.ANID</a>
+<a href="https://www.trendmicro.com/vinfo/virusencyclo/default5.asp?VName=TROJ_AGENT.ANID">TROJ_AGENT.ANID</a>
 TROJ_ZBOT.WB (No page exists for this variant at the moment)
-<a href="http://www.trendmicro.com/vinfo/virusencyclo/default5.asp?VName=WORM_SYSTEM.AA">WORM_SYSTEM.AA</a>
+<a href="https://www.trendmicro.com/vinfo/virusencyclo/default5.asp?VName=WORM_SYSTEM.AA">WORM_SYSTEM.AA</a>
 
 All 3 of which were not detected in the most uptodate pattern from trend, having to instead resort to their CPR release (Controlled Pattern), after emailing these samples to their labs (Another unknown variant was received today, and sent to Trend labs).
 

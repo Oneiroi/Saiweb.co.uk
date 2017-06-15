@@ -8,16 +8,16 @@ tags:
 - saiweb
 categories: 
 - general
-wordpress_url: http://saiweb.co.uk/general/saiweb-update-what-do-you-want-to-see
+wordpress_url: https://saiweb.co.uk/general/saiweb-update-what-do-you-want-to-see
 comments: true
 ---
-Well the giant banner at the top of the blog can't of escaped your attention, and I still need your votes! so please check out the blog entry for <a href="http://www.saiweb.co.uk/general/vote-buzz-for-it-superhero-2008">IT Super Hero 2008</a>
+Well the giant banner at the top of the blog can't of escaped your attention, and I still need your votes! so please check out the blog entry for <a href="https://www.saiweb.co.uk/general/vote-buzz-for-it-superhero-2008">IT Super Hero 2008</a>
 
 For those awaiting the 'Build your own HD youtube' series completion, I have a dedi server en route, to allow completion of this series.
 
 "Dell Core 330 v2 - Core2Duo E4600 (2x2.4GHz) 1GB RAM 160GB HDD"
 
-CentOS 64bit, from what I have read the cpu uses Intels EMT, which is realy only about 48bits ... but neither here or there at the moment, this is coming from the guy's at <a href="http://www.ukfast.co.uk/">UkFast</a>.
+CentOS 64bit, from what I have read the cpu uses Intels EMT, which is realy only about 48bits ... but neither here or there at the moment, this is coming from the guy's at <a href="https://www.ukfast.co.uk/">UkFast</a>.
 
 So with the new dev server on the way the question is ... what do you want to see?
 

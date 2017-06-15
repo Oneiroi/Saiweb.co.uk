@@ -10,7 +10,7 @@ tags:
 - liners
 categories: 
 - linux
-wordpress_url: http://saiweb.co.uk/linux/linux-collection-of-handy-scripts-and-one-liners-volume-2-warning-contains-shortcuts
+wordpress_url: https://saiweb.co.uk/linux/linux-collection-of-handy-scripts-and-one-liners-volume-2-warning-contains-shortcuts
 comments: true
 ---
 <strong>See if hosts are up using ping in range 60 -> 200</strong>
@@ -81,7 +81,7 @@ Wikipedia over DNS:
 
 host -t txt fu.wp.dg.cx
 
-fu.wp.dg.cx descriptive text "Fu may refer to: Fu (Technology, especially computer related) (used as a suffix) - relating to a person - Possessing superior skills in an art\; relating to an artifact - representing an expression of high art. code-fu, Perl-fu, C-fu, etc, Fu (literature)," " a Chinese genre of rhymed prose, Fu (kana), a symbol in Japanese syllabaries, Fu County, in Shaanxi, China, Fu Foundation... http://a.vu/w:Fu"
+fu.wp.dg.cx descriptive text "Fu may refer to: Fu (Technology, especially computer related) (used as a suffix) - relating to a person - Possessing superior skills in an art\; relating to an artifact - representing an expression of high art. code-fu, Perl-fu, C-fu, etc, Fu (literature)," " a Chinese genre of rhymed prose, Fu (kana), a symbol in Japanese syllabaries, Fu County, in Shaanxi, China, Fu Foundation... https://a.vu/w:Fu"
 
 Useful on _some_ public wifi connections if you just want to look something up quick (dns is not always re-written).
 

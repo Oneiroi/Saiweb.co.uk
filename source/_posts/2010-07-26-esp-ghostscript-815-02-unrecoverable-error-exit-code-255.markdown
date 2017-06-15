@@ -13,7 +13,7 @@ tags:
 - ghostscript
 categories: 
 - linux
-wordpress_url: http://saiweb.co.uk/linux/esp-ghostscript-815-02-unrecoverable-error-exit-code-255
+wordpress_url: https://saiweb.co.uk/linux/esp-ghostscript-815-02-unrecoverable-error-exit-code-255
 comments: true
 ---
 <strong>ESP Ghostscript 815.02: Unrecoverable error, exit code 255</strong>
@@ -21,8 +21,8 @@ comments: true
 I got this issue today whilst running CentOS 5.4 x64 post investigation of images not being scaled when processing a specific PDF, the solution unfortunately is to build ghostscript and imagemagick from the latest sources.
 
 {% highlight bash %}
-wget http://ghostscript.com/releases/ghostscript-8.71.tar.gz
-wget http://image_magick.veidrodis.com/image_magick/ImageMagick-6.6.3-0.tar.gz
+wget https://ghostscript.com/releases/ghostscript-8.71.tar.gz
+wget https://image_magick.veidrodis.com/image_magick/ImageMagick-6.6.3-0.tar.gz
 {% endhighlight %}
 
 Unpack, configure, make && make install

@@ -11,7 +11,7 @@ tags:
 categories: 
 - linux
 - mac
-wordpress_url: http://saiweb.co.uk/linux/ssh-keys
+wordpress_url: https://saiweb.co.uk/linux/ssh-keys
 comments: true
 ---
 I should of really written about this ages ago.

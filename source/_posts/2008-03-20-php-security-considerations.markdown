@@ -12,7 +12,7 @@ categories:
 - mysql
 - php
 - security
-wordpress_url: http://saiweb.co.uk/mysql/php-security-considerations
+wordpress_url: https://saiweb.co.uk/mysql/php-security-considerations
 comments: true
 ---
 To often I get passed code to review that quite frankly is so full of holes it wouldn't make an adequate sieve...
@@ -28,13 +28,13 @@ i.e.
 {% highlight bash %}$sql = "SELECT * FROM users WHERE email='.$_GET['email']."' and password='".$_GET['password']"';";
 $result = mysql_query($sql);{% endhighlight %}
 
-So what is wrong with the above? <strong><a title="SQL INject Wikipedia Entry" href="http://en.wikipedia.org/wiki/SQL_injection" target="_blank">SQL INJECTION</a> </strong>welcome to a world where people want to break your website, simply because they can ...
+So what is wrong with the above? <strong><a title="SQL INject Wikipedia Entry" href="https://en.wikipedia.org/wiki/SQL_injection" target="_blank">SQL INJECTION</a> </strong>welcome to a world where people want to break your website, simply because they can ...
 
 I am not going to add more description, just click through to the wiki pedia entry linked above ...
 
-To avoid this PHP comes with two functions <a title="PHP mysql_escape_string()" href="http://www.php.net/mysql_escape_string" target="_blank">mysql_escape_string()</a> and <a title="PHP mysql_real_escape_string()" href="http://www.php.net/mysql_real_escape_string" target="_blank">mysql_real_escape_string()</a>
+To avoid this PHP comes with two functions <a title="PHP mysql_escape_string()" href="https://www.php.net/mysql_escape_string" target="_blank">mysql_escape_string()</a> and <a title="PHP mysql_real_escape_string()" href="https://www.php.net/mysql_real_escape_string" target="_blank">mysql_real_escape_string()</a>
 
-An example taken from the <a title="PHP mysql_real_escape_string()" href="http://www.php.net/mysql_real_escape_string" target="_blank">mysql_real_escape_string()</a> page:
+An example taken from the <a title="PHP mysql_real_escape_string()" href="https://www.php.net/mysql_real_escape_string" target="_blank">mysql_real_escape_string()</a> page:
 <p class="example"><strong>Example#2 An example SQL Injection Attack</strong></p>
 
 {% highlight bash %}<span style="color: #000000;"><span style="color: #0000bb;">&lt;?php
@@ -51,6 +51,6 @@ An example taken from the <a title="PHP mysql_real_escape_string()" href="http:/
 {% highlight bash %}SELECT * FROM users WHERE user='aidan' AND password='' OR ''=''{% endhighlight %}
 {% endhighlight %}
 <p class="example-contents">This would allow anyone to log in without a valid password.</p>
-<p class="example-contents">So in summary READ the <a title="PHP mysql_real_escape_string()" href="http://www.php.net/mysql_real_escape_string" target="_blank">mysql_real_escape_string()</a> page, and even if you don't implement the "best practice" example on that page PLEASE make sure you at least escape $_SESSION $_GET $_POST inputs with a mysql escape function!</p>
+<p class="example-contents">So in summary READ the <a title="PHP mysql_real_escape_string()" href="https://www.php.net/mysql_real_escape_string" target="_blank">mysql_real_escape_string()</a> page, and even if you don't implement the "best practice" example on that page PLEASE make sure you at least escape $_SESSION $_GET $_POST inputs with a mysql escape function!</p>
 <p class="example-contents"></p>
 <p class="example-contents"></p>

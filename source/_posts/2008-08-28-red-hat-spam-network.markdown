@@ -7,7 +7,7 @@ tags:
 - red hat
 categories: 
 - linux
-wordpress_url: http://saiweb.co.uk/linux/red-hat-spam-network
+wordpress_url: https://saiweb.co.uk/linux/red-hat-spam-network
 comments: true
 ---
 In the last 24 hours I have received one email every 30-40 minutes from the red hat network alerting me to a "bug" fix ...
@@ -18,6 +18,6 @@ I'm hoping it's the later.
 
 UPDATE: Never good news is it? I was all for the developer hopped up on caffeine see this forum here:
 
-<a href="http://forums.remote-exploit.org/showthread.php?t=16564">http://forums.remote-exploit.org/showthread.php?t=16564</a>
+<a href="https://forums.remote-exploit.org/showthread.php?t=16564">https://forums.remote-exploit.org/showthread.php?t=16564</a>
 
 "They got hacked last Friday and had to cancel and reissue all their PGP keys."

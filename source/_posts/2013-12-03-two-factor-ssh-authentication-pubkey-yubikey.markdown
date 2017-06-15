@@ -15,7 +15,7 @@ A real world comparrison would be I suppose providing more than one form of iden
 
 OpenSSH 6.2 introduces the AuthenticationMethods setting; this combined with pam_yubico can be used to require that the connections provides both the SSH public key and the yubikey O.T.P (One time password).
 
-OpenSSH 6.2 is [included Fedora 19](http://danwalsh.livejournal.com/65054.html) and for a while now [OpenSSH has supported the Match Group]({{ root_url }}/linux/yummy-chroots-building-chroot-with-yum-fedora-16/) (I covered the use of such for chrooting users easily).
+OpenSSH 6.2 is [included Fedora 19](https://danwalsh.livejournal.com/65054.html) and for a while now [OpenSSH has supported the Match Group]({{ root_url }}/linux/yummy-chroots-building-chroot-with-yum-fedora-16/) (I covered the use of such for chrooting users easily).
 
 So we're going to combined this combination such that we attain the following:
 
@@ -53,7 +53,7 @@ Create the file: /etc/ssh/yubikey_mappings with the content:
 username:yubikey_identity
 ```
 
-You can get your yubikey identity from [demo.yubico.com](http://demo.yubico.com)
+You can get your yubikey identity from [demo.yubico.com](https://demo.yubico.com)
 
 Edit /etc/pam.d/sshd so that the first lines read:
 

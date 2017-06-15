@@ -11,10 +11,10 @@ tags:
 - legacy mailbox
 categories: 
 - windows
-wordpress_url: http://saiweb.co.uk/windows/exchange-2007-legacy-mailboxes
+wordpress_url: https://saiweb.co.uk/windows/exchange-2007-legacy-mailboxes
 comments: true
 ---
-This one comes via <a href="http://www.absolutech.co.uk/">Kerm</a>.
+This one comes via <a href="https://www.absolutech.co.uk/">Kerm</a>.
 
 We have an Exchange 2003 and Exchange 2007 server working side by side, with the 2003 server on the PDC (Primary Domain Controller).
 

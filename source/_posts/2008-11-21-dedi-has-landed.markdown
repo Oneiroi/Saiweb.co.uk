@@ -8,7 +8,7 @@ tags: []
 categories: 
 - general
 - linux
-wordpress_url: http://saiweb.co.uk/general/dedi-has-landed
+wordpress_url: https://saiweb.co.uk/general/dedi-has-landed
 comments: true
 ---
 The dedi server is online, as such saiweb.co.uk will be migrating over this weekend :)

@@ -10,7 +10,7 @@ tags:
 - build
 categories: 
 - freenas
-wordpress_url: http://saiweb.co.uk/freenas/using-freenas-for-disaster-recovery-part-2
+wordpress_url: https://saiweb.co.uk/freenas/using-freenas-for-disaster-recovery-part-2
 comments: true
 ---
 We are still unfortunately waiting for the memory to arrive from crucial, *sigh*, so in this part I will cover what the "extras" are and the installation of them.
@@ -25,7 +25,7 @@ Parts list:
 	<li>2GB Low profile Ram (When it arrives)</li>
 </ol>
 <span style="text-decoration: underline;"><strong>The Case</strong></span>
-<p style="text-align: center;"><img class="size-medium wp-image-717 aligncenter" title="Chenbro ES34069" src="http://blog.oneiroi.co.uk/uploads/2009/07/IMG_0216-300x225.jpg" alt="Chenbro ES34069" width="300" height="225" /><img class="size-medium wp-image-718 aligncenter" title="Chenbro ES34069 &quot;guts&quot;" src="http://blog.oneiroi.co.uk/uploads/2009/07/IMG_0217-225x300.jpg" alt="Chenbro ES34069 &quot;guts&quot;" width="225" height="300" /></p>
+<p style="text-align: center;"><img class="size-medium wp-image-717 aligncenter" title="Chenbro ES34069" src="https://blog.oneiroi.co.uk/uploads/2009/07/IMG_0216-300x225.jpg" alt="Chenbro ES34069" width="300" height="225" /><img class="size-medium wp-image-718 aligncenter" title="Chenbro ES34069 &quot;guts&quot;" src="https://blog.oneiroi.co.uk/uploads/2009/07/IMG_0217-225x300.jpg" alt="Chenbro ES34069 &quot;guts&quot;" width="225" height="300" /></p>
 
 The Chenbro ES34069 case has 4 'hot swappable' SATA 2 HD caddies, optional card reader, internal PSU.
 
@@ -46,7 +46,7 @@ Inaccessible backplane, now this for me was the kicker, the Daughterboard comes 
 <span style="text-decoration: underline;"><strong>The Motherboard</strong></span>
 
 The Jetway JNC92 Motherboard comes with an Intel Atom Dual core 330 processor, the reasoning behind this will become clear later on, however you can opt for the cheaper single core processors if you wish.
-<p style="text-align: center;"><img class="size-medium wp-image-716 aligncenter" title="Jetway JNC92 Motherboard, CN1 Sata Daughtboard, Transcend 2GB &quot;SSD&quot;" src="http://blog.oneiroi.co.uk/uploads/2009/07/IMG_0214-300x188.jpg" alt="Jetway JNC92 Motherboard, CN1 Sata Daughtboard, Transcend 2GB &quot;SSD&quot;" width="300" height="188" /></p>
+<p style="text-align: center;"><img class="size-medium wp-image-716 aligncenter" title="Jetway JNC92 Motherboard, CN1 Sata Daughtboard, Transcend 2GB &quot;SSD&quot;" src="https://blog.oneiroi.co.uk/uploads/2009/07/IMG_0214-300x188.jpg" alt="Jetway JNC92 Motherboard, CN1 Sata Daughtboard, Transcend 2GB &quot;SSD&quot;" width="300" height="188" /></p>
 
 As the picture shows I have opted to use a Transcend 2GB USB module which attaches directly onto the motherboard, this will be used to store the freeNAS operating system
 

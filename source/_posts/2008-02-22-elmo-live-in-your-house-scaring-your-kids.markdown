@@ -13,7 +13,7 @@ tags:
 - video
 categories: 
 - technology
-wordpress_url: http://saiweb.co.uk/technology/elmo-live-in-your-house-scaring-your-kids
+wordpress_url: https://saiweb.co.uk/technology/elmo-live-in-your-house-scaring-your-kids
 comments: true
 ---
 At what point is a toy, no longer a toy ...
@@ -21,8 +21,8 @@ At what point is a toy, no longer a toy ...
 When you can hold a conversation with it, is my opinion. Check the video out, Elmo dances, sings, reacts to what the tech says and does to Elmo ...
 
 The intelligence of this thing is a little ... well creepy.
-[via: <a href="http://www.engadget.com/2008/02/19/elmo-live-breaks-it-down-on-video-seems-too-smart-for-his-own-g/" title="Elmo Live, in your house scaring your kids" target="_blank">Engadget</a> ]
+[via: <a href="https://www.engadget.com/2008/02/19/elmo-live-breaks-it-down-on-video-seems-too-smart-for-his-own-g/" title="Elmo Live, in your house scaring your kids" target="_blank">Engadget</a> ]
 
-UPDATE video can be found <a href="http://youtube.com/watch?v=e5Dvw51Rufk" title="Elmo Live, in your house scaring your kids" target="_blank">here</a>
+UPDATE video can be found <a href="https://youtube.com/watch?v=e5Dvw51Rufk" title="Elmo Live, in your house scaring your kids" target="_blank">here</a>
 
 Removed embedded video as was causing site template problems.

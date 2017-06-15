@@ -12,12 +12,12 @@ tags:
 categories: 
 - dbstat
 - adimpleo
-wordpress_url: http://saiweb.co.uk/dbstat/dbstat-changes-name-to-adimpleo
+wordpress_url: https://saiweb.co.uk/dbstat/dbstat-changes-name-to-adimpleo
 comments: true
 ---
 <div style=''>"adimpleo" Latin for "to perform", seemed a fitting name for dbStat.
 
-dbStat is currently being re-worked to include the use of <a href="http://oss.oetiker.ch/rrdtool/">rrdtool </a> among other features, "adimpleo" is to be geared towards providing an "under the hood" view of LAMP based web applications.
+dbStat is currently being re-worked to include the use of <a href="https://oss.oetiker.ch/rrdtool/">rrdtool </a> among other features, "adimpleo" is to be geared towards providing an "under the hood" view of LAMP based web applications.
 
 Expect screenshots soon.
 

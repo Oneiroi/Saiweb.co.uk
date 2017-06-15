@@ -230,6 +230,6 @@ I am frankly stumped on this one ... I've posted it anyway as some of the inform
 
 <u>Sources</u>
 
-1. http://rackerhacker.com/2011/02/13/dual-primary-drbd-with-ocfs2/
-2. http://www.howtoforge.com/linux_resizing_ext3_partitions i
-3. http://www.cyberciti.biz/faq/recover-bad-superblock-from-corrupted-partition/
+1. https://rackerhacker.com/2011/02/13/dual-primary-drbd-with-ocfs2/
+2. https://www.howtoforge.com/linux_resizing_ext3_partitions i
+3. https://www.cyberciti.biz/faq/recover-bad-superblock-from-corrupted-partition/

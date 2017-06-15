@@ -31,7 +31,7 @@ So in short you can have your own private network within the cloud environment w
 
 <strong> Installation </strong>
 
-We are going to use <a href="http://fedoraproject.org/wiki/EPEL">EPEL</a>, why? because I'm a packager and I will be using redhat for this setup, so admitedly I am a little biased toward RedHat, that said the majority of the following configurations should be portable to other distros, leave a commment if you get stuck I will try to help!
+We are going to use <a href="https://fedoraproject.org/wiki/EPEL">EPEL</a>, why? because I'm a packager and I will be using redhat for this setup, so admitedly I am a little biased toward RedHat, that said the majority of the following configurations should be portable to other distros, leave a commment if you get stuck I will try to help!
 
 {% highlight bash %}
 yum -y install n2n

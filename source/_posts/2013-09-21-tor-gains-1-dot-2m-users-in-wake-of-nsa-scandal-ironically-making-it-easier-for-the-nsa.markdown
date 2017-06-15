@@ -11,7 +11,7 @@ So ... [TOR](https://www.torproject.org/) is supposed to have gains 1.2 Million 
 
 If I were to facepalm at this point I fear my face would pushed out the back of my skull, so let me relay a small bit of insight.
 
-TOR is an anonymizing proxy so long as every node along the chain is "behaving", let's say fo sake for argument somene sets up a malicious exit node, [Jackin' TOR](http://packetstorm.foofus.com/papers/attack/jackin-tor.txt) shows just such a setup used to inject content into http requests.
+TOR is an anonymizing proxy so long as every node along the chain is "behaving", let's say fo sake for argument somene sets up a malicious exit node, [Jackin' TOR](https://packetstorm.foofus.com/papers/attack/jackin-tor.txt) shows just such a setup used to inject content into http requests.
 
 * inject javascript
 * javascript executed by browser, makes request to malicious host

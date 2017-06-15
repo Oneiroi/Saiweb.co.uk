@@ -16,7 +16,7 @@ So I have as some know been wrestling with <a href="https://github.com/mojombo/j
 
 Why you may ask? Performance!
 
-To facilitate running wordpress on the smalest possible CloudServer I am using <a href="http://varnish-cache.org">Varnish</a> which using Apache as the backend, now with static files I can get all the blogging functionality without the need for Wordpress nor varnish, yet still uncached content can lead to increased load on the server.
+To facilitate running wordpress on the smalest possible CloudServer I am using <a href="https://varnish-cache.org">Varnish</a> which using Apache as the backend, now with static files I can get all the blogging functionality without the need for Wordpress nor varnish, yet still uncached content can lead to increased load on the server.
 
 Also wordpress does not lend itself to scalability especially with the at the time of writing schema and sql queries (percona-query-advisor flags up a few wordpress core sql queries as non scalable).
 
@@ -35,7 +35,7 @@ Now this does have caveats:
 
 But it essentially replaces the whole caching layer with static content which then can be pushed to CDN.
 
-And with CDN's now supporting index files (<a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/IndexDocumentSupport.html">S3</a>, and Coming Soon @ <a href="http://feedback.rackspacecloud.com/forums/71021-product-feedback/suggestions/1511991-index-and-404-page-support">CloudFiles</a>) in essence entire sites can be placed on CDN whilst maintaining ease of content generation.
+And with CDN's now supporting index files (<a href="https://docs.amazonwebservices.com/AmazonS3/latest/dev/IndexDocumentSupport.html">S3</a>, and Coming Soon @ <a href="https://feedback.rackspacecloud.com/forums/71021-product-feedback/suggestions/1511991-index-and-404-page-support">CloudFiles</a>) in essence entire sites can be placed on CDN whilst maintaining ease of content generation.
 
 Now don't get me wrong, this requires a whole lot of "glue" to get working, but the potential for serving an entire web app from CDN without Origin pull / cache headers etc, saves a lot of systems time in scaling and adressing performance issues, or rather makes them "less critical" as the "business" part of the webapp is all on CDN.
 

@@ -9,13 +9,13 @@ categories:
 - cloudfiles
 ---
 
-Yeh yeh ... so it is true I have some quite [vocal opinions](http://saiweb.co.uk/hosting/cloud-hosting-my-views/), on all this cloud marketing fluff.
+Yeh yeh ... so it is true I have some quite [vocal opinions](https://saiweb.co.uk/hosting/cloud-hosting-my-views/), on all this cloud marketing fluff.
 
-That said it has some great potential, if you've been following my open source contributions and posts you'll known I have an special affinity for [Openstack](http://openstack.org), [Aeolus](http://aeolusproject.org/), and of course [Opennebula](http://opennebula.org/).
+That said it has some great potential, if you've been following my open source contributions and posts you'll known I have an special affinity for [Openstack](https://openstack.org), [Aeolus](https://aeolusproject.org/), and of course [Opennebula](https://opennebula.org/).
 
 As such I've taken to jumping in "feet first", what better way eh?
 
-Last October I was fortunate enough to attend the Openstack training in London, hosted by [Rackspace](http://rackspace.com), recently I now have a full openstack deployment running on fedora 17 on my laptop for prototyping, and testing (I have of course been bugreporting to redhat bugzilla! and I encourage you to do the same!).
+Last October I was fortunate enough to attend the Openstack training in London, hosted by [Rackspace](https://rackspace.com), recently I now have a full openstack deployment running on fedora 17 on my laptop for prototyping, and testing (I have of course been bugreporting to redhat bugzilla! and I encourage you to do the same!).
 
 I met some great people on the course last October, which unfortunatly I've only managed to keep in contact with a few of (if you're reading this and were there get in contact!).
 

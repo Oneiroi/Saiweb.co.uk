@@ -9,7 +9,7 @@ tags:
 - log rotation
 categories: 
 - mysql
-wordpress_url: http://saiweb.co.uk/mysql/mysql-slow-query-log-rotation
+wordpress_url: https://saiweb.co.uk/mysql/mysql-slow-query-log-rotation
 comments: true
 ---
 One of the issues facing log rotation in mySQL is that mySQL doesn't seem to have the ability to perform a "reload".
@@ -37,13 +37,13 @@ The script is written to perform the following actions:
 
 <strong>Please ensure you carry out your own testing prior to deploying this script into a live environment.</strong>
 
-<a href="http://svn.saiweb.co.uk/branches/linux-the-sysadmin-script/branches/logrotate.d/mysql">http://svn.saiweb.co.uk/branches/linux-the-sysadmin-script/branches/logrotate.d/mysql</a>
+<a href="https://svn.saiweb.co.uk/branches/linux-the-sysadmin-script/branches/logrotate.d/mysql">https://svn.saiweb.co.uk/branches/linux-the-sysadmin-script/branches/logrotate.d/mysql</a>
 
 {% highlight bash %}
 #
 # mySQL slow log rotation script by D.Busby
 # place this script in /etc/logrotate.d/ or your appropriate logrotate dir.
-# http://creativecommons.org/licenses/by-sa/2.0/uk/ CC BY-SA
+# https://creativecommons.org/licenses/by-sa/2.0/uk/ CC BY-SA
 #
 # NOTE: if you are reliant on binlogs i.e. for replication, 'flush logs' closes the current binlog and moves to the next itteration of log files
 # You should test this does not cause an issue with your deployment before using this script

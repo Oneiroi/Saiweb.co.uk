@@ -7,7 +7,7 @@ tags:
 - ffmpeg
 categories: 
 - linux
-wordpress_url: http://saiweb.co.uk/linux/ffmpeg-build-your-own-hd-youtube-introduction
+wordpress_url: https://saiweb.co.uk/linux/ffmpeg-build-your-own-hd-youtube-introduction
 comments: true
 ---
 The thing that has realy annoyed me lately is the lack of documentation to be found for FFMPEG, the documentation you can find is by way of MAN pages, and makes the assumption you allready know all the terms that go with video encoding.

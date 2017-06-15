@@ -14,7 +14,7 @@ categories:
 - mysql
 - php
 - dbstat
-wordpress_url: http://saiweb.co.uk/general/dbstat-update
+wordpress_url: https://saiweb.co.uk/general/dbstat-update
 comments: true
 ---
 <p>So I thought maybe it's time for an update.</p>

@@ -9,10 +9,10 @@ tags:
 - fuse
 categories: 
 - mac
-wordpress_url: http://saiweb.co.uk/mac/macfuse
+wordpress_url: https://saiweb.co.uk/mac/macfuse
 comments: true
 ---
-<img class="aligncenter" title="macFUSE" src="http://macfuse.googlecode.com/svn/trunk/meta/images/MacFUSE_Banner.jpg" alt="" width="474" height="128" />
+<img class="aligncenter" title="macFUSE" src="https://macfuse.googlecode.com/svn/trunk/meta/images/MacFUSE_Banner.jpg" alt="" width="474" height="128" />
 
 As I sit here tapping away on the iMAC currently in use whilst I wait on my Mac Book Pro, I am looking at various projects around the Google APS API ... One notably of which is the Google Docs, file sharing and collab system.
 

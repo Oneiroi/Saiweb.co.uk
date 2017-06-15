@@ -10,7 +10,7 @@ tags:
 categories: 
 - windows
 - networking
-wordpress_url: http://saiweb.co.uk/windows/quickly-get-mac-addresses-in-windows-xp-using-arp
+wordpress_url: https://saiweb.co.uk/windows/quickly-get-mac-addresses-in-windows-xp-using-arp
 comments: true
 ---
 <p>Just a quick blog about this ...</p>

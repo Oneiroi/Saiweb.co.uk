@@ -10,7 +10,7 @@ tags:
 - double quotes
 categories: 
 - php
-wordpress_url: http://saiweb.co.uk/php/simple-measures-to-a-faster-php-app-part-1-double-quotes
+wordpress_url: https://saiweb.co.uk/php/simple-measures-to-a-faster-php-app-part-1-double-quotes
 comments: true
 ---
 In some situations using a double quotes string is required i.e. "this\nstring\nappears\over\nmany\nlines" ...

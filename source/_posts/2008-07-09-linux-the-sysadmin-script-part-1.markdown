@@ -10,14 +10,14 @@ tags:
 categories: 
 - linux
 - bash-script
-wordpress_url: http://saiweb.co.uk/linux/linux-the-sysadmin-script-part-1
+wordpress_url: https://saiweb.co.uk/linux/linux-the-sysadmin-script-part-1
 comments: true
 ---
 Prompted by the following remarks today ...
 
-<a href="http://www.absolutech.co.uk">Kerm</a>: <em>";) there is always an abbreviation in the CLI as all sysadmins are lazy feckers"</em>
+<a href="https://www.absolutech.co.uk">Kerm</a>: <em>";) there is always an abbreviation in the CLI as all sysadmins are lazy feckers"</em>
 
-<em><a href="http://www.absolutech.co.uk">Kerm</a>: "Someone might think you actually do work occasionally, god forbid!"</em>
+<em><a href="https://www.absolutech.co.uk">Kerm</a>: "Someone might think you actually do work occasionally, god forbid!"</em>
 
 Sysadmins are <strong><span style="text-decoration: underline;">NOT</span></strong> inherently lazy, we just know how to save time, and are quite adept at doing so ...ok?
 
@@ -47,7 +47,7 @@ Key:
 
 From this information it's pretty easy to spot this is an inbound SMTP connection.
 
-(If you can't see why, don't worry it's ok maybe it's <a href="http://www.theregister.co.uk/2008/07/04/bofh_2008_episode_24/">genetic</a>)
+(If you can't see why, don't worry it's ok maybe it's <a href="https://www.theregister.co.uk/2008/07/04/bofh_2008_episode_24/">genetic</a>)
 
 Now this may be handy, but other than taking all this information and dumping it into a spreadsheet (god knows you love those spreadsheets !!! ), how are you going to figure out how many connections are occurring from that external host?
 
@@ -76,8 +76,8 @@ You can of course call your script whatever you want, and use any text editor yo
 
 {% highlight bash %}
 #!/bin/bash
-# Sysadmin script PART 1 http://www.saiweb.co.uk
-# Provided under the MIT license (http://www.opensource.org/licenses/mit-license.php)
+# Sysadmin script PART 1 https://www.saiweb.co.uk
+# Provided under the MIT license (https://www.opensource.org/licenses/mit-license.php)
 # © D.Busby
 function usage {
 echo "Usage: portcon port";

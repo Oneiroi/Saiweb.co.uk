@@ -11,7 +11,7 @@ tags:
 - mining.
 categories: 
 - hacking
-wordpress_url: http://saiweb.co.uk/hacking/data-mining-what-hidden-information-do-your-photos-contain
+wordpress_url: https://saiweb.co.uk/hacking/data-mining-what-hidden-information-do-your-photos-contain
 comments: true
 ---
 Time was when a photo was just a captured moment in time, /end nostalgia
@@ -50,6 +50,6 @@ For example:
 	<li>malicious user, saves image from site (or just uses the copy from thier browser cache), gets gps data from photo</li>
 	<li>malicious user now knows exact whereabouts photo was taken aswell as the time.</li>
 </ol>
-And it doesn't have to be a malicious user, it could be anyone/anything, if you want to check your images for EXIF data you can use my tool here: <a href="http://www.saiweb.co.uk/tools/exif_data.php">http://www.saiweb.co.uk/tools/exif_data.php</a>
+And it doesn't have to be a malicious user, it could be anyone/anything, if you want to check your images for EXIF data you can use my tool here: <a href="https://www.saiweb.co.uk/tools/exif_data.php">https://www.saiweb.co.uk/tools/exif_data.php</a>
 
 No data is stored, and images are deleted immediately after processing, you use this at your own risk however, if you misuse the tool you accept all liability for the legal action to follow, you have been warned.

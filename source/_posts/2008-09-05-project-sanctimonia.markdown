@@ -10,7 +10,7 @@ tags:
 categories: 
 - php
 - sanctimonia
-wordpress_url: http://saiweb.co.uk/php/project-sanctimonia
+wordpress_url: https://saiweb.co.uk/php/project-sanctimonia
 comments: true
 ---
 I am in the process of contacting charitable organisations for project "sanctimonia".
@@ -21,7 +21,7 @@ I had a paypal link saying donate to me on the right of this site at one point .
 
 Currently I have contacted:
 
-<a href="http://www.globalangels.org/">globalangels</a> <a href="http://www.nspcc.org.uk/">NSPCC</a> <a href="http://www.hopehouse.org.uk/">Hope House</a>
+<a href="https://www.globalangels.org/">globalangels</a> <a href="https://www.nspcc.org.uk/">NSPCC</a> <a href="https://www.hopehouse.org.uk/">Hope House</a>
 
 And am currently awaiting their reply.
 

@@ -7,13 +7,13 @@ tags: []
 
 categories: 
 - general
-wordpress_url: http://saiweb.co.uk/general/a-big-thanks-to-pledgie-users
+wordpress_url: https://saiweb.co.uk/general/a-big-thanks-to-pledgie-users
 comments: true
 ---
 Or rather a lack of thanks,
 
 Pledgie as most of you know is a donation system for tracking set campaigns, you will of seen in the sidebar a link to 
-<a href="http://pledgie.com/campaigns/2090">http://pledgie.com/campaigns/2090</a> I have since sent in a deletion request for the campaign due to idiotic users spamming the 'report spam' function of Pledgie and marking the campaign down under their own.
+<a href="https://pledgie.com/campaigns/2090">https://pledgie.com/campaigns/2090</a> I have since sent in a deletion request for the campaign due to idiotic users spamming the 'report spam' function of Pledgie and marking the campaign down under their own.
 
 Well that's nice of you, the campaign was to offset the near £1400 server rental cost for Saiweb, this was to provide open source software to the some 5000 unique visitors a month finding the answers to their technical issues on this blog and downloading the tools available from subversion.
 

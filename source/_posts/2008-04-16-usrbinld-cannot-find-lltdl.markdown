@@ -10,7 +10,7 @@ categories:
 - hacking
 - linux
 - php
-wordpress_url: http://saiweb.co.uk/hacking/usrbinld-cannot-find-lltdl
+wordpress_url: https://saiweb.co.uk/hacking/usrbinld-cannot-find-lltdl
 comments: true
 ---
 <p>Now this one was annoying!</p>

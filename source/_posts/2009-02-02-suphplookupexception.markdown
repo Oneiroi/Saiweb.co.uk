@@ -9,7 +9,7 @@ tags:
 - suphp::lookupexception
 categories: 
 - security
-wordpress_url: http://saiweb.co.uk/security/suphplookupexception
+wordpress_url: https://saiweb.co.uk/security/suphplookupexception
 comments: true
 ---
 If you are seeing '<b>suPHP::LookupException</b>' in your apache error logs, this is due to the <b>suPHP_UserGroup</b> line in your virtualhost config.

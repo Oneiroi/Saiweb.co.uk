@@ -9,7 +9,7 @@ tags:
 categories: 
 - php
 - flowplayer
-wordpress_url: http://saiweb.co.uk/php/wordpress-flowplayer-2-0-9-9
+wordpress_url: https://saiweb.co.uk/php/wordpress-flowplayer-2-0-9-9
 comments: true
 ---
 Finaly it is ready and in a state I am happy to release it.
@@ -27,4 +27,4 @@ Finaly it is ready and in a state I am happy to release it.
 (Videos from Apple.com)
 
 
-[FLOWPLAYER=http://movies.apple.com/movies/fox/avatar/avatar2009aug0820a-tsr_h.480.mov|http://movies.apple.com/movies/independent/thehorseboy/thehorseboy_h.480.mov,480,205]
+[FLOWPLAYER=https://movies.apple.com/movies/fox/avatar/avatar2009aug0820a-tsr_h.480.mov|https://movies.apple.com/movies/independent/thehorseboy/thehorseboy_h.480.mov,480,205]

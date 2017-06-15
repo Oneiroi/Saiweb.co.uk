@@ -10,7 +10,7 @@ tags:
 categories: 
 - hacking
 - mysql
-wordpress_url: http://saiweb.co.uk/hacking/mysql-moving-varlibmysql-and-error-121
+wordpress_url: https://saiweb.co.uk/hacking/mysql-moving-varlibmysql-and-error-121
 comments: true
 ---
 The downside of a development server is ... it's for development.

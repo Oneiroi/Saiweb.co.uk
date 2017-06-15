@@ -11,14 +11,14 @@ tags:
 categories: 
 - linux
 - mysql
-wordpress_url: http://saiweb.co.uk/linux/mysql-csv-export-scripting-using-tcl-and-expect
+wordpress_url: https://saiweb.co.uk/linux/mysql-csv-export-scripting-using-tcl-and-expect
 comments: true
 ---
 I've no idea to this day why my bash script would not work with a CSV export from mysql by simply using mysql -e "SQL COMMAND HERE".
 
 So I had to come up with a workaround quickly.
 
-This lead to using <a href="http://linux.die.net/man/1/expect">expect</a>, scripting in this method can be used for numerous purposes, I am currently in the process of writing a few test scripts using tcl and this package for pop,imap,smtp testing.
+This lead to using <a href="https://linux.die.net/man/1/expect">expect</a>, scripting in this method can be used for numerous purposes, I am currently in the process of writing a few test scripts using tcl and this package for pop,imap,smtp testing.
 
 {% highlight tcl %}
 #!/usr/bin/expect -f

@@ -13,12 +13,12 @@ tags:
 - scripts
 categories: 
 - linux
-wordpress_url: http://saiweb.co.uk/linux/linux-collection-of-handy-scripts-and-one-liners-volume-1
+wordpress_url: https://saiweb.co.uk/linux/linux-collection-of-handy-scripts-and-one-liners-volume-1
 comments: true
 ---
 <strong>Ever wanted / needed HTTPD or another service to run with a raised thread priority?</strong>
 
-Well you have a couple of options, add additional lines to the /etc/init.d script to change the <a href="http://linux.about.com/library/cmd/blcmdl1_nice.htm">nice</a> level by adding additional lines on startup, or if you only need to do this on a temporary basis without restarting the service but need every thread to have a raised priority you can use a bash script 
+Well you have a couple of options, add additional lines to the /etc/init.d script to change the <a href="https://linux.about.com/library/cmd/blcmdl1_nice.htm">nice</a> level by adding additional lines on startup, or if you only need to do this on a temporary basis without restarting the service but need every thread to have a raised priority you can use a bash script 
 
 {% highlight bash %}
 #!/bin/bash
@@ -33,7 +33,7 @@ You can renice between -20 and +20, depending on your requirements you can use t
 
 <strong>Ever needed to check files were being accessed / written to?</strong>
 
-For this one you're going to need the <a href="http://wiki.github.com/rvoicilas/inotify-tools">inotify-tools</a> package, specifically the inotifywait binary.
+For this one you're going to need the <a href="https://wiki.github.com/rvoicilas/inotify-tools">inotify-tools</a> package, specifically the inotifywait binary.
 
 {% highlight bash %}
 inotifywait -m --timefmt "[%a %b %d %H:%M:%S %Y]" --format "%T [%e] %f" -r /folder/to/watch
@@ -81,7 +81,7 @@ Watches established.
 [Thu Jul 15 21:00:08 2010] [CLOSE_NOWRITE,CLOSE,ISDIR]
 {% endhighlight %}
 
-As can be seen the re-write rules are redirecting users to the cached files/folders, in the example above I have used my <a href="http://wordpress.org/extend/plugins/wp-super-cache/">wp-supercache</a> folder.
+As can be seen the re-write rules are redirecting users to the cached files/folders, in the example above I have used my <a href="https://wordpress.org/extend/plugins/wp-super-cache/">wp-supercache</a> folder.
 
 <strong>Ever needed to quickly get the memory usage of all threads for a service?</strong>
 
@@ -134,7 +134,7 @@ replacing <filter> for instance with httpd will give you an output similar to th
 31684 httpd           31291
 {% endhighlight %}
 
-This shows memory in kilobytes, command, process id, you can see here I currently have 3mb/pid for each httpd process (due to <a href="http://www.saiweb.co.uk/linux/optimizing-apache-for-high-load-sites-part-3">my optimizations</a>, I highly recommend you read parts 1-3)
+This shows memory in kilobytes, command, process id, you can see here I currently have 3mb/pid for each httpd process (due to <a href="https://www.saiweb.co.uk/linux/optimizing-apache-for-high-load-sites-part-3">my optimizations</a>, I highly recommend you read parts 1-3)
 
 <strong>Dump mysql data and compress on the fly</strong>
 
@@ -146,7 +146,7 @@ Self explanatory that one, pipes the output from mysqldump through bzip2 (which 
 
 <strong>Ever needed a selection of passwords generated?</strong>
 
-For this one you can use the <a href="http://linux.die.net/man/1/secpwgen">secpwgen</a>
+For this one you can use the <a href="https://linux.die.net/man/1/secpwgen">secpwgen</a>
 
 {% highlight bash %}
 function pwgen(){

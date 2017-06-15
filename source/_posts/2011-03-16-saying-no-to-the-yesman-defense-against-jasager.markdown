@@ -9,7 +9,7 @@ tags:
 - defense
 categories: 
 - hacking
-wordpress_url: http://saiweb.co.uk/hacking/saying-no-to-the-yesman-defense-against-jasager
+wordpress_url: https://saiweb.co.uk/hacking/saying-no-to-the-yesman-defense-against-jasager
 comments: true
 ---
 With work returning to "normal" levels I began digging through my backlog of seclist updates, errata updates and security related podcasts,
@@ -53,4 +53,4 @@ I'll work on getting a screencast for this up as soon as possible.
 	<li>improper configuration could cause D.o.S of nearby REAL Ap's and generaly piss people off.</li>
 </ul>
 
-<strong>Update 04/10/2011</strong> Seems that this project <a href="http://code.google.com/p/wifijammer/">wifijammer</a> can do exactly what I outlined above. via: <a href="http://hackaday.com/2011/10/04/wifi-jamming-via-deauthentication-packets">Hackaday</a>
+<strong>Update 04/10/2011</strong> Seems that this project <a href="https://code.google.com/p/wifijammer/">wifijammer</a> can do exactly what I outlined above. via: <a href="https://hackaday.com/2011/10/04/wifi-jamming-via-deauthentication-packets">Hackaday</a>

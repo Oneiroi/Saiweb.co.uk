@@ -162,7 +162,7 @@ multimon-ng -t wav fl46.wav
 
 On this first pass there is some odd behaviour occuring, some numbers are being repeated and some appear to be being skipped, opening the wav file in `audacity` reveals the issue.
 
-{% img http://blog.oneiroi.co.uk/images/nca_fl46_wav.png %}
+{% img https://blog.oneiroi.co.uk/images/nca_fl46_wav.png %}
 
 The wave file is stereo meaning there is both a left and right channel, observing the pattern above it's clear this is an 11 didgit telephone number, we "flatten" the file to mono and run it through multimon again
 

@@ -10,14 +10,14 @@ tags:
 - hd
 categories: 
 - linux
-wordpress_url: http://saiweb.co.uk/linux/ffmpeg-build-your-own-hd-youtube-update
+wordpress_url: https://saiweb.co.uk/linux/ffmpeg-build-your-own-hd-youtube-update
 comments: true
 ---
 Well the intrest in this subject seems to be picking up!
 
 I am currently researching two pass encoding using libx264 and libfaac to allow low bitrate (fast loading) HD streaming.
 
-As I figure this out you can see the results here: <a href="http://www.saiweb.co.uk/linux/very-basic-c-gdb-tutorial">http://www.saiweb.co.uk/linux/very-basic-c-gdb-tutorial
+As I figure this out you can see the results here: <a href="https://www.saiweb.co.uk/linux/very-basic-c-gdb-tutorial">https://www.saiweb.co.uk/linux/very-basic-c-gdb-tutorial
 </a>
 
 The embeding is handeled using a wordpress plugin I have written, I will make this available shortly.

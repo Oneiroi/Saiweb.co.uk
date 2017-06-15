@@ -8,7 +8,7 @@ tags: []
 categories: 
 - linux
 - php
-wordpress_url: http://saiweb.co.uk/linux/php-mail-sh-t-command-not-found
+wordpress_url: https://saiweb.co.uk/linux/php-mail-sh-t-command-not-found
 comments: true
 ---
 PHP mail() not working?

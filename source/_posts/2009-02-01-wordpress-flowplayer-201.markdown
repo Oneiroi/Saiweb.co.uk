@@ -10,7 +10,7 @@ tags:
 categories: 
 - php
 - flowplayer
-wordpress_url: http://saiweb.co.uk/php/wordpress-flowplayer-201
+wordpress_url: https://saiweb.co.uk/php/wordpress-flowplayer-201
 comments: true
 ---
-This release fixes BUG <a href="http://trac.saiweb.co.uk/saiweb/ticket/23#">#23</a><br />
+This release fixes BUG <a href="https://trac.saiweb.co.uk/saiweb/ticket/23#">#23</a><br />
