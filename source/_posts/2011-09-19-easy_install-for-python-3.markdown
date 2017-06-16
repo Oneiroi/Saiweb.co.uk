@@ -9,7 +9,7 @@ tags:
 - easy_install
 categories: 
 - python
-wordpress_url: https://saiweb.co.uk/python/easy_install-for-python-3
+wordpress_url: https://blog.oneiroi.co.uk/python/easy_install-for-python-3
 comments: true
 ---
 easy_install for python3 simple

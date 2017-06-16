@@ -12,17 +12,17 @@ tags:
 categories: 
 - nagios
 - twitter
-wordpress_url: https://saiweb.co.uk/nagios/nagios-send-alerts-to-twitter
+wordpress_url: https://blog.oneiroi.co.uk/nagios/nagios-send-alerts-to-twitter
 comments: true
 ---
 Pre-req reading:
 
-<a href="https://www.saiweb.co.uk/nagios/nagios-customization-alerting-via-sms-or-anything-you-like">Nagios customization: Alerting via SMS, or anything you like!</a>
+<a href="https://blog.oneiroi.co.uk/nagios/nagios-customization-alerting-via-sms-or-anything-you-like">Nagios customization: Alerting via SMS, or anything you like!</a>
 
-<a href="https://www.saiweb.co.uk/linux/update-twitter-in-a-single-line">Making the bird tweet using python
+<a href="https://blog.oneiroi.co.uk/linux/update-twitter-in-a-single-line">Making the bird tweet using python
 </a>
 or
-<a href="https://www.saiweb.co.uk/python/making-the-bird-tweet-using-python">Update twitter in a single line</a>
+<a href="https://blog.oneiroi.co.uk/python/making-the-bird-tweet-using-python">Update twitter in a single line</a>
 
 This entry will cover how to send nagios alerts to twitter, in the examples to follow curl will be used however you can choose to use the python example (link above) in place of this.
 

@@ -11,7 +11,7 @@ tags:
 categories: 
 - php
 - flowplayer
-wordpress_url: https://saiweb.co.uk/php/wordpress-flowplayer-21-preview
+wordpress_url: https://blog.oneiroi.co.uk/php/wordpress-flowplayer-21-preview
 comments: true
 ---
 Tonight I will be pushing to the development SVN a beta preview of the 2.1 release.

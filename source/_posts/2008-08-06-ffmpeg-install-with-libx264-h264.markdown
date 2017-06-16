@@ -9,7 +9,7 @@ tags:
 - libx264
 categories: 
 - linux
-wordpress_url: https://saiweb.co.uk/linux/ffmpeg-install-with-libx264-h264
+wordpress_url: https://blog.oneiroi.co.uk/linux/ffmpeg-install-with-libx264-h264
 comments: true
 ---
 The information for this is VERY very sparse, so here is a summary of what I have found.

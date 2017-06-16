@@ -14,7 +14,7 @@ tags:
 - fedora
 categories: 
 - linux
-wordpress_url: https://saiweb.co.uk/linux/redhat-mock-your-scm
+wordpress_url: https://blog.oneiroi.co.uk/linux/redhat-mock-your-scm
 comments: true
 ---
 The mock tool can be a wonderful thing, allowing you to produce rpm packages for any rpm based system (assuming your have the written .cfg for it).

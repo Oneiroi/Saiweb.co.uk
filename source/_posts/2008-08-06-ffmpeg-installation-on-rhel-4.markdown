@@ -17,7 +17,7 @@ tags:
 - xvid
 categories: 
 - linux
-wordpress_url: https://saiweb.co.uk/linux/ffmpeg-installation-on-rhel-4
+wordpress_url: https://blog.oneiroi.co.uk/linux/ffmpeg-installation-on-rhel-4
 comments: true
 ---
 Just try to find documentation on this ... absolute nightmare is an understatement, so here are my notes of the steps I took to compile ffmpeg with a selection of codecs:

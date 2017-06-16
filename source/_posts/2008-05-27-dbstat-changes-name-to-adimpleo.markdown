@@ -12,7 +12,7 @@ tags:
 categories: 
 - dbstat
 - adimpleo
-wordpress_url: https://saiweb.co.uk/dbstat/dbstat-changes-name-to-adimpleo
+wordpress_url: https://blog.oneiroi.co.uk/dbstat/dbstat-changes-name-to-adimpleo
 comments: true
 ---
 <div style=''>"adimpleo" Latin for "to perform", seemed a fitting name for dbStat.

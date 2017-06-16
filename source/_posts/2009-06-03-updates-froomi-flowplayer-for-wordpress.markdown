@@ -10,7 +10,7 @@ tags:
 - froomi
 categories: 
 - general
-wordpress_url: https://saiweb.co.uk/general/updates-froomi-flowplayer-for-wordpress
+wordpress_url: https://blog.oneiroi.co.uk/general/updates-froomi-flowplayer-for-wordpress
 comments: true
 ---
 As most have no doubt noticed the plugin is delayed ... _again_

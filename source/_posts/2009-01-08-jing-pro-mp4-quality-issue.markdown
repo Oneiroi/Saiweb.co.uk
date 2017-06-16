@@ -9,7 +9,7 @@ tags:
 - jing
 categories: 
 - uncategorized
-wordpress_url: https://saiweb.co.uk/uncategorized/jing-pro-mp4-quality-issue
+wordpress_url: https://blog.oneiroi.co.uk/uncategorized/jing-pro-mp4-quality-issue
 comments: true
 ---
 Ok I purchased Jing PRO to do some more video posts to saiweb ... unfortunately the MP4 quality is lack luster. 

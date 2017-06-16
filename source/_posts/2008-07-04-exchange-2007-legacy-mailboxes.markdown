@@ -11,7 +11,7 @@ tags:
 - legacy mailbox
 categories: 
 - windows
-wordpress_url: https://saiweb.co.uk/windows/exchange-2007-legacy-mailboxes
+wordpress_url: https://blog.oneiroi.co.uk/windows/exchange-2007-legacy-mailboxes
 comments: true
 ---
 This one comes via <a href="https://www.absolutech.co.uk/">Kerm</a>.

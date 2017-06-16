@@ -7,7 +7,7 @@ tags: []
 
 categories: 
 - general
-wordpress_url: https://saiweb.co.uk/general/update-2
+wordpress_url: https://blog.oneiroi.co.uk/general/update-2
 comments: true
 ---
 Ok now it has all been officialy announced here at work I can finaly update this blog.

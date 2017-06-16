@@ -7,7 +7,7 @@ tags:
 - sysadmin day
 categories: 
 - uncategorized
-wordpress_url: https://saiweb.co.uk/uncategorized/sysadmin-day-27072008
+wordpress_url: https://blog.oneiroi.co.uk/uncategorized/sysadmin-day-27072008
 comments: true
 ---
 <p>Or that would be 07/25/2008 for the US readers.</p>

@@ -10,7 +10,7 @@ tags:
 - id
 categories: 
 - php
-wordpress_url: https://saiweb.co.uk/php/wordpress-getting-the-current-page-or-post-id
+wordpress_url: https://blog.oneiroi.co.uk/php/wordpress-getting-the-current-page-or-post-id
 comments: true
 ---
 An example of getting the current page / post ID, identifying whether the current item is a page or a post, and then appending the results to the content.
@@ -22,11 +22,11 @@ All from within a plugin.
 <?PHP
 /*
 Plugin Name: Get Page / Post ID using a plugin by D.Busby Saiweb.co.uk
-Plugin URI: https://saiweb.co.uk
+Plugin URI: https://blog.oneiroi.co.uk
 Description: Identifies the current page/post and appends text to the content
 Version: 0.1
 Author: David Busby
-Author URI: https://saiweb.co.uk
+Author URI: https://blog.oneiroi.co.uk
 */
 
 //WP hooks start

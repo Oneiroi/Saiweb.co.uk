@@ -13,7 +13,7 @@ tags:
 - scripts
 categories: 
 - linux
-wordpress_url: https://saiweb.co.uk/linux/linux-collection-of-handy-scripts-and-one-liners-volume-1
+wordpress_url: https://blog.oneiroi.co.uk/linux/linux-collection-of-handy-scripts-and-one-liners-volume-1
 comments: true
 ---
 <strong>Ever wanted / needed HTTPD or another service to run with a raised thread priority?</strong>
@@ -134,7 +134,7 @@ replacing <filter> for instance with httpd will give you an output similar to th
 31684 httpd           31291
 {% endhighlight %}
 
-This shows memory in kilobytes, command, process id, you can see here I currently have 3mb/pid for each httpd process (due to <a href="https://www.saiweb.co.uk/linux/optimizing-apache-for-high-load-sites-part-3">my optimizations</a>, I highly recommend you read parts 1-3)
+This shows memory in kilobytes, command, process id, you can see here I currently have 3mb/pid for each httpd process (due to <a href="https://blog.oneiroi.co.uk/linux/optimizing-apache-for-high-load-sites-part-3">my optimizations</a>, I highly recommend you read parts 1-3)
 
 <strong>Dump mysql data and compress on the fly</strong>
 

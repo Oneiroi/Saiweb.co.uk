@@ -17,7 +17,7 @@ tags:
 - mysqldump
 categories: 
 - mysql
-wordpress_url: https://saiweb.co.uk/mysql/converting-mysql-latin1-to-utf8
+wordpress_url: https://blog.oneiroi.co.uk/mysql/converting-mysql-latin1-to-utf8
 comments: true
 comments: true
 ---
@@ -36,7 +36,7 @@ This is due to the fact in this case the latin1 encoded £ has not properly been
 <ul>
 <strong>The solution</strong></ul>
 
-What you need to do is actually convert the character set to utf8, in order to do this your going to need to run it through a program you could use iconv if you are already familiar with it, however if your system has python installed you can grab a copy of my <a href="https://www.saiweb.co.uk/sysadmin">sysadmin</a> program which has iconv like functionality but is far more user friendly.
+What you need to do is actually convert the character set to utf8, in order to do this your going to need to run it through a program you could use iconv if you are already familiar with it, however if your system has python installed you can grab a copy of my <a href="https://blog.oneiroi.co.uk/sysadmin">sysadmin</a> program which has iconv like functionality but is far more user friendly.
 
 <ul>
 <strong>What you will need</strong></ul>
@@ -45,7 +45,7 @@ What you need to do is actually convert the character set to utf8, in order to d
 	<li>Text Editor (vi/nano/pico/emacs)</li>
 	<li>Python 2.4 or higher</li>
 	<li><a href="https://linux.about.com/od/commands/l/blcmdl1_sed.htm">SED</a> package</li>
-	<li><a href="https://www.saiweb.co.uk/sysadmin">Sysadmin program</a></li>
+	<li><a href="https://blog.oneiroi.co.uk/sysadmin">Sysadmin program</a></li>
 	<li>mySQL</li>
 </ul>
 
@@ -99,6 +99,6 @@ If all went well you now have ./databasename-latin1.sql.utf-8 (note the utf-8 ex
 <strong><ul>Further reading</ul></strong>
 
 <ol>
-	<li><a href="https://www.saiweb.co.uk/mysql/mysql-forcing-utf-8-compliance-for-all-connections">Force mySQL utf8 connections</a></li>
-	<li><a href="https://www.saiweb.co.uk/mysql/mysql-bash-backup-script">mySQL backup script</a></li>
+	<li><a href="https://blog.oneiroi.co.uk/mysql/mysql-forcing-utf-8-compliance-for-all-connections">Force mySQL utf8 connections</a></li>
+	<li><a href="https://blog.oneiroi.co.uk/mysql/mysql-bash-backup-script">mySQL backup script</a></li>
 </ol>

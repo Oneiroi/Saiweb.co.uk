@@ -13,7 +13,7 @@ tags:
 - ghostscript
 categories: 
 - linux
-wordpress_url: https://saiweb.co.uk/linux/esp-ghostscript-815-02-unrecoverable-error-exit-code-255
+wordpress_url: https://blog.oneiroi.co.uk/linux/esp-ghostscript-815-02-unrecoverable-error-exit-code-255
 comments: true
 ---
 <strong>ESP Ghostscript 815.02: Unrecoverable error, exit code 255</strong>

@@ -8,7 +8,7 @@ tags:
 - wordpress
 categories: 
 - php
-wordpress_url: https://saiweb.co.uk/php/wordpress-flowplayer-flowplayer-for-wordpress-update
+wordpress_url: https://blog.oneiroi.co.uk/php/wordpress-flowplayer-flowplayer-for-wordpress-update
 comments: true
 ---
 With the release of wordpress 2.7 and flowplayer 3.x I thought it was time to update the plugin.
@@ -16,7 +16,7 @@ With the release of wordpress 2.7 and flowplayer 3.x I thought it was time to up
 A development copy as always can be obtained from:
 
 {% highlight bash %}
-svn co https://svn.saiweb.co.uk/branches/wordpress-flowplayer/trunk
+svn co https://svn.blog.oneiroi.co.uk/branches/wordpress-flowplayer/trunk
 {% endhighlight %}
 
 However please remember that it is development and most like will not work.
@@ -31,6 +31,6 @@ Purchasing a commercial license helps to support the Flowplayer project and cont
 
 Certain features i.e. custom logo, will only work with a commercial license.
 
-Please direct any requests for support on this plugin to our TRAC system: <a href="https://trac.saiweb.co.uk/saiweb">https://trac.saiweb.co.uk/saiweb</a>
+Please direct any requests for support on this plugin to our TRAC system: <a href="https://OFFLINE/saiweb">https://OFFLINE/saiweb</a>
 
 <strong>UPDATE 2: </strong>V 2.x of this plugin should be release this evening.

@@ -11,7 +11,7 @@ tags:
 - auth
 categories: 
 - python
-wordpress_url: https://saiweb.co.uk/python/python-urllib2-basic-http-authentication
+wordpress_url: https://blog.oneiroi.co.uk/python/python-urllib2-basic-http-authentication
 comments: true
 ---
 I meant to write this up over a week ago now, basically the need arose for one of my Python scripts to use HTTP Basic authentication when grabbing the output from a URL.
@@ -22,14 +22,14 @@ Quick description, the script will attempt to connect to a URL and read the data
 
 Printing out to the console at each point.
 
-Subversion:<a href="https://svn.saiweb.co.uk/branches/python/urllib2_httpbasic_auth.py"> https://svn.saiweb.co.uk/branches/python/urllib2_httpbasic_auth.py</a>
+Subversion:<a href="https://svn.blog.oneiroi.co.uk/branches/python/urllib2_httpbasic_auth.py"> https://svn.blog.oneiroi.co.uk/branches/python/urllib2_httpbasic_auth.py</a>
 
 Highlighted source (at the time of writing)
 
 {% highlight python %}
 #!/usr/bin/env python
 """
-    Author: David Busby (https://saiweb.co.uk)
+    Author: David Busby (https://blog.oneiroi.co.uk)
     Program: Python HTTP Basic Auth Exa
     Copyright: David Busby 2009. All rights reserved.
     License: https://creativecommons.org/licenses/by-sa/2.0/uk/
@@ -39,7 +39,7 @@ import urllib2, base64
 
 """ URL List """
 urls = {
-               0:{"url":"www.saiweb.co.uk/some/fictional/auth/area","user":"someuser","pass":"somepass"}
+               0:{"url":"blog.oneiroi.co.uk/some/fictional/auth/area","user":"someuser","pass":"somepass"}
 }
 
 def main():

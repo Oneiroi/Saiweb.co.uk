@@ -10,7 +10,7 @@ tags:
 - chared
 categories: 
 - general
-wordpress_url: https://saiweb.co.uk/general/zen-of-secured-shared-hosting-on-hold
+wordpress_url: https://blog.oneiroi.co.uk/general/zen-of-secured-shared-hosting-on-hold
 comments: true
 ---
 This series is officially on hold until further notice,

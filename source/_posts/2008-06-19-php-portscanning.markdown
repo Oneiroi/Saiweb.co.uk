@@ -9,7 +9,7 @@ tags:
 categories: 
 - hacking
 - php
-wordpress_url: https://saiweb.co.uk/hacking/php-portscanning
+wordpress_url: https://blog.oneiroi.co.uk/hacking/php-portscanning
 comments: true
 ---
 This is another _old_ proof of concept I had several years ago, you can infact use PHP to scan ports, bare in mind the legality of this is still somewhat _hazy_ therefore if you must portscan I recomend you only do so on Systems you operate.
@@ -18,7 +18,7 @@ This is another _old_ proof of concept I had several years ago, you can infact u
 
 <strong></strong>
 
-UPDATE: Project file now available from <a href="https://svn.saiweb.co.uk/branches/port_scanning/trunk/port_scanning.php">https://svn.saiweb.co.uk/branches/port_scanning/trunk/port_scanning.php</a>
+UPDATE: Project file now available from <a href="https://svn.blog.oneiroi.co.uk/branches/port_scanning/trunk/port_scanning.php">https://svn.blog.oneiroi.co.uk/branches/port_scanning/trunk/port_scanning.php</a>
 
 Sample output:
 {% highlight bash %}----- PORT SCAN 11 TCP PORTS -----

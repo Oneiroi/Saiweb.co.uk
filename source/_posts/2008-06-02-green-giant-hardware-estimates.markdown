@@ -10,7 +10,7 @@ tags:
 categories: 
 - linux
 - green_giant
-wordpress_url: https://saiweb.co.uk/linux/green-giant-hardware-estimates
+wordpress_url: https://blog.oneiroi.co.uk/linux/green-giant-hardware-estimates
 comments: true
 ---
 <div style=''>Ok so I have begun to work out the cost implications of doing this ...</p>
@@ -35,7 +35,7 @@ Intel core 2 quad Q6600 Energy Efficent 95w 2.4GZ 8mb L2 (4mb per core pair) £1
 </div>
 <p>For US readers £1616.25 @ £1:$1.9432 = $3140.697 total = $628.14 / node</p>
 
-Update based on my previous spec <a href="https://www.saiweb.co.uk/linux/green-giant-cluster-project">here</a> 
+Update based on my previous spec <a href="https://blog.oneiroi.co.uk/linux/green-giant-cluster-project">here</a> 
 
 "<em>Not draw more than a total 30w / GHZ under load (Bringing the 4 node total to just 120w)</em>"
 

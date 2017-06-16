@@ -14,10 +14,10 @@ tags:
 - authzsvnnoauthwhenanonymousallowed
 categories: 
 - linux
-wordpress_url: https://saiweb.co.uk/linux/mod_authz_svn-mod_dav_svn-prompting-for-password
+wordpress_url: https://blog.oneiroi.co.uk/linux/mod_authz_svn-mod_dav_svn-prompting-for-password
 comments: true
 ---
-Strangely I've had some people reporting issues with being <a href="https://trac.saiweb.co.uk/saiweb/ticket/68">prompted for a username and password when accessing files on svn.saiweb.co.uk 
+Strangely I've had some people reporting issues with being <a href="https://OFFLINE/saiweb/ticket/68">prompted for a username and password when accessing files on svn.blog.oneiroi.co.uk 
 </a>
 
 it would appear in mod_dav_svn-1.4.2-4.el5_3.1 that this directive: AuthzSVNNoAuthWhenAnonymousAllowed

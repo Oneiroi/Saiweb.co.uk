@@ -9,7 +9,7 @@ tags:
 - "48139"
 categories: 
 - php
-wordpress_url: https://saiweb.co.uk/php/php-bug-48139
+wordpress_url: https://blog.oneiroi.co.uk/php/php-bug-48139
 comments: true
 ---
 Because a picture is worth over 9000 internets ... apparently

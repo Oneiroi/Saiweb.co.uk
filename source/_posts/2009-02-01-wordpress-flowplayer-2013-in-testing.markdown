@@ -9,11 +9,11 @@ tags:
 - 2.0.1.3
 categories: 
 - php
-wordpress_url: https://saiweb.co.uk/php/wordpress-flowplayer-2013-in-testing
+wordpress_url: https://blog.oneiroi.co.uk/php/wordpress-flowplayer-2013-in-testing
 comments: true
 ---
 If you are interested in helping to test release 2.0.1.3, check out the current development version here:
 
 {% highlight bash %}
-svn co https://svn.saiweb.co.uk/branches/wordpress-flowplayer/trunk/ /path/to/wp-content/plugins/word-press-flow-player
+svn co https://svn.blog.oneiroi.co.uk/branches/wordpress-flowplayer/trunk/ /path/to/wp-content/plugins/word-press-flow-player
 {% endhighlight %}

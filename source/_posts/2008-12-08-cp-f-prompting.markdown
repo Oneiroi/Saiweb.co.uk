@@ -9,7 +9,7 @@ tags:
 - prompting
 categories: 
 - linux
-wordpress_url: https://saiweb.co.uk/linux/cp-f-prompting
+wordpress_url: https://blog.oneiroi.co.uk/linux/cp-f-prompting
 comments: true
 ---
 <img src="https://blog.oneiroi.co.uk/uploads/2008/12/chibi_angry_small.jpg" alt="So ... angry ... *rage*" title="chibi_angry_small" width="90" height="115" class="size-full wp-image-343" />

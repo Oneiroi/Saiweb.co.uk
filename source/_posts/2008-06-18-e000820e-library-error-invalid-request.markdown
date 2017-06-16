@@ -10,7 +10,7 @@ tags:
 - library error
 categories: 
 - technology
-wordpress_url: https://saiweb.co.uk/technology/e000820e-library-error-invalid-request
+wordpress_url: https://blog.oneiroi.co.uk/technology/e000820e-library-error-invalid-request
 comments: true
 ---
 "e000820e Library Error Invalid Request"

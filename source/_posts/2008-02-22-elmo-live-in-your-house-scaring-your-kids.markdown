@@ -13,7 +13,7 @@ tags:
 - video
 categories: 
 - technology
-wordpress_url: https://saiweb.co.uk/technology/elmo-live-in-your-house-scaring-your-kids
+wordpress_url: https://blog.oneiroi.co.uk/technology/elmo-live-in-your-house-scaring-your-kids
 comments: true
 ---
 At what point is a toy, no longer a toy ...

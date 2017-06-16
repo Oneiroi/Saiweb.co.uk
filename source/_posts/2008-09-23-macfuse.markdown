@@ -9,7 +9,7 @@ tags:
 - fuse
 categories: 
 - mac
-wordpress_url: https://saiweb.co.uk/mac/macfuse
+wordpress_url: https://blog.oneiroi.co.uk/mac/macfuse
 comments: true
 ---
 <img class="aligncenter" title="macFUSE" src="https://macfuse.googlecode.com/svn/trunk/meta/images/MacFUSE_Banner.jpg" alt="" width="474" height="128" />

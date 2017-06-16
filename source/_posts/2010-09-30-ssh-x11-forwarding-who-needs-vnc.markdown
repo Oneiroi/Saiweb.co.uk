@@ -9,7 +9,7 @@ tags:
 - forward
 categories: 
 - linux
-wordpress_url: https://saiweb.co.uk/linux/ssh-x11-forwarding-who-needs-vnc
+wordpress_url: https://blog.oneiroi.co.uk/linux/ssh-x11-forwarding-who-needs-vnc
 comments: true
 ---
 This is one of those things I find my jaw dropping at, whilst punching myself for not knowing about it sooner.

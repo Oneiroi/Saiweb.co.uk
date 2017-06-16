@@ -7,7 +7,7 @@ tags: []
 
 categories: 
 - general
-wordpress_url: https://saiweb.co.uk/general/a-big-thanks-to-pledgie-users
+wordpress_url: https://blog.oneiroi.co.uk/general/a-big-thanks-to-pledgie-users
 comments: true
 ---
 Or rather a lack of thanks,

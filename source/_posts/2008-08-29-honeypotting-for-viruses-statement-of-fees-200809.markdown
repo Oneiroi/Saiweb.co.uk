@@ -14,7 +14,7 @@ categories:
 - linux
 - microsoft_office_2003
 - security
-wordpress_url: https://saiweb.co.uk/hacking/honeypotting-for-viruses-statement-of-fees-200809
+wordpress_url: https://blog.oneiroi.co.uk/hacking/honeypotting-for-viruses-statement-of-fees-200809
 comments: true
 ---
 Getting this email on a regular basis?

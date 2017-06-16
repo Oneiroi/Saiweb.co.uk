@@ -14,7 +14,7 @@ categories:
 - symbian
 - n95
 - iphone
-wordpress_url: https://saiweb.co.uk/hacking/n95-the-best-apps-you-realy-can-not-live-without
+wordpress_url: https://blog.oneiroi.co.uk/hacking/n95-the-best-apps-you-realy-can-not-live-without
 comments: true
 ---
 <p>Want iPhone style functionality on your n95?</p>

@@ -16,10 +16,10 @@ tags:
 categories: 
 - linux
 - python
-wordpress_url: https://saiweb.co.uk/linux/linux-generating-file-manifests-and-then-checking-them-improved
+wordpress_url: https://blog.oneiroi.co.uk/linux/linux-generating-file-manifests-and-then-checking-them-improved
 comments: true
 ---
-Following on from <a href="https://www.saiweb.co.uk/linux/linux-generating-file-manifests-and-then-checking-them">Linux – Generating file manifests and then checking them</a> I was always getting the same questions ...
+Following on from <a href="https://blog.oneiroi.co.uk/linux/linux-generating-file-manifests-and-then-checking-them">Linux – Generating file manifests and then checking them</a> I was always getting the same questions ...
 
 How long left on the manifest Buzz ?
 How long left on the verification Buzz ?
@@ -28,7 +28,7 @@ And I <strong>HATE</strong> having to turn around an say ... I don't know ...
 
 The problem with the usual command line method is that it give no indication of progress, and by extension no indication that it was infact running and not 'hung' ...
 
-As such I have now added the 'manifest' command set to the <a href="https://www.saiweb.co.uk/sysadmin">Sysadmin toolset</a>
+As such I have now added the 'manifest' command set to the <a href="https://blog.oneiroi.co.uk/sysadmin">Sysadmin toolset</a>
 
 The manifest command take two data types, the first is a folder path from which to build the file manifest from, the manifest itself is also compatible with the "md5sum --check" function.
 

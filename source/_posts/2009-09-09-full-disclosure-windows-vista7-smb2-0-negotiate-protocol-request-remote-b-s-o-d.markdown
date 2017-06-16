@@ -7,7 +7,7 @@ tags: []
 
 categories: 
 - windows
-wordpress_url: https://saiweb.co.uk/windows/full-disclosure-windows-vista7-smb2-0-negotiate-protocol-request-remote-b-s-o-d
+wordpress_url: https://blog.oneiroi.co.uk/windows/full-disclosure-windows-vista7-smb2-0-negotiate-protocol-request-remote-b-s-o-d
 comments: true
 ---
 <a href="https://g-laurent.blogspot.com/">laurent gaffie</a> has produced a proof of concept remote BSOD affecting windows vista /7.

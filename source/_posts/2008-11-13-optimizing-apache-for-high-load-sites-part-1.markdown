@@ -10,10 +10,10 @@ tags:
 categories: 
 - linux
 - apache
-wordpress_url: https://saiweb.co.uk/linux/optimizing-apache-for-high-load-sites-part-1
+wordpress_url: https://blog.oneiroi.co.uk/linux/optimizing-apache-for-high-load-sites-part-1
 comments: true
 ---
-Following on from <a href="https://www.saiweb.co.uk/linux/linux-the-sysadmin-script-part-3">linux-the-sysadmin-script-part-3</a> I am now going to cover how to reduce the memory footprint of apache.
+Following on from <a href="https://blog.oneiroi.co.uk/linux/linux-the-sysadmin-script-part-3">linux-the-sysadmin-script-part-3</a> I am now going to cover how to reduce the memory footprint of apache.
 
 So why would you want to reduce the memory footprint?
 
@@ -21,7 +21,7 @@ Simple really so you can have more concurrent connections to the apache server w
 
 This 'tutorial' does assume the following:
 <ul><li>You are running apache on a server dedicated to doing so.</li><li>You have a basic understanding of how to install and configure apache.</li><li>You have a basic understanding of bash scripting.</li><li>You have the pmap package installed on your server.</li></ul>
-As was introduced in <a href="https://www.saiweb.co.uk/linux/linux-the-sysadmin-script-part-3">part-3</a> the function appmem will report the memory usage of all current running threads of an application name, report the average memory usage, and an example pmap command using the last PID in the list.
+As was introduced in <a href="https://blog.oneiroi.co.uk/linux/linux-the-sysadmin-script-part-3">part-3</a> the function appmem will report the memory usage of all current running threads of an application name, report the average memory usage, and an example pmap command using the last PID in the list.
 
 This is where this entry will pick up, once pmap is run you will see the following example output:
 

@@ -11,7 +11,7 @@ tags:
 categories: 
 - windows
 - mac
-wordpress_url: https://saiweb.co.uk/windows/installing-windows-7-on-vmware-fusion
+wordpress_url: https://blog.oneiroi.co.uk/windows/installing-windows-7-on-vmware-fusion
 comments: true
 ---
 As per my previous post I was faced with a serious BSOD problem.

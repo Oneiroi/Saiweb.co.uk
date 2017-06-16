@@ -9,7 +9,7 @@ tags:
 - defense
 categories: 
 - hacking
-wordpress_url: https://saiweb.co.uk/hacking/saying-no-to-the-yesman-defense-against-jasager
+wordpress_url: https://blog.oneiroi.co.uk/hacking/saying-no-to-the-yesman-defense-against-jasager
 comments: true
 ---
 With work returning to "normal" levels I began digging through my backlog of seclist updates, errata updates and security related podcasts,

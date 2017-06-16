@@ -12,7 +12,7 @@ categories:
 - php
 - apache
 - hosting
-wordpress_url: https://saiweb.co.uk/general/new-host
+wordpress_url: https://blog.oneiroi.co.uk/general/new-host
 comments: true
 ---
 Due to latency issues, and the lack of multi site support I have ditched my old web-host.

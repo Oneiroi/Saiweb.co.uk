@@ -9,12 +9,12 @@ tags:
 - library
 categories: 
 - hacking
-wordpress_url: https://saiweb.co.uk/hacking/venturing-into-micro-controller-programming
+wordpress_url: https://blog.oneiroi.co.uk/hacking/venturing-into-micro-controller-programming
 comments: true
 ---
 Or, as one of my colleagues this morning said, firmware programming which in the literal sense of the word I suppose it is firmware.
 
-I've decided as some of my <a href="https://twitter.com/Saiweb">twitter</a> followers may already know to produce a library / framework for the <a href="https://www.pjrc.com/teensy/index.html">teensy arduino</a> which is available from subversion here: <a href="https://svn.saiweb.co.uk/branches/teensy/trunk/">https://svn.saiweb.co.uk/branches/teensy/trunk/</a> under the GPL v3 license
+I've decided as some of my <a href="https://twitter.com/Saiweb">twitter</a> followers may already know to produce a library / framework for the <a href="https://www.pjrc.com/teensy/index.html">teensy arduino</a> which is available from subversion here: <a href="https://svn.blog.oneiroi.co.uk/branches/teensy/trunk/">https://svn.blog.oneiroi.co.uk/branches/teensy/trunk/</a> under the GPL v3 license
 
 At the time of writing I have worked through <a href="https://www.pjrc.com/teensy/tutorial2.html">this tutorial</a> on operating an RGB LED.
 

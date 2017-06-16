@@ -9,7 +9,7 @@ tags:
 - bittorrent
 categories: 
 - n95
-wordpress_url: https://saiweb.co.uk/n95/n95-bittorrent
+wordpress_url: https://blog.oneiroi.co.uk/n95/n95-bittorrent
 comments: true
 ---
 Well I'll be damned, someone has actually done it!

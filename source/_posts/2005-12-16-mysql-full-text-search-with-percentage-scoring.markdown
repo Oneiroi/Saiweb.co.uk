@@ -11,7 +11,7 @@ tags:
 categories: 
 - mysql
 - php
-wordpress_url: https://saiweb.co.uk/mysql/mysql-full-text-search-with-percentage-scoring
+wordpress_url: https://blog.oneiroi.co.uk/mysql/mysql-full-text-search-with-percentage-scoring
 comments: true
 ---
 ** Note I am not the "Buzz" from 3dbuzz.com this is just a coincidence **

@@ -9,7 +9,7 @@ tags:
 - a00084ca
 categories: 
 - windows
-wordpress_url: https://saiweb.co.uk/windows/backup-exec-91-a00084ca-the-data-being-read-from-the-media-is-inconsistent
+wordpress_url: https://blog.oneiroi.co.uk/windows/backup-exec-91-a00084ca-the-data-being-read-from-the-media-is-inconsistent
 comments: true
 ---
 This error as of late has been driving me nuts!

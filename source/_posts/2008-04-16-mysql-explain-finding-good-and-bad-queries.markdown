@@ -9,7 +9,7 @@ tags:
 - dba
 categories: 
 - mysql
-wordpress_url: https://saiweb.co.uk/mysql/mysql-explain-finding-good-and-bad-queries
+wordpress_url: https://blog.oneiroi.co.uk/mysql/mysql-explain-finding-good-and-bad-queries
 comments: true
 ---
 <p>Trent Hornibrook has started a mysql dba blog, so I thought i'd provide some linkage :-)</p>

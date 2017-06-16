@@ -9,7 +9,7 @@ tags:
 categories: 
 - linux
 - apache
-wordpress_url: https://saiweb.co.uk/linux/optimizing-apache-for-high-load-sites-part-2
+wordpress_url: https://blog.oneiroi.co.uk/linux/optimizing-apache-for-high-load-sites-part-2
 comments: true
 ---
 This is going to be quite an extension from what I had planned, instead of providing just a list of results post optimization I am going to provide a basic list of modules loaded as part of a basic apache install, and provide a description for each, the ones I have disabled are mods I have deemed not required for my purposes, use your own best judgment before switching things off...
@@ -235,7 +235,7 @@ Still a long way to go to bring the memory foot print down to a minimal level, b
 
 <strong>UPDATE</strong>
 
-Following the improvements to the appmem script in <a href="https://www.saiweb.co.uk/uncategorized/linux-the-sysadmin-script-part-4">part 4</a> here are the new figures.
+Following the improvements to the appmem script in <a href="https://blog.oneiroi.co.uk/uncategorized/linux-the-sysadmin-script-part-4">part 4</a> here are the new figures.
 
 With all mods enabled:
 

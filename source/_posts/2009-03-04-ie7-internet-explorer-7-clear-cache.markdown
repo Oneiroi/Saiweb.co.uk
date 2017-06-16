@@ -11,7 +11,7 @@ tags:
 - clear cache
 categories: 
 - windows
-wordpress_url: https://saiweb.co.uk/windows/ie7-internet-explorer-7-clear-cache
+wordpress_url: https://blog.oneiroi.co.uk/windows/ie7-internet-explorer-7-clear-cache
 comments: true
 ---
 Some users apparently do not know how to clear their Internet Explorer cache, so I have taken two minutes to do a screen cast here: <a href="https://screencast.com/t/FGDnc2gjcft">https://screencast.com/t/FGDnc2gjcft</a>

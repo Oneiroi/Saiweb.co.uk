@@ -8,7 +8,7 @@ tags:
 - crash
 categories: 
 - php
-wordpress_url: https://saiweb.co.uk/php/php-4310-html_entity_decode-crash
+wordpress_url: https://blog.oneiroi.co.uk/php/php-4310-html_entity_decode-crash
 comments: true
 ---
 Just as a warning and as a poke to say WHY are you not running PHP 5.x yet.

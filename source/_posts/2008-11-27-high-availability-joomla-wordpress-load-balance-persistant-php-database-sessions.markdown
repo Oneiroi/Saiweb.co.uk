@@ -14,7 +14,7 @@ tags:
 categories: 
 - mysql
 - php
-wordpress_url: https://saiweb.co.uk/mysql/high-availability-joomla-wordpress-load-balance-persistant-php-database-sessions
+wordpress_url: https://blog.oneiroi.co.uk/mysql/high-availability-joomla-wordpress-load-balance-persistant-php-database-sessions
 comments: true
 ---
 If you've seen the new twitter feed to the right you may of seem some ramblings about 'cura'.
@@ -48,10 +48,10 @@ So secret option number 3 is to use a database, you can remove the single point 
 
 Because everything is in a database whenever your web application is run (web1, web2) it will read the data from one source, allowing persistent sessions across your whole platform without the need for single mount points or session replication.
 
-The source files are available from: <a href="https://svn.saiweb.co.uk/branches/cura-php/trunk">https://svn.saiweb.co.uk/branches/cura-php/trunk/</a>
+The source files are available from: <a href="https://svn.blog.oneiroi.co.uk/branches/cura-php/trunk">https://svn.blog.oneiroi.co.uk/branches/cura-php/trunk/</a>
 
 {% highlight bash %}
-svn co https://svn.saiweb.co.uk/branches/cura-php/trunk/
+svn co https://svn.blog.oneiroi.co.uk/branches/cura-php/trunk/
 {% endhighlight %}
 
 To deploy this solution simply add the following lines to any file that calls session_start();
@@ -65,4 +65,4 @@ the rest of your file...
 {% endhighlight %}
 Ensure that you have created a 'sessions' table as per the provided sessions.sql file in your database.
 
-I will be adding simplified support for wordpress and joomla shortly these will become available from: <a href="https://svn.saiweb.co.uk/branches/cura-php/trunk/">https://svn.saiweb.co.uk/branches/cura-php/trunk/</a>
+I will be adding simplified support for wordpress and joomla shortly these will become available from: <a href="https://svn.blog.oneiroi.co.uk/branches/cura-php/trunk/">https://svn.blog.oneiroi.co.uk/branches/cura-php/trunk/</a>

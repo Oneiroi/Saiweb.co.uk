@@ -8,7 +8,7 @@ tags:
 - it superheroes
 categories: 
 - general
-wordpress_url: https://saiweb.co.uk/general/vote-buzz-for-it-superhero-2008
+wordpress_url: https://blog.oneiroi.co.uk/general/vote-buzz-for-it-superhero-2008
 comments: true
 ---
 Basically I have actually been shortlisted "woo"<br /><br />So if you have found anything usefull on this blog please vote for me here<br /><br />

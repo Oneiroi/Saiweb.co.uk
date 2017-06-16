@@ -9,7 +9,7 @@ categories:
 - cloudfiles
 ---
 
-Yeh yeh ... so it is true I have some quite [vocal opinions](https://saiweb.co.uk/hosting/cloud-hosting-my-views/), on all this cloud marketing fluff.
+Yeh yeh ... so it is true I have some quite [vocal opinions](https://blog.oneiroi.co.uk/hosting/cloud-hosting-my-views/), on all this cloud marketing fluff.
 
 That said it has some great potential, if you've been following my open source contributions and posts you'll known I have an special affinity for [Openstack](https://openstack.org), [Aeolus](https://aeolusproject.org/), and of course [Opennebula](https://opennebula.org/).
 
@@ -37,7 +37,7 @@ So, pulling this back to the original point of this blog, I appear to have gone 
 1. I've conveted Wordpress -> Jekyll + Octopress
 2. I've worked on the Rakefile to push differing assets to cloudfiles/
 3. I am now just waiting on clouddns to allow CNAME records for the main domain, then ...
-4. saiweb.co.uk will exist purely in cdn.
+4. blog.oneiroi.co.uk will exist purely in cdn.
 
 With any luck I will be the first but this is reliant on the dns options becomming available, please comment and let me know your thoughts!
 

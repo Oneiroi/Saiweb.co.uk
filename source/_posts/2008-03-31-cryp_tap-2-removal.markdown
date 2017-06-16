@@ -8,7 +8,7 @@ tags:
 - virus
 categories: 
 - windows
-wordpress_url: https://saiweb.co.uk/windows/cryp_tap-2-removal
+wordpress_url: https://blog.oneiroi.co.uk/windows/cryp_tap-2-removal
 comments: true
 ---
 <p><script type="text/javascript"><!--

@@ -8,7 +8,7 @@ tags:
 - pop3
 categories: 
 - networking
-wordpress_url: https://saiweb.co.uk/networking/telnet-pop3
+wordpress_url: https://blog.oneiroi.co.uk/networking/telnet-pop3
 comments: true
 ---
 To test a POP3 connection using telnet open a command window or shell terminal and type the following

@@ -30,7 +30,7 @@ And if that means I have to profile, bugfix and code to ensure that is not the c
 
 I am presently looking at Chef to compliment my planned deploy of Openstack, for which I will be writing the configurations, this will in turn allow the development team to get on with their jobs, I already use kickstarts for my KVM deployments, Chef seems like the next logical step.
 
-And whilst “The Cloud” has met with <a href="https://www.saiweb.co.uk/hosting/cloud-hosting-my-views">my skepticism</a>, this is more to do with the over marketing claiming it is the solution to all your aliments ... once you get past all the marketing fluff it is the way forward, and has been as such since a long time before “The Cloud” fluff came along.
+And whilst “The Cloud” has met with <a href="https://blog.oneiroi.co.uk/hosting/cloud-hosting-my-views">my skepticism</a>, this is more to do with the over marketing claiming it is the solution to all your aliments ... once you get past all the marketing fluff it is the way forward, and has been as such since a long time before “The Cloud” fluff came along.
 
 So in short, I’m a Systems Administrator and I work damned hard to ensure those systems I administer stay online, if that means I need to work as a Developer, Pentester etc ... then I will.
 

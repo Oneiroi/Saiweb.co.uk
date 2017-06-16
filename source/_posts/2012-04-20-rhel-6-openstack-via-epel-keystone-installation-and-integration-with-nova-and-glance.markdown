@@ -9,7 +9,7 @@ categories:
 
 {% img https://blog.oneiroi.co.uk/openstack-cloud-software-vertical-small.png %}
 
-In this post I follow on from [Setting up Nova and Glance](https://saiweb.co.uk/openstack/rhel-6-openstack-via-epel-nova-and-glance-on-kvm/), and now moving installing and Integrating keystone.
+In this post I follow on from [Setting up Nova and Glance](https://blog.oneiroi.co.uk/openstack/rhel-6-openstack-via-epel-nova-and-glance-on-kvm/), and now moving installing and Integrating keystone.
 I'd first like to [give credit to IBM developerWorks](https://www.ibm.com/developerworks/mydeveloperworks/wikis/home/wiki/OpenStack?lang=en#configure-nova-api) the guys in #openstack @ freenode IRC, and [Psycle Interactive](https://psycle.com) without whom I would not of been able to complete this write up.
 
 Please be aware the following applies to 2011.3 ONLY! (Diablo Final) the configuration to come in Essex is far simpler, if when reading this post your packages are 2012.X you have just installed essex and this is not relevant, anyway here we go ...

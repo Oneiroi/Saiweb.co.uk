@@ -11,7 +11,7 @@ tags:
 categories:
 - php 
 - hosting
-wordpress_url: https://saiweb.co.uk/hosting/php-caching-an-in-depth-review
+wordpress_url: https://blog.oneiroi.co.uk/hosting/php-caching-an-in-depth-review
 comments: true
 ---
 Sounds simple enough, right?
@@ -65,12 +65,12 @@ Now to clarify a point you should not be caching images,css,js etc, we're only c
 
 And before going of at any more of a tangent, here are some figures for you!
 
-<strong>ab -c 100 -n 500 -g ./saiweb-nocache-nogzip.bpl https://www.saiweb.co.uk/</strong>
+<strong>ab -c 100 -n 500 -g ./saiweb-nocache-nogzip.bpl https://blog.oneiroi.co.uk/</strong>
 <ul>
 	<li>No caching</li>
 	<li>No Gzip</li>
 </ul>
-Server Hostname:        www.saiweb.co.uk
+Server Hostname:        blog.oneiroi.co.uk
 Server Port:            80
 
 Document Path:          /
@@ -111,9 +111,9 @@ Percentage of the requests served within a certain time (ms)
 As can be seen as the number of requests grew the response time began to increase sharply and the overall performace of the site degrade, bare in mind these benchmarks are being made on my home DSL for the time being.
 
 <strong>
-ab -c 100 -n 500 -g ./saiweb-cached.bpl https://www.saiweb.co.uk/</strong>
+ab -c 100 -n 500 -g ./saiweb-cached.bpl https://blog.oneiroi.co.uk/</strong>
 
-Server Hostname:        www.saiweb.co.uk
+Server Hostname:        blog.oneiroi.co.uk
 Server Port:            80
 
 Document Path:          /
@@ -154,9 +154,9 @@ Percentage of the requests served within a certain time (ms)
 A much more consistent line here, however as you can clearly see response times are roughly equal this is due to my DSL connection, so lets run these tests from somewhere with a little more bandwidth say the webserver itself using a loop back connection.
 
 <strong>
-ab -c 100 -n 500 -g ./saiweb-cached.bpl https://www.saiweb.co.uk/</strong>
+ab -c 100 -n 500 -g ./saiweb-cached.bpl https://blog.oneiroi.co.uk/</strong>
 
-Server Hostname:        www.saiweb.co.uk
+Server Hostname:        blog.oneiroi.co.uk
 Server Port:            80
 
 Document Path:          /
@@ -198,9 +198,9 @@ In this case the response times rise and then plateau, no after which no further
 
 
 <strong>
-ab -c 100 -n 500 -g ./saiweb-nocache.bpl https://www.saiweb.co.uk/</strong>
+ab -c 100 -n 500 -g ./saiweb-nocache.bpl https://blog.oneiroi.co.uk/</strong>
 
-Server Hostname:        www.saiweb.co.uk
+Server Hostname:        blog.oneiroi.co.uk
 Server Port:            80
 
 Document Path:          /
@@ -259,7 +259,7 @@ now let me tell you that intentionally trying to get a test like this to run ove
 
 The problem I face is to make ab perform a long enough timed duration of results cached, I know for a fact uncached the server will fail under the load, so I have no way at present of grabbing this reliably, 
 
-what I can tell you is that this command: ab -c 300 -n 1000000 -g ./saiweb-cached.bpl https://www.saiweb.co.uk/
+what I can tell you is that this command: ab -c 300 -n 1000000 -g ./saiweb-cached.bpl https://blog.oneiroi.co.uk/
 
 caused a load average of 2.96, 1.9,0.93 cache, and got as high as 21 before I killed it uncached.
 

@@ -9,7 +9,7 @@ tags:
 - log rotation
 categories: 
 - mysql
-wordpress_url: https://saiweb.co.uk/mysql/mysql-slow-query-log-rotation
+wordpress_url: https://blog.oneiroi.co.uk/mysql/mysql-slow-query-log-rotation
 comments: true
 ---
 One of the issues facing log rotation in mySQL is that mySQL doesn't seem to have the ability to perform a "reload".
@@ -37,7 +37,7 @@ The script is written to perform the following actions:
 
 <strong>Please ensure you carry out your own testing prior to deploying this script into a live environment.</strong>
 
-<a href="https://svn.saiweb.co.uk/branches/linux-the-sysadmin-script/branches/logrotate.d/mysql">https://svn.saiweb.co.uk/branches/linux-the-sysadmin-script/branches/logrotate.d/mysql</a>
+<a href="https://svn.blog.oneiroi.co.uk/branches/linux-the-sysadmin-script/branches/logrotate.d/mysql">https://svn.blog.oneiroi.co.uk/branches/linux-the-sysadmin-script/branches/logrotate.d/mysql</a>
 
 {% highlight bash %}
 #

@@ -8,7 +8,7 @@ tags:
 - gmail
 categories: 
 - general
-wordpress_url: https://saiweb.co.uk/general/gmail-goes-down-the-four-horsemen-sighted-the-end-is-nigh
+wordpress_url: https://blog.oneiroi.co.uk/general/gmail-goes-down-the-four-horsemen-sighted-the-end-is-nigh
 comments: true
 ---
 Ok so maybe not, but by the reaction from the masses crying because Gmail has had a little outage, you would think the world was ending ...

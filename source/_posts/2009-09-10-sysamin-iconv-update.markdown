@@ -11,10 +11,10 @@ tags:
 - bom
 categories: 
 - linux
-wordpress_url: https://saiweb.co.uk/linux/sysamin-iconv-update
+wordpress_url: https://blog.oneiroi.co.uk/linux/sysamin-iconv-update
 comments: true
 ---
-I had a major issue facing the iconv functionality of the <a href="https://www.saiweb.co.uk/sysadmin">sysadmin toolset</a> namely due to rushed coding.
+I had a major issue facing the iconv functionality of the <a href="https://blog.oneiroi.co.uk/sysadmin">sysadmin toolset</a> namely due to rushed coding.
 
 When loading a file to be re-encoded the entire file was loaded into the buffer, encoded as whole and written out to the new file, this of course meant the  memory usage was roughly double the size of the file to be converted plus any overheads to do with the encoding itself.
 

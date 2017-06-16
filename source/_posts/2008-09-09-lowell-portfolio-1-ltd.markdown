@@ -13,7 +13,7 @@ tags:
 - red debt collection
 categories: 
 - uncategorized
-wordpress_url: https://saiweb.co.uk/uncategorized/lowell-portfolio-1-ltd
+wordpress_url: https://blog.oneiroi.co.uk/uncategorized/lowell-portfolio-1-ltd
 comments: true
 ---
 UPDATE 26/07/09 -----

@@ -8,10 +8,10 @@ tags:
 - saiweb
 categories: 
 - general
-wordpress_url: https://saiweb.co.uk/general/saiweb-update-what-do-you-want-to-see
+wordpress_url: https://blog.oneiroi.co.uk/general/saiweb-update-what-do-you-want-to-see
 comments: true
 ---
-Well the giant banner at the top of the blog can't of escaped your attention, and I still need your votes! so please check out the blog entry for <a href="https://www.saiweb.co.uk/general/vote-buzz-for-it-superhero-2008">IT Super Hero 2008</a>
+Well the giant banner at the top of the blog can't of escaped your attention, and I still need your votes! so please check out the blog entry for <a href="https://blog.oneiroi.co.uk/general/vote-buzz-for-it-superhero-2008">IT Super Hero 2008</a>
 
 For those awaiting the 'Build your own HD youtube' series completion, I have a dedi server en route, to allow completion of this series.
 

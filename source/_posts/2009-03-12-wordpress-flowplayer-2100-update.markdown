@@ -10,10 +10,10 @@ tags:
 categories: 
 - php
 - flowplayer
-wordpress_url: https://saiweb.co.uk/php/wordpress-flowplayer-2100-update
+wordpress_url: https://blog.oneiroi.co.uk/php/wordpress-flowplayer-2100-update
 comments: true
 ---
-The 2.1.0.0 release is due for the end of this month, you can follow it's progress from the TRAC page here: <a href="https://trac.saiweb.co.uk/saiweb/milestone/wordpress-flowplayer%202.1.0.0">https://trac.saiweb.co.uk/saiweb/milestone/wordpress-flowplayer%202.1.0.0</a>
+The 2.1.0.0 release is due for the end of this month, you can follow it's progress from the TRAC page here: <a href="https://OFFLINE/saiweb/milestone/wordpress-flowplayer%202.1.0.0">https://OFFLINE/saiweb/milestone/wordpress-flowplayer%202.1.0.0</a>
 
 At the time of writing this intends to close 9 issues / feature requests.
 

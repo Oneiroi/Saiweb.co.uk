@@ -10,7 +10,7 @@ tags:
 categories: 
 - linux
 - bash-script
-wordpress_url: https://saiweb.co.uk/linux/linux-the-sysadmin-script-part-1
+wordpress_url: https://blog.oneiroi.co.uk/linux/linux-the-sysadmin-script-part-1
 comments: true
 ---
 Prompted by the following remarks today ...
@@ -76,7 +76,7 @@ You can of course call your script whatever you want, and use any text editor yo
 
 {% highlight bash %}
 #!/bin/bash
-# Sysadmin script PART 1 https://www.saiweb.co.uk
+# Sysadmin script PART 1 https://blog.oneiroi.co.uk
 # Provided under the MIT license (https://www.opensource.org/licenses/mit-license.php)
 # © D.Busby
 function usage {

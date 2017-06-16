@@ -9,7 +9,7 @@ tags:
 - investment property
 categories: 
  - property-investment
-wordpress_url: https://saiweb.co.uk/property investment/property-investment-the-credit-crunch-and-finding-the-ideal-investment-property
+wordpress_url: https://blog.oneiroi.co.uk/property investment/property-investment-the-credit-crunch-and-finding-the-ideal-investment-property
 comments: true
 ---
 " <i>

@@ -8,7 +8,7 @@ tags:
 - "1234567890"
 categories: 
 - general
-wordpress_url: https://saiweb.co.uk/general/the-end-is-nigh
+wordpress_url: https://blog.oneiroi.co.uk/general/the-end-is-nigh
 comments: true
 ---
 Ok well maybe not bit it is kinda strange that today Friday the 13th Feb 2009 EPOCH time will become 1234567890.

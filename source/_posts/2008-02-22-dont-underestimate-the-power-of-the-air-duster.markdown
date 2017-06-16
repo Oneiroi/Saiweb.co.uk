@@ -10,7 +10,7 @@ tags:
 - security
 categories: 
 - hacking
-wordpress_url: https://saiweb.co.uk/hacking/dont-underestimate-the-power-of-the-air-duster
+wordpress_url: https://blog.oneiroi.co.uk/hacking/dont-underestimate-the-power-of-the-air-duster
 comments: true
 ---
 As the old adage goes, any security measure is pretty pointless if the attacker has physical access to the machine.

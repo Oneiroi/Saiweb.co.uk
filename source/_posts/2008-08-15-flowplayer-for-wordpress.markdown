@@ -8,7 +8,7 @@ tags:
 - wordpress
 categories: 
 - php
-wordpress_url: https://saiweb.co.uk/php/flowplayer-for-wordpress
+wordpress_url: https://blog.oneiroi.co.uk/php/flowplayer-for-wordpress
 comments: true
 ---
 Whilst I wait for a reply here: <a href="https://community.flowplayer.org/node/1051">https://community.flowplayer.org/node/1051</a>
@@ -25,7 +25,7 @@ I am making version 0.1 of this plugin available.
 	<li>Make a new directory in the root of wordpress called "videos"</li>
 	<li>Upload streaming media (.flv, .mp4) to /videos/</li>
 	<li>In the wordpress panel (/wp-admin/) under plugins activate "Flowplayer for Wordpress"</li>
-	<li>Write a post and add the tag (see example: <a href="https://www.saiweb.co.uk/php/flowplayer-for-wordpress#comment-174">here</a>) *</li>
+	<li>Write a post and add the tag (see example: <a href="https://blog.oneiroi.co.uk/php/flowplayer-for-wordpress#comment-174">here</a>) *</li>
 </ul>
 * Where "media.flv" is your video file, 600 and 450 are the width and height to make the flash player in the page.
 
@@ -47,4 +47,4 @@ Please leave a comment with feedback.
 
 <a href="https://wordpress.org/extend/plugins/word-press-flow-player/">wpfp Download</a>
 
-As pointed out by <a href="https://www.saiweb.co.uk/php/flowplayer-for-wordpress#comment-234">Mons</a> PHP 4.x does not support the intial release of this plugin.
+As pointed out by <a href="https://blog.oneiroi.co.uk/php/flowplayer-for-wordpress#comment-234">Mons</a> PHP 4.x does not support the intial release of this plugin.

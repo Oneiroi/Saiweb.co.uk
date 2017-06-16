@@ -9,7 +9,7 @@ tags:
 - windows
 categories: 
 - windows
-wordpress_url: https://saiweb.co.uk/windows/windows-xp-sp3-screws-users
+wordpress_url: https://blog.oneiroi.co.uk/windows/windows-xp-sp3-screws-users
 comments: true
 ---
 <p>Oh dear oh dear, MS at it again.</p>

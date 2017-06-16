@@ -12,7 +12,7 @@ categories:
 - jekyll
 ---
 
-So I have as some know been wrestling with <a href="https://github.com/mojombo/jekyll">Jekyll</a>, and have sucessfully been porting my <a href="https://github.com/Oneiroi/saiweb.co.uk">Wordpress posts to markdown</a>.
+So I have as some know been wrestling with <a href="https://github.com/mojombo/jekyll">Jekyll</a>, and have sucessfully been porting my <a href="https://github.com/Oneiroi/blog.oneiroi.co.uk">Wordpress posts to markdown</a>.
 
 Why you may ask? Performance!
 

@@ -14,7 +14,7 @@ categories:
 - hacking
 - php
 - python
-wordpress_url: https://saiweb.co.uk/hacking/dissecting-the-hack-r57shell
+wordpress_url: https://blog.oneiroi.co.uk/hacking/dissecting-the-hack-r57shell
 comments: true
 ---
 <span style="color: #ff0000;"><strong>Before you read any further note, I will not be including the original hack file, simply due to peoples stupidity in putting this on a production environment to play with, if you use the code you do so at your own risk, and by reading this blog entry / using the code provided you agree to accept all liability upon yourself for your own actions. Don't be an idiot.</strong></span>
@@ -51,11 +51,11 @@ Enter Python-Fu:
 
 {% highlight python %}
 #!/usr/bin/env python
-# saiweb.co.uk payload unpack script 26/05/2010
+# blog.oneiroi.co.uk payload unpack script 26/05/2010
 # copy the eval(gzinflate()) line to payload.raw, place in same directory as this file.
 
 """
-Copyright (C) 2010 Buzz saiweb.co.uk.co.uk
+Copyright (C) 2010 Buzz blog.oneiroi.co.uk.co.uk
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

@@ -8,7 +8,7 @@ tags:
 categories: 
 - general
 - apache
-wordpress_url: https://saiweb.co.uk/general/no-wwworg-should-you-participate
+wordpress_url: https://blog.oneiroi.co.uk/general/no-wwworg-should-you-participate
 comments: true
 ---
 This question has arrived at my feet a few times now.
@@ -21,14 +21,14 @@ So what _should_ you do?
 
 In my opinion, add support for both.
 
-You will see that https://saiweb.co.uk and https://www.saiweb.co.uk BOTH work, this allows both "classes" of end users to reach my website, and I have applied this principle to all sites I have recently worked on.
+You will see that https://blog.oneiroi.co.uk and https://blog.oneiroi.co.uk BOTH work, this allows both "classes" of end users to reach my website, and I have applied this principle to all sites I have recently worked on.
 
 Example httpd.conf entry
 
-ServerName saiweb.co.uk
-ServerAlias www.saiweb.co.uk
+ServerName blog.oneiroi.co.uk
+ServerAlias blog.oneiroi.co.uk
 
-DNS for saiweb.co.uk is an A record to the IP of my webhost and www.saiweb.co.uk is a CNAME of saiweb.co.uk
+DNS for blog.oneiroi.co.uk is an A record to the IP of my webhost and blog.oneiroi.co.uk is a CNAME of blog.oneiroi.co.uk
 
 This method however does not https://no-www.org/ validate as www. subdomain still exists, so don't expect a "no-www" validated image to appear on my blog anytime soon.
 

@@ -12,7 +12,7 @@ tags:
 categories: 
 - hacking
 - mac
-wordpress_url: https://saiweb.co.uk/hacking/wifi-recon-using-osx-native-tools
+wordpress_url: https://blog.oneiroi.co.uk/hacking/wifi-recon-using-osx-native-tools
 comments: true
 ---
 So you wanted to get your aircrak suite on under OSX, getting airodump etc to work I can tell you will be a nightmare (infact just dont use a VM with a USB wifi for that, however there is an alternative ...), after a lot of searching there is a native tool under OSX that will let you cap packets, list networks etc.

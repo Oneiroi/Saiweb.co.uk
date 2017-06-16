@@ -9,20 +9,20 @@ tags:
 categories: 
 - linux
 - apache
-wordpress_url: https://saiweb.co.uk/linux/optimizing-apache-for-high-load-sites-part-3
+wordpress_url: https://blog.oneiroi.co.uk/linux/optimizing-apache-for-high-load-sites-part-3
 comments: true
 ---
 <b>Pulling it all together.</b>
 
-In <a href="https://www.saiweb.co.uk/linux/optimizing-apache-for-high-load-sites-part-1">Part 1</a>
+In <a href="https://blog.oneiroi.co.uk/linux/optimizing-apache-for-high-load-sites-part-1">Part 1</a>
 
 I covered the use of pmap to provide an insight into the memory footprint of the apache service.
 
-In <a href="https://www.saiweb.co.uk/linux/optimizing-apache-for-high-load-sites-part-2">Part 2</a>
+In <a href="https://blog.oneiroi.co.uk/linux/optimizing-apache-for-high-load-sites-part-2">Part 2</a>
 
 I covered a list modules that are typically enabled in a standard httpd/apache setup, and listed which modules I was disabling to reduce the memory foot print.
 
-After improving the appmem script in <a href="https://www.saiweb.co.uk/uncategorized/linux-the-sysadmin-script-part-4">Part 4 of the linux sysadmin script</a> I updated part 3 of this series with the new memory foot print figures.
+After improving the appmem script in <a href="https://blog.oneiroi.co.uk/uncategorized/linux-the-sysadmin-script-part-4">Part 4 of the linux sysadmin script</a> I updated part 3 of this series with the new memory foot print figures.
 
 Summary aside, now we have reduced the memory footprint of your apache installation lets go onto actually making the most of your new found memory excess ..'potential' max clients.
 
@@ -90,6 +90,6 @@ MaxRequestsPerChild  4000
 </IfModule>
 {% endhighlight %}
 
-From here use the script in <a href="https://www.saiweb.co.uk/linux/linux-the-sysadmin-script-part-1">part 1 of the Linux sysadmin script</a>, to monitor your active http connections, and 'tweak' your configuration accordingly.
+From here use the script in <a href="https://blog.oneiroi.co.uk/linux/linux-the-sysadmin-script-part-1">part 1 of the Linux sysadmin script</a>, to monitor your active http connections, and 'tweak' your configuration accordingly.
 
 Remember you must only set the MaxClients and ServerLimit to a value you can safely contain in ram, swapping out to disk will cause a major slow down.

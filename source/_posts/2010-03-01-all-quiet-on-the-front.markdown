@@ -10,7 +10,7 @@ tags:
 categories: 
 - general
 - flowplayer
-wordpress_url: https://saiweb.co.uk/general/all-quiet-on-the-front
+wordpress_url: https://blog.oneiroi.co.uk/general/all-quiet-on-the-front
 comments: true
 ---
 No I have not faded into cyber oblivion, things have just been way to busy on the work front to post any updates.

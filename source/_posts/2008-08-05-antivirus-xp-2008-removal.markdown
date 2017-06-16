@@ -8,7 +8,7 @@ tags:
 categories: 
 - hacking
 - security
-wordpress_url: https://saiweb.co.uk/hacking/antivirus-xp-2008-removal
+wordpress_url: https://blog.oneiroi.co.uk/hacking/antivirus-xp-2008-removal
 comments: true
 ---
 Rarely has an adware / spyware given me cause to chuckle, this little sod sets the desktop background with a nice bright blue and yellow warning shouting "You have a virus" ... and places a desktop shortcut to the offending program Antivirus XP 2008.

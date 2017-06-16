@@ -8,7 +8,7 @@ tags:
 - wp-recaptcha
 categories: 
 - general
-wordpress_url: https://saiweb.co.uk/general/user-account-cleanout-and-recaptcha
+wordpress_url: https://blog.oneiroi.co.uk/general/user-account-cleanout-and-recaptcha
 comments: true
 ---
 Due to the several hundred registered accounts in the last couple of days I have had a clean out.
@@ -17,7 +17,7 @@ And implemented the <a href="https://www.blaenkdenum.com/wp-recaptcha/">WP-reCap
 
 So in short I am sorry if yours was a genuine account victim of the clean out, but you can sign back up and <a href="https://recaptcha.net/learnmore.html">help digitize historic books in the process</a>.
 
-The plugin also utilizes the Mail Hide functionality show here: <a href="mailto:d.busby@saiweb.co.uk">HIDDEN EMAIL</a> to help protect email addresses.
+The plugin also utilizes the Mail Hide functionality show here: <a href="mailto:d.busby@blog.oneiroi.co.uk">HIDDEN EMAIL</a> to help protect email addresses.
 
 So now you can post your email address in comments safe from spam.
 

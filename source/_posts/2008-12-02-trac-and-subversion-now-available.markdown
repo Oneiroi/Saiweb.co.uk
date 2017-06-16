@@ -8,15 +8,15 @@ tags:
 - svn
 categories: 
 - general
-wordpress_url: https://saiweb.co.uk/general/trac-and-subversion-now-available
+wordpress_url: https://blog.oneiroi.co.uk/general/trac-and-subversion-now-available
 comments: true
 ---
 I am still in the midst of getting everything made available.
 
-<a href=" https://svn.saiweb.co.uk">
-https://svn.saiweb.co.uk</a>
+<a href=" https://svn.blog.oneiroi.co.uk">
+https://svn.blog.oneiroi.co.uk</a>
 
-<a href="https://trac.saiweb.co.uk">https://trac.saiweb.co.uk</a>
+<a href="https://OFFLINE">https://OFFLINE</a>
 
 From now all all development will be checked into the saiweb subversion, the existing sourceforge and wordpress repositories will only be used to push releases to.
 

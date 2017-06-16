@@ -9,11 +9,11 @@ tags:
 - postage
 categories: 
 - green_giant
-wordpress_url: https://saiweb.co.uk/green_giant/green-giant-ebay-con-artists-part-3
+wordpress_url: https://blog.oneiroi.co.uk/green_giant/green-giant-ebay-con-artists-part-3
 comments: true
 ---
 <p>Well lets start with the good news, the compact flash memory has arrived ...</p>
-<p>Now for the bad, following on from my last blog regarding this <a href="https://www.saiweb.co.uk/hacking/green-giant-ebay-con-artists-part-2">here</a> the package arrived allright, but with all of £0.52 worth of royal mail postage, not recorded, not special delivery, no insurance, nothing <strong>£16</strong> charge for £0.52 in postage ... even with the packaging this no where near amounts to £16 worth of postage.</p>
+<p>Now for the bad, following on from my last blog regarding this <a href="https://blog.oneiroi.co.uk/hacking/green-giant-ebay-con-artists-part-2">here</a> the package arrived allright, but with all of £0.52 worth of royal mail postage, not recorded, not special delivery, no insurance, nothing <strong>£16</strong> charge for £0.52 in postage ... even with the packaging this no where near amounts to £16 worth of postage.</p>
 <p>This is an utter JOKE, I am processing the photos for upload, the originals ar 5MP so a little to big for a blog ;-)</p>
 <p>I have put in a complaint with ebay, citing this as using their postage system to "Extort" additional money.</p>
 <p>Hopefully they will also see it this way, that does mean I can not "name and shame" at the moment, as it will not help my case.</p>

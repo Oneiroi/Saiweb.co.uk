@@ -8,7 +8,7 @@ tags:
 - pyinotify
 categories: 
 - python
-wordpress_url: https://saiweb.co.uk/python/adding-pyinotify-to-centos-5-x64
+wordpress_url: https://blog.oneiroi.co.uk/python/adding-pyinotify-to-centos-5-x64
 comments: true
 ---
 In order to get pyinotify working on CentOS 5 x64 a few workarounds need to take place.

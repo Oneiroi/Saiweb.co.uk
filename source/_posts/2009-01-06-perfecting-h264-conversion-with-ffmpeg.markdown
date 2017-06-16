@@ -11,7 +11,7 @@ tags:
 - flv
 categories: 
 - linux
-wordpress_url: https://saiweb.co.uk/linux/perfecting-h264-conversion-with-ffmpeg
+wordpress_url: https://blog.oneiroi.co.uk/linux/perfecting-h264-conversion-with-ffmpeg
 comments: true
 ---
 Liam (<a href="https://goodingsweb.com">https://goodingsweb.com</a>) has shared his findings on tweaking ffmpeg output with h.264, he has taken a 174MB flv file down to just 24MB (86% reduction in file size).

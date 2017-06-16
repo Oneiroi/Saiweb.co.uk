@@ -11,7 +11,7 @@ tags:
 categories: 
 - linux
 - security
-wordpress_url: https://saiweb.co.uk/linux/vsftpd-chrooting-without-the-headache-allowing-shared-directories
+wordpress_url: https://blog.oneiroi.co.uk/linux/vsftpd-chrooting-without-the-headache-allowing-shared-directories
 comments: true
 ---
 <script type="text/javascript">// <![CDATA[
@@ -136,7 +136,7 @@ The user now is in a chroot'ed environment, but can still access the share resou
 
 SCP/SFTP at the time of writing has no logging facility, making it next to impossible to find out who uploaded / overwrote a file in the shared resource at any given time. 
 
-(UPDATE 19/07/2010: <a href="https://www.saiweb.co.uk/linux/enable-logging-in-the-sftp-subsystem">https://www.saiweb.co.uk/linux/enable-logging-in-the-sftp-subsystem</a>)
+(UPDATE 19/07/2010: <a href="https://blog.oneiroi.co.uk/linux/enable-logging-in-the-sftp-subsystem">https://blog.oneiroi.co.uk/linux/enable-logging-in-the-sftp-subsystem</a>)
 
 By forcing FTP all transactions will appear in the xfer log.
 

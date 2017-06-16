@@ -10,7 +10,7 @@ tags:
 categories: 
 - php
 - sanctimonia
-wordpress_url: https://saiweb.co.uk/php/project-sanctimonia
+wordpress_url: https://blog.oneiroi.co.uk/php/project-sanctimonia
 comments: true
 ---
 I am in the process of contacting charitable organisations for project "sanctimonia".

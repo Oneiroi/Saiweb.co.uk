@@ -9,10 +9,10 @@ tags:
 categories: 
 - linux
 - bash-script
-wordpress_url: https://saiweb.co.uk/linux/linux-the-sysadmin-script-part-4
+wordpress_url: https://blog.oneiroi.co.uk/linux/linux-the-sysadmin-script-part-4
 comments: true
 ---
-In part 4, I am going to cover more of an improvement than anything else to <a href="https://www.saiweb.co.uk/linux/linux-the-sysadmin-script-part-3">part 3</a>
+In part 4, I am going to cover more of an improvement than anything else to <a href="https://blog.oneiroi.co.uk/linux/linux-the-sysadmin-script-part-3">part 3</a>
 
 Part 3 itself is not incorrect, it correctly takes a memory footprint for each process running, the same as VIRT in top ...
 

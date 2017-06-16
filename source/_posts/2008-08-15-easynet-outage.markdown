@@ -8,7 +8,7 @@ tags:
 - outage
 categories: 
 - networking
-wordpress_url: https://saiweb.co.uk/networking/easynet-outage
+wordpress_url: https://blog.oneiroi.co.uk/networking/easynet-outage
 comments: true
 ---
 Oh dear oh dear ...

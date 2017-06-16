@@ -12,7 +12,7 @@ tags:
 categories: 
 - python
 - twitter
-wordpress_url: https://saiweb.co.uk/python/subversion-and-twitter-keep-your-followers-up-to-date-with-your-code-commits
+wordpress_url: https://blog.oneiroi.co.uk/python/subversion-and-twitter-keep-your-followers-up-to-date-with-your-code-commits
 comments: true
 ---
 Some two months after the fact, I thought it may well be time to post a blog on this little code snippet.
@@ -28,7 +28,7 @@ Subversion server
 
 <strong>Installation</strong>
 <ul>
-	<li>svn co https://svn.saiweb.co.uk/branches/python/svn_tweeter.py /usr/bin/svn_tweeter</li>
+	<li>svn co https://svn.blog.oneiroi.co.uk/branches/python/svn_tweeter.py /usr/bin/svn_tweeter</li>
 	<li>chmod +x /usr/bin/svn_tweeter</li>
 	<li>cd /path/to/svn/hooks</li>
 	<li>Edit post-commit with your favorite text editor</li>

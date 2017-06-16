@@ -7,7 +7,7 @@ tags: []
 
 categories: 
 - rant
-wordpress_url: https://saiweb.co.uk/rant/the-idiocy-of-anonymous-proxies
+wordpress_url: https://blog.oneiroi.co.uk/rant/the-idiocy-of-anonymous-proxies
 comments: true
 ---
 Or rather the idiocy of your generic "I've just been to pc world/<some other computer retailer> to get on the intarnets", who for the duration of this post we will refer to as Joe Idiot.

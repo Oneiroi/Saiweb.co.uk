@@ -12,7 +12,7 @@ tags:
 categories: 
 - hacking
 - linux
-wordpress_url: https://saiweb.co.uk/hacking/when-fail2ban-fails-to-ban-dissecting-the-hack
+wordpress_url: https://blog.oneiroi.co.uk/hacking/when-fail2ban-fails-to-ban-dissecting-the-hack
 comments: true
 ---
 Most of the time when I review our log watches each morning I become enraged at the number of automated attacks,

@@ -13,7 +13,7 @@ categories:
 - linux
 - technology
 - hosting
-wordpress_url: https://saiweb.co.uk/linux/make-your-webapp-shine-with-varnish-part-1
+wordpress_url: https://blog.oneiroi.co.uk/linux/make-your-webapp-shine-with-varnish-part-1
 comments: true
 ---
 <strong>Part 1, what is varnish?</strong>

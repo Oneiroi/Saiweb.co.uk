@@ -12,12 +12,12 @@ tags:
 - hide
 categories: 
 - security
-wordpress_url: https://saiweb.co.uk/security/cloaking-your-web-apps-ninja-vanish
+wordpress_url: https://blog.oneiroi.co.uk/security/cloaking-your-web-apps-ninja-vanish
 comments: true
 ---
 Bad <a href="https://lmgtfy.com/?q=tmnt">TMNT</a> reference I know but with a reboot coming what do you expect realy?
 
-Right so you have hidden your versions via <a href="https://www.saiweb.co.uk/security/cloaking-your-web-apps-the-hooded-apache">The Hooded Apache</a> so what now?
+Right so you have hidden your versions via <a href="https://blog.oneiroi.co.uk/security/cloaking-your-web-apps-the-hooded-apache">The Hooded Apache</a> so what now?
 
 Well no matter what you do if your url's contain .php / .asp / .cfm (Frankly if you are using coldfusion you deserve what you get ... just saying ...)
 
@@ -40,7 +40,7 @@ it will be easy to enumerate the back end language this way ... the first 404 th
 
 <strong>Change the extension entirely</strong>
 
-Security through obscurity? you bet your ass, just add your new extension onto your AddType declaration, because you are already avoiding the <a href="https://www.saiweb.co.uk/uncategorized/apache-2-2-3-dual-extention-vulnerability">dual extension vulnerability</a> right? 
+Security through obscurity? you bet your ass, just add your new extension onto your AddType declaration, because you are already avoiding the <a href="https://blog.oneiroi.co.uk/uncategorized/apache-2-2-3-dual-extention-vulnerability">dual extension vulnerability</a> right? 
 
 how about .wtf
 

@@ -9,7 +9,7 @@ tags:
 categories: 
 - php
 - flowplayer
-wordpress_url: https://saiweb.co.uk/php/wordpress-flowplayer-2-0-9-9
+wordpress_url: https://blog.oneiroi.co.uk/php/wordpress-flowplayer-2-0-9-9
 comments: true
 ---
 Finaly it is ready and in a state I am happy to release it.

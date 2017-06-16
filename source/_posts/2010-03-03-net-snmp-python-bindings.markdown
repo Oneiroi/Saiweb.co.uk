@@ -10,7 +10,7 @@ tags:
 - bindings
 categories: 
 - python
-wordpress_url: https://saiweb.co.uk/python/net-snmp-python-bindings
+wordpress_url: https://blog.oneiroi.co.uk/python/net-snmp-python-bindings
 comments: true
 ---
 <strong>UPDATE 28/06/10:</strong> added --libdir=/usr/lib64 --enable-shared otherwise shared libs are not built at all!

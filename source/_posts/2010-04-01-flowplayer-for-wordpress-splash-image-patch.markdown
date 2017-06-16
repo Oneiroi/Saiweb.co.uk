@@ -8,7 +8,7 @@ tags:
 - patch
 categories: 
 - flowplayer
-wordpress_url: https://saiweb.co.uk/flowplayer/flowplayer-for-wordpress-splash-image-patch
+wordpress_url: https://blog.oneiroi.co.uk/flowplayer/flowplayer-for-wordpress-splash-image-patch
 comments: true
 ---
 A user contributed patch from James Partington can be found <a href='https://blog.oneiroi.co.uk/uploads/2010/04/Flowplayer-WP-patch.txt'>Here</a>

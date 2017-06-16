@@ -12,12 +12,12 @@ categories:
 - hacking
 - linux
 - security
-wordpress_url: https://saiweb.co.uk/hacking/cloaking-your-web-apps-the-hooded-apache
+wordpress_url: https://blog.oneiroi.co.uk/hacking/cloaking-your-web-apps-the-hooded-apache
 comments: true
 ---
 <p>Go ahead and run</p>
 <p>{% highlight bash %}
-curl -I https://www.saiweb.co.uk
+curl -I https://blog.oneiroi.co.uk
 {% endhighlight %}</p>
 <p>You will get </p>
 <p>{% highlight bash %}

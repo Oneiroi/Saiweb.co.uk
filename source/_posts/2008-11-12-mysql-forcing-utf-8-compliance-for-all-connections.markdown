@@ -12,7 +12,7 @@ tags:
 - utf8
 categories: 
 - mysql
-wordpress_url: https://saiweb.co.uk/mysql/mysql-forcing-utf-8-compliance-for-all-connections
+wordpress_url: https://blog.oneiroi.co.uk/mysql/mysql-forcing-utf-8-compliance-for-all-connections
 comments: true
 comments: true
 ---

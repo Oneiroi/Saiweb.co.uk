@@ -12,7 +12,7 @@ categories:
 - mysql
 - php
 - security
-wordpress_url: https://saiweb.co.uk/mysql/php-security-considerations
+wordpress_url: https://blog.oneiroi.co.uk/mysql/php-security-considerations
 comments: true
 ---
 To often I get passed code to review that quite frankly is so full of holes it wouldn't make an adequate sieve...

@@ -7,7 +7,7 @@ tags: []
 
 categories: 
  - property-investment
-wordpress_url: https://saiweb.co.uk/property investment/property-investment-uk-is-the-btl-market-facing-armageddon
+wordpress_url: https://blog.oneiroi.co.uk/property investment/property-investment-uk-is-the-btl-market-facing-armageddon
 comments: true
 ---
 We don't have the official figures yet, but numbers appeared to most veteran show goers to be well down on previous years. Not surprising really given the amount of gloom in the UK market at least.

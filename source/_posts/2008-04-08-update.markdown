@@ -7,7 +7,7 @@ tags: []
 
 categories: 
 - general
-wordpress_url: https://saiweb.co.uk/general/update
+wordpress_url: https://blog.oneiroi.co.uk/general/update
 comments: true
 ---
 <p>Sorry for the delay in the new articles, seems I've been "snowed" under, metaphoracly and litterally (brrr it's cold!)</p>

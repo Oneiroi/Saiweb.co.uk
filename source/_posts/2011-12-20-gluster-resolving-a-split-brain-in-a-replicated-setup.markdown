@@ -11,7 +11,7 @@ tags:
 - fix
 categories: 
 - linux
-wordpress_url: https://saiweb.co.uk/linux/gluster-resolving-a-split-brain-in-a-replicated-setup
+wordpress_url: https://blog.oneiroi.co.uk/linux/gluster-resolving-a-split-brain-in-a-replicated-setup
 comments: true
 ---
 Initially this took about ~7hours to diagnose and fix, with what I have learned about the inner workings of gluster and the tools I am providing opensource this should cut resolution time down to ~5minutes.
@@ -48,5 +48,5 @@ So what is the resolution int his case?
 
 Selective use, use glusterfs for filesystems that you need distributed locking, often in large production deploys php files will not change often, in this case NFS is perfect.
 
-If you are still writing php sessions to a file system then <a href="https://www.saiweb.co.uk/php/high-availability-joomla-wordpress-load-balance-persistant-php-database-sessions">STOP IT</a> and use a database! (Better yet use memcache).
+If you are still writing php sessions to a file system then <a href="https://blog.oneiroi.co.uk/php/high-availability-joomla-wordpress-load-balance-persistant-php-database-sessions">STOP IT</a> and use a database! (Better yet use memcache).
 

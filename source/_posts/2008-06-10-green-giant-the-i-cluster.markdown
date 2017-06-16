@@ -14,7 +14,7 @@ categories:
 - green_giant
 - iphone
 - icluster
-wordpress_url: https://saiweb.co.uk/hacking/green-giant-the-i-cluster
+wordpress_url: https://blog.oneiroi.co.uk/hacking/green-giant-the-i-cluster
 comments: true
 ---
 <p>So the 3g iPhone is out, and a _lot_ of 1st gen iPhone people are looking to grab this new phone as a replacement due to the new features, 3g, gps etc ...</p>
@@ -23,4 +23,4 @@ comments: true
 <p>I am now looking at places like freecycle to see if I can get hold of any 1st gen's to do development on ... time will tell</p>
 <p>But one of the features I have planned should I be able to get hold of a 1st gen or two is using the accelerometer to control the nodes online / offline status ...</p>
 <p>Anyway all concept and dreams unless one appears.</p>
-<p>UPDATE: Please <a href="https://digg.com/apple/Green_Giant_the_i_cluster_Saiweb">Digg This Entry</a>, <a href="https://www.stumbleupon.com/url/www.saiweb.co.uk/hacking/green-giant-the-i-cluster">Stumble This Entry</a></p>
+<p>UPDATE: Please <a href="https://digg.com/apple/Green_Giant_the_i_cluster_Saiweb">Digg This Entry</a>, <a href="https://www.stumbleupon.com/url/blog.oneiroi.co.uk/hacking/green-giant-the-i-cluster">Stumble This Entry</a></p>

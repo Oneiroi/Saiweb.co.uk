@@ -9,7 +9,7 @@ tags:
 - email
 categories: 
 - n95
-wordpress_url: https://saiweb.co.uk/n95/n95-mail-for-exchange
+wordpress_url: https://blog.oneiroi.co.uk/n95/n95-mail-for-exchange
 comments: true
 ---
 The page here: <a href="https://blog.totalcomputing.co.uk/2007/06/installing-mail-for-exchange-on-nokia.html">https://blog.totalcomputing.co.uk/2007/06/installing-mail-for-exchange-on-nokia.html</a>

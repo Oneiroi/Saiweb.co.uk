@@ -10,7 +10,7 @@ tags:
 categories: 
 - windows
 - ordb
-wordpress_url: https://saiweb.co.uk/windows/blocked-by-ordb
+wordpress_url: https://blog.oneiroi.co.uk/windows/blocked-by-ordb
 comments: true
 ---
 <p>Well this is a barrel of laughs...</p>
