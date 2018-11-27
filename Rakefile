@@ -1,7 +1,6 @@
 require "rubygems"
 require "bundler/setup"
 require "stringex"
-require "fog"
 require "mime/types"
 require "find"
 require "colored"

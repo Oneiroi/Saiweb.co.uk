@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 group :development do
   gem 'rake', '~> 0.9.6'
-  gem 'rack', '~> 1.5.4'
+  gem 'rack', '~> 1.6.11'
   gem 'jekyll', '~> 0.11.2'
   gem 'rdiscount', '~> 1.6.8'
 #  gem 'pygments.rb', '~> 0.2.12'
@@ -17,7 +17,6 @@ group :development do
 end
 
 gem 'sinatra', '~> 1.3.2'
-gem 'fog'
 gem 'colored'
 gem 'mime-types'
 gem 'uri-handler'
