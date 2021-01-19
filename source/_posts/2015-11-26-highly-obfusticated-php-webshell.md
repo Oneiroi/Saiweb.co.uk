@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Highly obfusticated PHP webshell"
 date: 2015-11-26 18:54
-comments: true
-categories:
+tags:
 - security
 - php
 - webshell

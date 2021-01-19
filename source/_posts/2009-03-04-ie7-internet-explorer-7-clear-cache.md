@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 589
-layout: post
 title: IE7, Internet Explorer 7, Clear Cache
 date: 2009-03-04 11:03:10 +00:00
 tags: 
@@ -9,10 +8,9 @@ tags:
 - clear
 - cache
 - clear cache
-categories: 
+tags: 
 - windows
 wordpress_url: https://blog.oneiroi.co.uk/windows/ie7-internet-explorer-7-clear-cache
-comments: true
 ---
 Some users apparently do not know how to clear their Internet Explorer cache, so I have taken two minutes to do a screen cast here: <a href="https://screencast.com/t/FGDnc2gjcft">https://screencast.com/t/FGDnc2gjcft</a>
 

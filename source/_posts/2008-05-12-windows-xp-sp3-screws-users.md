@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 44
-layout: post
 title: Windows XP sp3 screws users
 date: 2008-05-12 08:15:00 +01:00
 tags: 
 - xp
 - sp3
 - windows
-categories: 
+tags: 
 - windows
 wordpress_url: https://blog.oneiroi.co.uk/windows/windows-xp-sp3-screws-users
-comments: true
 ---
 <p>Oh dear oh dear, MS at it again.</p>
 <p>Accoding to this story: <a href="https://www.theregister.co.uk/2008/05/09/windows_xp_sp3_reboots_crashes/">here</a></p>

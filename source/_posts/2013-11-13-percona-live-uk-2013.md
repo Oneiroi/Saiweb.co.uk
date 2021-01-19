@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Percona Live UK 2013"
 date: 2013-11-13 10:54
-comments: true
-categories:
+tags:
 - percona
 ---
 

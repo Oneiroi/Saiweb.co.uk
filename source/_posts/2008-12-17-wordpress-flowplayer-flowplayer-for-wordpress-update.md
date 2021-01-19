@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 355
-layout: post
 title: Wordpress flowplayer (Flowplayer for wordpress) UPDATE
 date: 2008-12-17 09:20:52 +00:00
 tags: 
 - flowplayer
 - wordpress
-categories: 
+tags: 
 - php
 wordpress_url: https://blog.oneiroi.co.uk/php/wordpress-flowplayer-flowplayer-for-wordpress-update
-comments: true
 ---
 With the release of wordpress 2.7 and flowplayer 3.x I thought it was time to update the plugin.
 

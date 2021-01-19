@@ -1,14 +1,12 @@
 --- 
 wordpress_id: 791
-layout: post
 title: Call to undefined function imagettfbbox()
 date: 2009-10-13 13:19:20 +01:00
 tags: []
 
-categories: 
+tags: 
 - php
 wordpress_url: https://blog.oneiroi.co.uk/php/call-to-undefined-function-imagettfbbox
-comments: true
 ---
 <strong>Call to undefined function imagettfbbox()</strong>
 

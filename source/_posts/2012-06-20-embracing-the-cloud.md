@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Embracing the cloud"
 date: 2012-06-20 21:07
-comments: true
-categories:
+tags:
 - cloud
 - clouddns
 - cloudfiles

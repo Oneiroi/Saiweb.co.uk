@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 856
-layout: post
 title: Wordpress Flowplayer 2.0.9.92
 date: 2010-04-06 22:09:07 +01:00
 tags: 
 - flowplayer
 - wordpress
-categories: 
+tags: 
 - flowplayer
 wordpress_url: https://blog.oneiroi.co.uk/flowplayer/wordpress-flowplayer-2-0-9-92
-comments: true
 ---
 <strong>Changelog</strong>
 

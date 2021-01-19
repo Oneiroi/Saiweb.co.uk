@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 762
-layout: post
 title: Wordpress Flowplayer 2.0.9.9
 date: 2009-09-03 16:33:24 +01:00
 tags: 
 - flowplayer
 - wordpress
-categories: 
+tags: 
 - php
 - flowplayer
 wordpress_url: https://blog.oneiroi.co.uk/php/wordpress-flowplayer-2-0-9-9
-comments: true
 ---
 Finaly it is ready and in a state I am happy to release it.
 

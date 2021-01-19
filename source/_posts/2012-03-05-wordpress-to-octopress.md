@@ -1,14 +1,12 @@
 ---
-layout: post
 title: "Wordpress to Octopress"
 date: 2012-03-05 19:30
-comments: true
 tags:
 - octopress
 - wordpress
 - jekyll
 - markdown
-categories:
+tags:
 - jekyll
 ---
 

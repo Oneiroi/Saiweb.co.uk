@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 844
-layout: post
 title: Mounting NFS shares on OSX
 date: 2010-04-06 15:18:22 +01:00
 tags: 
@@ -9,10 +8,9 @@ tags:
 - osx
 - nfs
 - exports
-categories: 
+tags: 
 - mac
 wordpress_url: https://blog.oneiroi.co.uk/mac/mounting-nfs-shares-on-osx
-comments: true
 ---
 Having little time to update my blog, I've been updating a wiki I keep with various tidbits, so I thought I might as well share a few, they will be appearing on here over the next few days.
 

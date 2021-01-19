@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 1122
-layout: post
 title: WiFi recon using OSX native tools
 date: 2011-09-23 10:13:12 +01:00
 tags: 
@@ -9,11 +8,10 @@ tags:
 - pentesting
 - pcap
 - airport
-categories: 
+tags: 
 - hacking
 - mac
 wordpress_url: https://blog.oneiroi.co.uk/hacking/wifi-recon-using-osx-native-tools
-comments: true
 ---
 So you wanted to get your aircrak suite on under OSX, getting airodump etc to work I can tell you will be a nightmare (infact just dont use a VM with a USB wifi for that, however there is an alternative ...), after a lot of searching there is a native tool under OSX that will let you cap packets, list networks etc.
 

@@ -1,18 +1,16 @@
 --- 
 wordpress_id: 257
-layout: post
 title: Linux - The Sysadmin script - Part 3
 date: 2008-11-12 12:25:22 +00:00
 tags: 
 - linux
 - apache
 - sysadmin
-categories: 
+tags: 
 - linux
 - apache
 - bash-script
 wordpress_url: https://blog.oneiroi.co.uk/linux/linux-the-sysadmin-script-part-3
-comments: true
 ---
 <strong>PART 3 IS INACCURATE, THE BELOW SCRIPT IS FOR REFERENCE ONLY, IT HAS BEEN REPLACED IN <a href="https://blog.oneiroi.co.uk/uncategorized/linux-the-sysadmin-script-part-4">PART 4</a></strong>
 

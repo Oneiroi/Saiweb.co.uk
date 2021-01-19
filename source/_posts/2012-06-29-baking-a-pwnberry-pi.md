@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Baking a pwnberry pi"
 date: 2012-06-29 12:54
-comments: true
-categories:
+tags:
 - linux
 - raspi
 - security

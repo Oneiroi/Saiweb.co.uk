@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 506
-layout: post
 title: suPHP::LookupException
 date: 2009-02-02 10:56:17 +00:00
 tags: 
 - suphp
 - lookupexception
 - suphp::lookupexception
-categories: 
+tags: 
 - security
 wordpress_url: https://blog.oneiroi.co.uk/security/suphplookupexception
-comments: true
 ---
 If you are seeing '<b>suPHP::LookupException</b>' in your apache error logs, this is due to the <b>suPHP_UserGroup</b> line in your virtualhost config.
 

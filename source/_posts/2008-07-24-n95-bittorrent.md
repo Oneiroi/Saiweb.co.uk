@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 97
-layout: post
 title: N95 Bittorrent
 date: 2008-07-24 14:56:13 +01:00
 tags: 
 - n95
 - s60
 - bittorrent
-categories: 
+tags: 
 - n95
 wordpress_url: https://blog.oneiroi.co.uk/n95/n95-bittorrent
-comments: true
 ---
 Well I'll be damned, someone has actually done it!
 

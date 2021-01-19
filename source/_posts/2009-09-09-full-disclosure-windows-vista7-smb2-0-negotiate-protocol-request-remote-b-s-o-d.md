@@ -1,14 +1,12 @@
 --- 
 wordpress_id: 772
-layout: post
 title: "Full Disclosure: Windows Vista/7 : SMB2.0 NEGOTIATE PROTOCOL REQUEST Remote B.S.O.D"
 date: 2009-09-09 09:00:48 +01:00
 tags: []
 
-categories: 
+tags: 
 - windows
 wordpress_url: https://blog.oneiroi.co.uk/windows/full-disclosure-windows-vista7-smb2-0-negotiate-protocol-request-remote-b-s-o-d
-comments: true
 ---
 <a href="https://g-laurent.blogspot.com/">laurent gaffie</a> has produced a proof of concept remote BSOD affecting windows vista /7.
 

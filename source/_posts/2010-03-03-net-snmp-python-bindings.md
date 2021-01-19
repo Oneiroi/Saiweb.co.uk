@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 833
-layout: post
 title: net-snmp python bindings
 date: 2010-03-03 14:26:09 +00:00
 tags: 
@@ -8,10 +7,9 @@ tags:
 - snmp
 - net-snmp
 - bindings
-categories: 
+tags: 
 - python
 wordpress_url: https://blog.oneiroi.co.uk/python/net-snmp-python-bindings
-comments: true
 ---
 <strong>UPDATE 28/06/10:</strong> added --libdir=/usr/lib64 --enable-shared otherwise shared libs are not built at all!
 

@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 968
-layout: post
 title: "matplotlib ImportError: No module named ma"
 date: 2010-10-15 15:07:12 +01:00
 tags: 
@@ -11,11 +10,10 @@ tags:
 - "no"
 - module
 - named
-categories: 
+tags: 
 - mac
 - python
 wordpress_url: https://blog.oneiroi.co.uk/mac/matplotlib-importerror-no-module-named-ma
-comments: true
 ---
 ImportError: No module named ma
 

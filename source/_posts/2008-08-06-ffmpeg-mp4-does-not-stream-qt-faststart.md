@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 130
-layout: post
 title: ffmpeg MP4 does not stream qt-faststart
 date: 2008-08-06 14:14:44 +01:00
 tags: 
 - ffmpeg
 - qt-faststart
-categories: 
+tags: 
 - linux
 wordpress_url: https://blog.oneiroi.co.uk/linux/ffmpeg-mp4-does-not-stream-qt-faststart
-comments: true
 ---
 ffmpeg comes with a tool to re-order the MP4 "atoms" (Seriously don't ask  what are MP4 atoms it's geek for the sake of geek).
 

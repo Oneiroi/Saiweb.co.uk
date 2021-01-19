@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "NCA challenge 2015 progress writeup"
 date: 2015-07-20 17:50
-comments: true
-categories:
+tags:
 - security
 - nca
 - challenge 

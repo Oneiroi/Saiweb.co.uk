@@ -1,0 +1,4 @@
+baseURL: https://blog.oneiroi.co.uk/
+disablePathToLower: true
+languageCode: en-us
+title: Oneiroi - Demented rambling of a sysadmin turned infosec

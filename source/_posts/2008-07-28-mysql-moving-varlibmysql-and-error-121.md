@@ -1,17 +1,15 @@
 --- 
 wordpress_id: 104
-layout: post
 title: "mysql moving /var/lib/mysql and error: 121"
 date: 2008-07-28 15:11:30 +01:00
 tags: 
 - mysql
 - mount
 - bind
-categories: 
+tags: 
 - hacking
 - mysql
 wordpress_url: https://blog.oneiroi.co.uk/hacking/mysql-moving-varlibmysql-and-error-121
-comments: true
 ---
 The downside of a development server is ... it's for development.
 

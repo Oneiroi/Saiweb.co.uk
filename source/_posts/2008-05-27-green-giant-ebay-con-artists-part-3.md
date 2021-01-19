@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 54
-layout: post
 title: Green Giant - eBay Con artists part 3
 date: 2008-05-27 09:16:02 +01:00
 tags: 
 - ebay
 - con
 - postage
-categories: 
+tags: 
 - green_giant
 wordpress_url: https://blog.oneiroi.co.uk/green_giant/green-giant-ebay-con-artists-part-3
-comments: true
 ---
 <p>Well lets start with the good news, the compact flash memory has arrived ...</p>
 <p>Now for the bad, following on from my last blog regarding this <a href="https://blog.oneiroi.co.uk/hacking/green-giant-ebay-con-artists-part-2">here</a> the package arrived allright, but with all of £0.52 worth of royal mail postage, not recorded, not special delivery, no insurance, nothing <strong>£16</strong> charge for £0.52 in postage ... even with the packaging this no where near amounts to £16 worth of postage.</p>

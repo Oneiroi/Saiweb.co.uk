@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Cloaking your Web Apps - The Stealth Engine X"
 date: 2012-07-05 12:52
-comments: true
-categories:
+tags:
 - hacking
 - linux
 - security

@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 1137
-layout: post
 title: Pivoting ssh reverse tunnel gateway
 date: 2011-10-06 14:43:02 +01:00
 tags: 
@@ -11,10 +10,9 @@ tags:
 - tunnel
 - epic
 - win
-categories: 
+tags: 
 - linux
 wordpress_url: https://blog.oneiroi.co.uk/linux/pivoting-ssh-reverse-tunnel-gateway
-comments: true
 ---
 They say necessity is the mother of invention, if this is true then surely the mother of all fuck ups is shoddy customer service, say an isp that will randomly shut down a port because it has high bandwidth usage without asking the customer about it first, and flat out refusing to do anything for 24hrs ...
 

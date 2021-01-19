@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 913
-layout: post
 title: dissecting the hack - psychz.net
 date: 2010-08-25 19:12:39 +01:00
 tags: 
@@ -8,10 +7,9 @@ tags:
 - brute
 - ftp
 - psychz
-categories: 
+tags: 
 - hacking
 wordpress_url: https://blog.oneiroi.co.uk/hacking/dissecting-the-hack-psychz-net
-comments: true
 ---
 For some background you may want to read the <a href="https://blog.oneiroi.co.uk/hacking/when-fail2ban-fails-to-ban-dissecting-the-hack">Original Story</a> leading to this write up.
 

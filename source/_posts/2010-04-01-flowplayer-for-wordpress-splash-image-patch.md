@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 840
-layout: post
 title: Flowplayer for wordpress splash image patch
 date: 2010-04-01 08:32:50 +01:00
 tags: 
 - flowplayer
 - patch
-categories: 
+tags: 
 - flowplayer
 wordpress_url: https://blog.oneiroi.co.uk/flowplayer/flowplayer-for-wordpress-splash-image-patch
-comments: true
 ---
 A user contributed patch from James Partington can be found <a href='https://blog.oneiroi.co.uk/uploads/2010/04/Flowplayer-WP-patch.txt'>Here</a>
 

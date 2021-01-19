@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 9
-layout: post
 title: mySQL Full Text Search With Percentage Scoring (originally Posted on 3dbuzz.com)
 date: 2005-12-16 12:37:08 +00:00
 tags: 
@@ -8,11 +7,10 @@ tags:
 - full text
 - relevance
 - scoring
-categories: 
+tags: 
 - mysql
 - php
 wordpress_url: https://blog.oneiroi.co.uk/mysql/mysql-full-text-search-with-percentage-scoring
-comments: true
 ---
 ** Note I am not the "Buzz" from 3dbuzz.com this is just a coincidence **
 

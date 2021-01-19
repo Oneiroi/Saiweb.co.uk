@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 496
-layout: post
 title: Motion Tracking With Processing
 date: 2009-02-01 19:20:03 +00:00
 tags: 
 - processing
 - motion tracking
-categories: 
+tags: 
 - java
 wordpress_url: https://blog.oneiroi.co.uk/java/motion-tracking-with-processing
-comments: true
 ---
 For this quick video I spent about 30 minutes playing around with the exmaples provided with the processing SDK, you can get a copy from <a href="https://processing.org">processing.org</a><br /><br />[FLOWPLAYER=motion_tracking_demo.mp4,320,262]<br />
 <strong>

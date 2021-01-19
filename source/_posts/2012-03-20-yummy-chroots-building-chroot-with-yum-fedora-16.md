@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "yummy chroots Building chroots with yum on fedora 16"
 date: 2012-03-07 16:59
-comments: true
-categories:
+tags:
 - linux
 ---
 

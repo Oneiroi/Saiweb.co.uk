@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 864
-layout: post
 title: Venturing into micro controller programming
 date: 2010-05-13 08:38:46 +01:00
 tags: 
 - teensy
 - arduino
 - library
-categories: 
+tags: 
 - hacking
 wordpress_url: https://blog.oneiroi.co.uk/hacking/venturing-into-micro-controller-programming
-comments: true
 ---
 Or, as one of my colleagues this morning said, firmware programming which in the literal sense of the word I suppose it is firmware.
 

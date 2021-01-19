@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 1169
-layout: post
 title: RedHat mock your SCM
 date: 2012-02-03 16:33:19 +00:00
 tags: 
@@ -12,10 +11,9 @@ tags:
 - enable-scm
 - scm-option
 - fedora
-categories: 
+tags: 
 - linux
 wordpress_url: https://blog.oneiroi.co.uk/linux/redhat-mock-your-scm
-comments: true
 ---
 The mock tool can be a wonderful thing, allowing you to produce rpm packages for any rpm based system (assuming your have the written .cfg for it).
 

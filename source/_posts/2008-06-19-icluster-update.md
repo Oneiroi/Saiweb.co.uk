@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 71
-layout: post
 title: iCluster update
 date: 2008-06-19 15:19:09 +01:00
 tags: 
@@ -8,10 +7,9 @@ tags:
 - iphone
 - icluster
 - beowulf
-categories: 
+tags: 
 - icluster
 wordpress_url: https://blog.oneiroi.co.uk/icluster/icluster-update
-comments: true
 ---
 No joy so far, and despite my postings to the local freecycle groups my list postings have been rejected as being "too extravagant" ...
 

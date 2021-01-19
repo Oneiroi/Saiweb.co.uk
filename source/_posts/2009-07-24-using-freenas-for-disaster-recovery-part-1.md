@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 704
-layout: post
 title: Using freeNAS for Disaster Recovery - Part 1
 date: 2009-07-24 15:45:43 +01:00
 tags: 
@@ -8,10 +7,9 @@ tags:
 - freenas
 - disaster recovery
 - build
-categories: 
+tags: 
 - freenas
 wordpress_url: https://blog.oneiroi.co.uk/freenas/using-freenas-for-disaster-recovery-part-1
-comments: true
 ---
 As the company I am working for (<a href="https://www.psycle.com">Psycle Interactive Ltd</a>) grow there became an increasing need to store and share large files between machines, granted we are all on MACs here, but the "drop box" becomes inconvenient when you want to share that file with multiple people.
 

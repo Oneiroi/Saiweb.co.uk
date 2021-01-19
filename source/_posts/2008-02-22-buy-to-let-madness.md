@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 7
-layout: post
 title: Buy to let madness.
 date: 2008-02-22 13:43:30 +00:00
 tags: 
 - below market value
 - property auctions
 - propertysecrets
-categories: 
+tags: 
  - property-investment
 wordpress_url: https://blog.oneiroi.co.uk/property investment/buy-to-let-madness
-comments: true
 ---
 Working with a company that largely deals in property investment and information relating to it, has left me quite intrested in the whole buy to let market ...
 

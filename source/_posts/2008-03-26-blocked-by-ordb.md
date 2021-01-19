@@ -1,17 +1,15 @@
 --- 
 wordpress_id: 22
-layout: post
 title: blocked by ORDB
 date: 2008-03-26 10:18:25 +00:00
 tags: 
 - ordb
 - exchange
 - blocked
-categories: 
+tags: 
 - windows
 - ordb
 wordpress_url: https://blog.oneiroi.co.uk/windows/blocked-by-ordb
-comments: true
 ---
 <p>Well this is a barrel of laughs...</p>
 <p>"<em>The problem is that the ORDB blacklist (which was decommissioned on Dec 18 2006) has been reactivated, but in such a way that it returns a positive match for every query. The operators have done this in order to prompt people who were still using the list to remove it from their configuration.</em>"</p>

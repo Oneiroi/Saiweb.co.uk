@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 139
-layout: post
 title: FFMPEG Build your own HD YouTube - Update
 date: 2008-08-14 10:44:04 +01:00
 tags: 
@@ -8,10 +7,9 @@ tags:
 - libx264
 - libfaac
 - hd
-categories: 
+tags: 
 - linux
 wordpress_url: https://blog.oneiroi.co.uk/linux/ffmpeg-build-your-own-hd-youtube-update
-comments: true
 ---
 Well the intrest in this subject seems to be picking up!
 

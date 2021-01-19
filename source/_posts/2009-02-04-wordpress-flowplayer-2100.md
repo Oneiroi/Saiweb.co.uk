@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 509
-layout: post
 title: Wordpress Flowplayer 2.1.0.0
 date: 2009-02-04 21:35:50 +00:00
 tags: 
 - flowplayer
 - wordpress
 - 2.1.0.0
-categories: 
+tags: 
 - flowplayer
 wordpress_url: https://blog.oneiroi.co.uk/flowplayer/wordpress-flowplayer-2100
-comments: true
 ---
 The following milestone is planned for completion by the end of March.
 

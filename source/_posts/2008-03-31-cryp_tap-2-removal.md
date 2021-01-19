@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 27
-layout: post
 title: Cryp_Tap-2 Removal
 date: 2008-03-31 08:45:05 +01:00
 tags: 
 - cryp_tap-2
 - virus
-categories: 
+tags: 
 - windows
 wordpress_url: https://blog.oneiroi.co.uk/windows/cryp_tap-2-removal
-comments: true
 ---
 <p><script type="text/javascript"><!--
 google_ad_client = "pub-5002016982726982";

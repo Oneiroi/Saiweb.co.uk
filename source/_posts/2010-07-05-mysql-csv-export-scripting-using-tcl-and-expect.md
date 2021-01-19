@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 880
-layout: post
 title: mysql csv export scripting using TCL and expect
 date: 2010-07-05 15:06:15 +01:00
 tags: 
@@ -8,11 +7,10 @@ tags:
 - expect
 - tcl
 - csv
-categories: 
+tags: 
 - linux
 - mysql
 wordpress_url: https://blog.oneiroi.co.uk/linux/mysql-csv-export-scripting-using-tcl-and-expect
-comments: true
 ---
 I've no idea to this day why my bash script would not work with a CSV export from mysql by simply using mysql -e "SQL COMMAND HERE".
 

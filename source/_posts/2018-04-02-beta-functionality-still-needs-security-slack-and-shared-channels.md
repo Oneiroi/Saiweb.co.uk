@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Beta functionality still needs security Slack and Shared channels BETA"
 date: 2018-03-18 10:05
-comments: true
-categories:
+tags:
 - security
 - shared
 - channel

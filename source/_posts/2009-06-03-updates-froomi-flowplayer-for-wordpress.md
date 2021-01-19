@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 657
-layout: post
 title: Updates, Froomi, Flowplayer for wordpress
 date: 2009-06-03 09:24:49 +01:00
 tags: 
@@ -8,10 +7,9 @@ tags:
 - wordpress
 - update
 - froomi
-categories: 
+tags: 
 - general
 wordpress_url: https://blog.oneiroi.co.uk/general/updates-froomi-flowplayer-for-wordpress
-comments: true
 ---
 As most have no doubt noticed the plugin is delayed ... _again_
 

@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 289
-layout: post
 title: Linux - The Sysadmin Script - Part 4
 date: 2008-11-14 09:31:23 +00:00
 tags: 
 - linux
 - sysadmin
-categories: 
+tags: 
 - linux
 - bash-script
 wordpress_url: https://blog.oneiroi.co.uk/linux/linux-the-sysadmin-script-part-4
-comments: true
 ---
 In part 4, I am going to cover more of an improvement than anything else to <a href="https://blog.oneiroi.co.uk/linux/linux-the-sysadmin-script-part-3">part 3</a>
 

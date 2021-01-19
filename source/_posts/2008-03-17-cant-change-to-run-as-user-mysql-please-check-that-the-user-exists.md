@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 17
-layout: post
 title: Can't change to run as user 'mysql'. Please check that the user exists!
 date: 2008-03-17 15:08:06 +00:00
 tags: 
 - mysql
-categories: 
+tags: 
 - linux
 - mysql
 wordpress_url: https://blog.oneiroi.co.uk/linux/cant-change-to-run-as-user-mysql-please-check-that-the-user-exists
-comments: true
 ---
 So you've recently made a change to your mysql installation and see the following in
 

@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 788
-layout: post
 title: "Linux Generating file manifests and then checking them Improved"
 date: 2009-09-29 14:14:06 +01:00
 tags: 
@@ -13,11 +12,10 @@ tags:
 - indication
 - indicator
 - cli
-categories: 
+tags: 
 - linux
 - python
 wordpress_url: https://blog.oneiroi.co.uk/linux/linux-generating-file-manifests-and-then-checking-them-improved
-comments: true
 ---
 Following on from <a href="https://blog.oneiroi.co.uk/linux/linux-generating-file-manifests-and-then-checking-them">Linux – Generating file manifests and then checking them</a> I was always getting the same questions ...
 

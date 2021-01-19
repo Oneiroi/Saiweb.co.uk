@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 21
-layout: post
 title: Announcing Project Acies
 date: 2008-03-22 23:29:12 +00:00
 tags: 
@@ -8,12 +7,11 @@ tags:
 - framework
 - acies
 - rapid development
-categories: 
+tags: 
 - technology
 - php
 - acies
 wordpress_url: https://blog.oneiroi.co.uk/technology/announcing-project-acies
-comments: true
 ---
 <img border="0" align="middle" width="280" src="https://acies.blog.oneiroi.co.uk/www/acies/images/logo.jpg" alt="Acies" height="162" /> 
 

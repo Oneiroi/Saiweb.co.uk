@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 1054
-layout: post
 title: Boxgrinder - setting up a simple CentOS LAMP stack, and deploying it to KVM
 date: 2011-08-16 11:35:54 +01:00
 tags: 
@@ -9,12 +8,11 @@ tags:
 - saas
 - kvm
 - qemu
-categories: 
+tags: 
 - linux
 - boxgrinder
 - cloud
 wordpress_url: https://blog.oneiroi.co.uk/linux/boxgrinder-setting-up-a-simple-centos-lamp-stack-and-deploying-it-to-kvm
-comments: true
 ---
 <a href="https://blog.oneiroi.co.uk/uploads/2011/08/boxgrinder_logo_450px.gif"><img class="aligncenter size-full wp-image-1093" title="boxgrinder_logo_450px" src="https://blog.oneiroi.co.uk/uploads/2011/08/boxgrinder_logo_450px.gif" alt="" width="450" height="110" /></a> If you haven't tried <a href="https://boxgrinder.org">boxgrinder</a> then you are missing out, it makes it extremely easy to script the generation of a virtual machine for output to Rackspace (<a href="https://blog.oneiroi.co.uk/linux/boxgrinder-setting-up-a-simple-centos-lamp-stack-and-deploying-it-to-kvm/comment-page-1#comment-49065">Well not yet</a>), ec2, vmware, virtualbox, KVM etc.
 

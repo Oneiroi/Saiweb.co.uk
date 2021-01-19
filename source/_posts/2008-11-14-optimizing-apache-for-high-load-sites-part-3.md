@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 298
-layout: post
 title: Optimizing Apache for high load sites - Part 3
 date: 2008-11-14 11:11:03 +00:00
 tags: 
 - apache
 - optimize
-categories: 
+tags: 
 - linux
 - apache
 wordpress_url: https://blog.oneiroi.co.uk/linux/optimizing-apache-for-high-load-sites-part-3
-comments: true
 ---
 <b>Pulling it all together.</b>
 

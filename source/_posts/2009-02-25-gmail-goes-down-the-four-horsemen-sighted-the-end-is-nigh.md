@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 570
-layout: post
 title: Gmail goes down, the four horsemen sighted, THE END IS NIGH ...
 date: 2009-02-25 15:15:38 +00:00
 tags: 
 - outage
 - gmail
-categories: 
+tags: 
 - general
 wordpress_url: https://blog.oneiroi.co.uk/general/gmail-goes-down-the-four-horsemen-sighted-the-end-is-nigh
-comments: true
 ---
 Ok so maybe not, but by the reaction from the masses crying because Gmail has had a little outage, you would think the world was ending ...
 

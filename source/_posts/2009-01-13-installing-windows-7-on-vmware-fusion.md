@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 413
-layout: post
 title: Installing Windows 7 on VMWare Fusion
 date: 2009-01-13 14:57:25 +00:00
 tags: 
@@ -8,11 +7,10 @@ tags:
 - vmware fusion
 - vmware
 - install
-categories: 
+tags: 
 - windows
 - mac
 wordpress_url: https://blog.oneiroi.co.uk/windows/installing-windows-7-on-vmware-fusion
-comments: true
 ---
 As per my previous post I was faced with a serious BSOD problem.
 

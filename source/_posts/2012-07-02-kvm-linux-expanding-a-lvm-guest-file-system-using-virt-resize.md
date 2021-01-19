@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "KVM Linux - expanding a guest LVM file system using virt-resize"
 date: 2012-07-02 12:14
-comments: true
-categories: 
+tags: 
 - linux
 - kvm
 - virt-resize

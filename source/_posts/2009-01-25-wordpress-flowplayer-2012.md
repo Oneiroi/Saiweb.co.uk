@@ -1,17 +1,15 @@
 --- 
 wordpress_id: 452
-layout: post
 title: Wordpress Flowplayer 2.0.1.2
 date: 2009-01-25 14:33:35 +00:00
 tags: 
 - flowplayer
 - wordpress
-categories: 
+tags: 
 - php
 - flowplayer
 - flash
 wordpress_url: https://blog.oneiroi.co.uk/php/wordpress-flowplayer-2012
-comments: true
 ---
 Ah yeh so I forgot to blog about this, 2.0.1.2 of my wordpress plugin is now available, as noted development of this plugin is unaffected by recent events.
 

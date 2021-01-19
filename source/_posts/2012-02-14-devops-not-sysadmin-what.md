@@ -1,12 +1,10 @@
 ---
-layout: post
 title: "Devops != Sysadmin (What?!)"
 date: 2012-03-05 19:21
-comments: true
 tags:
 - DevOps
 - sysadmin
-categories:
+tags:
 - linux 
 ---
 I’m a little perplexed by some posts doing the rounds during the evolutions of what DevOps is that claim it is not Systems Administration ...

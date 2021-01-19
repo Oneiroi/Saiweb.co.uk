@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 696
-layout: post
 title: Converting mySQL latin1 to utf8
 date: 2009-07-14 08:46:02 +01:00
 tags: 
@@ -15,11 +14,9 @@ tags:
 - convert
 - converting
 - mysqldump
-categories: 
+tags: 
 - mysql
 wordpress_url: https://blog.oneiroi.co.uk/mysql/converting-mysql-latin1-to-utf8
-comments: true
-comments: true
 ---
 <ul>
 <strong>The problem</strong></ul>

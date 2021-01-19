@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Tor gains 1.2M users in wake of NSA scandal ironically making it easier for the NSA"
 date: 2013-09-21 14:32
-comments: true
-categories: 
+tags: 
 - security
 ---
 

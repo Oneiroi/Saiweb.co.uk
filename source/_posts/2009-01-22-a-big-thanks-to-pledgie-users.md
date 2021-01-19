@@ -1,14 +1,12 @@
 --- 
 wordpress_id: 447
-layout: post
 title: A big *thanks* to Pledgie users
 date: 2009-01-22 15:02:04 +00:00
 tags: []
 
-categories: 
+tags: 
 - general
 wordpress_url: https://blog.oneiroi.co.uk/general/a-big-thanks-to-pledgie-users
-comments: true
 ---
 Or rather a lack of thanks,
 

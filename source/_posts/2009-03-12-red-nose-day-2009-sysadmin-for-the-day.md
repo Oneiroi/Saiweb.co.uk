@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 601
-layout: post
 title: Red Nose Day 2009 - Sysadmin for the day
 date: 2009-03-12 11:15:14 +00:00
 tags: 
 - red nose day
 - "2009"
-categories: 
+tags: 
 - general
 wordpress_url: https://blog.oneiroi.co.uk/general/red-nose-day-2009-sysadmin-for-the-day
-comments: true
 ---
 <img src="https://blog.oneiroi.co.uk/uploads/2009/03/2009-03-12_1238.png" alt="2009-03-12_1238" title="2009-03-12_1238" width="120" height="121" class="alignleft size-full wp-image-610" /> I should of put something up sooner but here goes, for red nose day 2009 I am running the following 'competition' "Sysadmin for the day".
 

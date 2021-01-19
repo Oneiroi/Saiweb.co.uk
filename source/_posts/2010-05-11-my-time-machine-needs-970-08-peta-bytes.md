@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 861
-layout: post
 title: My time machine needs 970.08 Peta Bytes
 date: 2010-05-11 11:19:16 +01:00
 tags: 
@@ -9,10 +8,9 @@ tags:
 - machine
 - peta
 - bytes
-categories: 
+tags: 
 - mac
 wordpress_url: https://blog.oneiroi.co.uk/mac/my-time-machine-needs-970-08-peta-bytes
-comments: true
 ---
 <a href="https://blog.oneiroi.co.uk/uploads/2010/05/time_machine_wtf.png"><img src="https://blog.oneiroi.co.uk/uploads/2010/05/time_machine_wtf.png" alt="" title="time_machine_wtf" width="475" height="217" class="alignnone size-full wp-image-862" /></a>
 

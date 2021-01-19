@@ -1,17 +1,15 @@
 --- 
 wordpress_id: 1069
-layout: post
 title: PHP & Caching an in depth review - Follow up using Varnish
 date: 2011-08-10 20:59:26 +01:00
 tags: 
 - php
 - caching
 - varnish
-categories: 
+tags: 
 - php
 - hosting
 wordpress_url: https://blog.oneiroi.co.uk/php/php-caching-an-in-depth-review-follow-up-using-varnish
-comments: true
 ---
 Ok, so following up on PHP & Caching with Varnish, let's cut to the hard facts shall we?
 

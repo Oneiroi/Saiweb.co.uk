@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 181
-layout: post
 title: Honeypotting for viruses - Statement of fees 2008/09
 date: 2008-08-29 08:23:08 +01:00
 tags: 
@@ -9,13 +8,12 @@ tags:
 - troj_agent.anid
 - troj_zbot.wb
 - worm_system.aa
-categories: 
+tags: 
 - hacking
 - linux
 - microsoft_office_2003
 - security
 wordpress_url: https://blog.oneiroi.co.uk/hacking/honeypotting-for-viruses-statement-of-fees-200809
-comments: true
 ---
 Getting this email on a regular basis?
 

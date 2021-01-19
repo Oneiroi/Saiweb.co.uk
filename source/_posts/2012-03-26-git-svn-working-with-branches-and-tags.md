@@ -1,10 +1,8 @@
 ---
-layout: post
 title: "Git svn - working with branches and tags"
 date: 2012-03-26 14:35
-comments: true
 published: false 
-categories:
+tags:
 - git
 ---
 

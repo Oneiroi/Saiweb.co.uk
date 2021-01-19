@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 777
-layout: post
 title: Sysamin - iconv update
 date: 2009-09-10 10:40:59 +01:00
 tags: 
@@ -9,10 +8,9 @@ tags:
 - charset
 - conversion
 - bom
-categories: 
+tags: 
 - linux
 wordpress_url: https://blog.oneiroi.co.uk/linux/sysamin-iconv-update
-comments: true
 ---
 I had a major issue facing the iconv functionality of the <a href="https://blog.oneiroi.co.uk/sysadmin">sysadmin toolset</a> namely due to rushed coding.
 

@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 622
-layout: post
 title: mySQL bash backup script
 date: 2009-03-31 09:06:33 +01:00
 tags: 
@@ -8,11 +7,10 @@ tags:
 - bash
 - backup
 - gzip
-categories: 
+tags: 
 - mysql
 - bash-script
 wordpress_url: https://blog.oneiroi.co.uk/mysql/mysql-bash-backup-script
-comments: true
 ---
 In on of those "oh ffs" moments I found myself writing a BASH script to quickly dump all database on a mySQL server.
 

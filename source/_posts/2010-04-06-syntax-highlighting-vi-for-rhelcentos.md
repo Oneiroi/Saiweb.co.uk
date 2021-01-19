@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 848
-layout: post
 title: Syntax highlighting vi for rhel/centos
 date: 2010-04-06 15:52:56 +01:00
 tags: 
@@ -10,10 +9,9 @@ tags:
 - syntax
 - highlight
 - rhel
-categories: 
+tags: 
 - linux
 wordpress_url: https://blog.oneiroi.co.uk/linux/syntax-highlighting-vi-for-rhelcentos
-comments: true
 ---
 The default install of VI is very basic, and being as I spend a lot of my time in there I find syntax highlighting invaluable, to get this however you will need the vim-enhanced package.
 

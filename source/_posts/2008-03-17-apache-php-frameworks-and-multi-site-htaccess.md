@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 16
-layout: post
 title: Apache, PHP Frameworks, and multi site .htaccess
 date: 2008-03-17 11:26:09 +00:00
 tags: 
@@ -10,11 +9,10 @@ tags:
 - htaccess
 - multi site
 - accessfilename
-categories: 
+tags: 
 - linux
 - apache
 wordpress_url: https://blog.oneiroi.co.uk/linux/apache-php-frameworks-and-multi-site-htaccess
-comments: true
 ---
 If like me you have a PHP framework, that runs multiple sites, you no doubt have thought at some point in time ...
 

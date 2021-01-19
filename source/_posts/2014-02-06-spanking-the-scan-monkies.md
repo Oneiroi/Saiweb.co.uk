@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Spanking the scan monkies"
 date: 2014-02-06 16:52
-comments: true
-categories:
+tags:
 - trolling
 - skiddies
 - scan

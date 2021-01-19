@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 69
-layout: post
 title: e000820e Library Error Invalid Request
 date: 2008-06-18 08:24:56 +01:00
 tags: 
@@ -8,10 +7,9 @@ tags:
 - "0xe000820e"
 - invalid request
 - library error
-categories: 
+tags: 
 - technology
 wordpress_url: https://blog.oneiroi.co.uk/technology/e000820e-library-error-invalid-request
-comments: true
 ---
 "e000820e Library Error Invalid Request"
 

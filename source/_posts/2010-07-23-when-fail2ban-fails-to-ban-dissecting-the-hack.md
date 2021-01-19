@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 900
-layout: post
 title: When fail2ban fails to ban - Dissecting the hack
 date: 2010-07-23 10:23:52 +01:00
 tags: 
@@ -9,11 +8,10 @@ tags:
 - hack
 - fail2ban
 - brute
-categories: 
+tags: 
 - hacking
 - linux
 wordpress_url: https://blog.oneiroi.co.uk/hacking/when-fail2ban-fails-to-ban-dissecting-the-hack
-comments: true
 ---
 Most of the time when I review our log watches each morning I become enraged at the number of automated attacks,
 

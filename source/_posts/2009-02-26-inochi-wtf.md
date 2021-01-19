@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 579
-layout: post
 title: inochi ... WTF
 date: 2009-02-26 13:47:14 +00:00
 tags: 
 - inochi
 - wtf
-categories: 
+tags: 
 - general
 wordpress_url: https://blog.oneiroi.co.uk/general/inochi-wtf
-comments: true
 ---
 A serious WTF moment coming up granted this was posted in 2006, but I have just been forwarded this ... what I can only describe as a <strong>serious WTF moment</strong>.
 

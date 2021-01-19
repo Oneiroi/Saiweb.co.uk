@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 738
-layout: post
 title: Subversion and twitter - Keep your followers up to date with your code commits
 date: 2009-08-24 12:23:46 +01:00
 tags: 
@@ -9,11 +8,10 @@ tags:
 - subversion
 - hooks
 - post-commit
-categories: 
+tags: 
 - python
 - twitter
 wordpress_url: https://blog.oneiroi.co.uk/python/subversion-and-twitter-keep-your-followers-up-to-date-with-your-code-commits
-comments: true
 ---
 Some two months after the fact, I thought it may well be time to post a blog on this little code snippet.
 

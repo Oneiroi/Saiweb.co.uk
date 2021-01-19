@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 65
-layout: post
 title: "\"Green Giant\" Ebay Con Artists part 4 - fastmemoryman"
 date: 2008-06-11 10:26:01 +01:00
 tags: 
 - ebay
 - con
 - fastmemoryman
-categories: 
+tags: 
 - green_giant
 wordpress_url: https://blog.oneiroi.co.uk/green_giant/green-giant-ebay-con-artists-part-4-fastmemoryman
-comments: true
 ---
 Name and shame time!
 

@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 921
-layout: post
 title: Data Mining - What hidden information do your photos contain?
 date: 2010-08-09 13:02:08 +01:00
 tags: 
@@ -9,10 +8,9 @@ tags:
 - gps
 - data
 - mining.
-categories: 
+tags: 
 - hacking
 wordpress_url: https://blog.oneiroi.co.uk/hacking/data-mining-what-hidden-information-do-your-photos-contain
-comments: true
 ---
 Time was when a photo was just a captured moment in time, /end nostalgia
 

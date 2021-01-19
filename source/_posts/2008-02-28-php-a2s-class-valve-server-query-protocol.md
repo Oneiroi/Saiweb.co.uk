@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 11
-layout: post
 title: PHP A2S Class (Valve Server Query Protocol)
 date: 2008-02-28 18:23:34 +00:00
 tags: 
@@ -8,12 +7,11 @@ tags:
 - a2s
 - valve
 - query
-categories: 
+tags: 
 - hacking
 - networking
 - php
 wordpress_url: https://blog.oneiroi.co.uk/hacking/php-a2s-class-valve-server-query-protocol
-comments: true
 ---
 I was reminded today on MSN that I had in fact written (albeit a long time ago) a class for querying the A2S protocol using PHP sockets.
 

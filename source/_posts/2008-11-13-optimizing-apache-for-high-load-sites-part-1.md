@@ -1,17 +1,15 @@
 --- 
 wordpress_id: 271
-layout: post
 title: Optimizing apache for high load sites - Part 1
 date: 2008-11-13 12:33:35 +00:00
 tags: 
 - apache
 - memory
 - optimize
-categories: 
+tags: 
 - linux
 - apache
 wordpress_url: https://blog.oneiroi.co.uk/linux/optimizing-apache-for-high-load-sites-part-1
-comments: true
 ---
 Following on from <a href="https://blog.oneiroi.co.uk/linux/linux-the-sysadmin-script-part-3">linux-the-sysadmin-script-part-3</a> I am now going to cover how to reduce the memory footprint of apache.
 

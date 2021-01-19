@@ -1,14 +1,12 @@
 ---
-layout: post
 title: "DRBD at CloudServers without the loop device - Operation FAILED"
 date: 2012-03-05 19:30
 published: false
-comments: true
 tags:
 - drbd
 - cloudservers
 - ext3
-categories:
+tags:
 - drbd
 ---
 

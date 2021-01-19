@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 740
-layout: post
 title: Nagios - Send alerts to twitter
 date: 2009-08-24 12:37:18 +01:00
 tags: 
@@ -9,11 +8,10 @@ tags:
 - text
 - twitter
 - alert
-categories: 
+tags: 
 - nagios
 - twitter
 wordpress_url: https://blog.oneiroi.co.uk/nagios/nagios-send-alerts-to-twitter
-comments: true
 ---
 Pre-req reading:
 

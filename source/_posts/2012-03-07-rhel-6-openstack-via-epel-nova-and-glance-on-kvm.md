@@ -1,10 +1,8 @@
 ---
-layout: post
 title: "RHEL 6 Openstack via EPEL Nova and Glance on KVM"
 date: 2012-03-07 16:59
-comments: true
 published: true
-categories:
+tags:
 - openstack 
 ---
 

@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 1160
-layout: post
 title: Gluster resolving a split brain in a replicated setup
 date: 2011-12-20 12:29:08 +00:00
 tags: 
@@ -9,10 +8,9 @@ tags:
 - split
 - brain
 - fix
-categories: 
+tags: 
 - linux
 wordpress_url: https://blog.oneiroi.co.uk/linux/gluster-resolving-a-split-brain-in-a-replicated-setup
-comments: true
 ---
 Initially this took about ~7hours to diagnose and fix, with what I have learned about the inner workings of gluster and the tools I am providing opensource this should cut resolution time down to ~5minutes.
 

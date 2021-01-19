@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 153
-layout: post
 title: Easynet outage
 date: 2008-08-15 10:06:44 +01:00
 tags: 
 - easynet
 - outage
-categories: 
+tags: 
 - networking
 wordpress_url: https://blog.oneiroi.co.uk/networking/easynet-outage
-comments: true
 ---
 Oh dear oh dear ...
 

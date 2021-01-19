@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 1039
-layout: post
 title: "Make your webapp shine with varnish Part 2 backends"
 date: 2011-06-18 12:09:39 +01:00
 tags: 
@@ -8,11 +7,10 @@ tags:
 - varnish
 - high
 - performance.
-categories: 
+tags: 
 - linux
 - hosting
 wordpress_url: https://blog.oneiroi.co.uk/linux/make-your-webapp-shine-with-varnish-%e2%80%93-part-2-backends
-comments: true
 ---
 Pre-req reading: <a href="https://blog.oneiroi.co.uk/linux/make-your-webapp-shine-with-varnish-part-1">Part 1</a>
 

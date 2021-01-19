@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 766
-layout: post
 title: Generating file manifests and then checking them
 date: 2009-09-07 10:50:26 +01:00
 tags: []
 
-categories: 
+tags: 
 - linux
 - bash-script
 wordpress_url: https://blog.oneiroi.co.uk/linux/linux-generating-file-manifests-and-then-checking-them
-comments: true
 ---
 This issue has come about whilst having to migrate a positively huge number of files, and have to check the integrity of the transfer.
 

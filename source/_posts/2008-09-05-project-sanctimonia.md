@@ -1,17 +1,15 @@
 --- 
 wordpress_id: 187
-layout: post
 title: Project "sanctimonia"
 date: 2008-09-05 09:35:42 +01:00
 tags: 
 - wordpress
 - sanctimonia
 - charity
-categories: 
+tags: 
 - php
 - sanctimonia
 wordpress_url: https://blog.oneiroi.co.uk/php/project-sanctimonia
-comments: true
 ---
 I am in the process of contacting charitable organisations for project "sanctimonia".
 

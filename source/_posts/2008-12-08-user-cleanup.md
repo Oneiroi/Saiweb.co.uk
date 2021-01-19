@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 326
-layout: post
 title: User cleanup
 date: 2008-12-08 18:34:53 +00:00
 tags: []
 
-categories: 
+tags: 
 - general
 - security
 wordpress_url: https://blog.oneiroi.co.uk/general/user-cleanup
-comments: true
 ---
 Due to the security issues with wordpress pre 2.6.5, I have deleted all registered users.
 

@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 438
-layout: post
 title: Bash Hello World in 60 seconds
 date: 2009-01-19 11:49:08 +00:00
 tags: 
 - bash
 - hello world
-categories: 
+tags: 
 - linux
 - bash-script
 wordpress_url: https://blog.oneiroi.co.uk/linux/bash-hello-world-in-60-seconds
-comments: true
 ---
 How to write a bash 'hello world' script in 60 seconds, admitedly it could of been faster ... damn typos
 

@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 10
-layout: post
 title: dbStat a mysql database optimization tool.
 date: 2008-02-27 13:32:07 +00:00
 tags: 
@@ -9,13 +8,12 @@ tags:
 - database
 - optimization
 - tool.
-categories: 
+tags: 
 - linux
 - mysql
 - php
 - dbstat
 wordpress_url: https://blog.oneiroi.co.uk/linux/dbstat-a-mysql-database-optimization-tool
-comments: true
 ---
 I have been working on a script as of late to aid in the ever ongoing process of optimizing a web applications "back end", inevitably the database, and underlying code.
 

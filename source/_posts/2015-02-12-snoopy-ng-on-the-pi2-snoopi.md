@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Snoopy NG on the Pi2"
 date: 2015-02-12 19:22
-comments: true
-categories:
+tags:
 - wifi
 - snoopy
 - snoopi

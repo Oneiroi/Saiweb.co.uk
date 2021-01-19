@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 402
-layout: post
 title: CUDA, yet another distraction
 date: 2009-01-08 15:33:07 +00:00
 tags: 
@@ -8,11 +7,10 @@ tags:
 - nvidia
 - eclipse
 - md5
-categories: 
+tags: 
 - hacking
 - cuda
 wordpress_url: https://blog.oneiroi.co.uk/hacking/cuda-yet-another-distraction
-comments: true
 ---
 oooooooo SHINY .... I mean erm ... yeh ... *whistles*
 

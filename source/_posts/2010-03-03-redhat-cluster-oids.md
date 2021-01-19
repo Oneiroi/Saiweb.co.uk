@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 836
-layout: post
 title: RedHat Cluster OID's
 date: 2010-03-03 16:05:56 +00:00
 tags: 
@@ -8,10 +7,9 @@ tags:
 - snmp
 - redhat
 - oid
-categories: 
+tags: 
 - linux
 wordpress_url: https://blog.oneiroi.co.uk/linux/redhat-cluster-oids
-comments: true
 ---
 Following on from the python bindings post I found myself with a real problem,
 

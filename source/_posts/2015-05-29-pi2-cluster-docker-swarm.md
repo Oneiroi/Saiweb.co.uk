@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "pi2 cluster - docker swarm"
 date: 2015-05-29 17:52
-comments: true
-categories:
+tags:
 - raspberrypi2
 - pi2
 - cluster

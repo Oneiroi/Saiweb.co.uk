@@ -1,17 +1,15 @@
 --- 
 wordpress_id: 830
-layout: post
 title: All quiet on the front ....
 date: 2010-03-01 13:45:52 +00:00
 tags: 
 - flowplayer
 - update
 - froomi
-categories: 
+tags: 
 - general
 - flowplayer
 wordpress_url: https://blog.oneiroi.co.uk/general/all-quiet-on-the-front
-comments: true
 ---
 No I have not faded into cyber oblivion, things have just been way to busy on the work front to post any updates.
 

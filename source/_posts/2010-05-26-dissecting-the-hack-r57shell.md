@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 869
-layout: post
 title: Dissecting the hack - packed r57shell
 date: 2010-05-26 12:00:46 +01:00
 tags: 
@@ -10,12 +9,11 @@ tags:
 - hack
 - r57
 - r57shell
-categories: 
+tags: 
 - hacking
 - php
 - python
 wordpress_url: https://blog.oneiroi.co.uk/hacking/dissecting-the-hack-r57shell
-comments: true
 ---
 <span style="color: #ff0000;"><strong>Before you read any further note, I will not be including the original hack file, simply due to peoples stupidity in putting this on a production environment to play with, if you use the code you do so at your own risk, and by reading this blog entry / using the code provided you agree to accept all liability upon yourself for your own actions. Don't be an idiot.</strong></span>
 

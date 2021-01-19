@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 952
-layout: post
 title: ssh x11 forwarding who needs vnc?
 date: 2010-09-30 22:18:17 +01:00
 tags: 
 - ssh
 - x11
 - forward
-categories: 
+tags: 
 - linux
 wordpress_url: https://blog.oneiroi.co.uk/linux/ssh-x11-forwarding-who-needs-vnc
-comments: true
 ---
 This is one of those things I find my jaw dropping at, whilst punching myself for not knowing about it sooner.
 It's true as much as I live in the cli & ssh to do my job I find sometimes I require a VNC connection (i.e. the plethora of system-config-* stuff in RH)

@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 824
-layout: post
 title: Wordpress Flowplayer subject of a study
 date: 2010-02-04 11:40:02 +00:00
 tags: 
 - wordpress
 - study
-categories: 
+tags: 
 - uncategorized
 wordpress_url: https://blog.oneiroi.co.uk/uncategorized/wordpress-flowplayer-subject-of-a-study
-comments: true
 ---
 I was a bit taken back today after stumbling across this pdf by Dr. Wolf-Fritz Riekert <a href="https://share.ieservices.de/downloads/documents/Wordpress_Flowplayer_Plugin_pash-m_recent_version.pdf">https://share.ieservices.de/downloads/documents/Wordpress_Flowplayer_Plugin_pash-m_recent_version.pdf</a>
 

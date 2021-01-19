@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 630
-layout: post
 title: Making the bird tweet using python
 date: 2009-04-02 16:56:35 +01:00
 tags: 
 - twitter
 - python
-categories: 
+tags: 
 - python
 wordpress_url: https://blog.oneiroi.co.uk/python/making-the-bird-tweet-using-python
-comments: true
 ---
 After taking another look at Python I am quickly coming to love it, as an "exercise" in re-learning python I decided to write a very simple command line "tweeter" this uses the Twitter API to update your twitter status, extending from the "<a href="https://blog.oneiroi.co.uk/linux/update-twitter-in-a-single-line">update twitter in a single line</a>"
 

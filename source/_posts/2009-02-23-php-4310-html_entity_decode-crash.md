@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 566
-layout: post
 title: php 4.3.10 html_entity_decode() crash
 date: 2009-02-23 11:55:47 +00:00
 tags: 
 - php
 - crash
-categories: 
+tags: 
 - php
 wordpress_url: https://blog.oneiroi.co.uk/php/php-4310-html_entity_decode-crash
-comments: true
 ---
 Just as a warning and as a poke to say WHY are you not running PHP 5.x yet.
 

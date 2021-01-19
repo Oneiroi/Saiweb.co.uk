@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Openstack - Deploying Windows 8"
 date: 2012-12-18 19:36
-comments: true
-categories:
+tags:
 - openstack
 - windows8
 - windows

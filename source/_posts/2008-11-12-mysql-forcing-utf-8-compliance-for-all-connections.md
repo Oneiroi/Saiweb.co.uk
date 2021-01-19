@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 254
-layout: post
 title: mySQL forcing utf-8 compliance for all connections.
 date: 2008-11-12 10:05:45 +00:00
 tags: 
@@ -10,11 +9,9 @@ tags:
 - utf-8
 - init_connect
 - utf8
-categories: 
+tags: 
 - mysql
 wordpress_url: https://blog.oneiroi.co.uk/mysql/mysql-forcing-utf-8-compliance-for-all-connections
-comments: true
-comments: true
 ---
 The problem that most people face when setting up a UTF-8 database in mySQL is that without calling 'SET NAMES' in the mySQL client prior to issuing any queries (PHP, C++ etc ...) that the client connection will actually in most cases default to  latin-1.
 

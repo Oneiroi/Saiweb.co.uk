@@ -1,14 +1,12 @@
 --- 
 wordpress_id: 175
-layout: post
 title: Red Hat "Spam" Network
 date: 2008-08-28 14:13:52 +01:00
 tags: 
 - red hat
-categories: 
+tags: 
 - linux
 wordpress_url: https://blog.oneiroi.co.uk/linux/red-hat-spam-network
-comments: true
 ---
 In the last 24 hours I have received one email every 30-40 minutes from the red hat network alerting me to a "bug" fix ...
 

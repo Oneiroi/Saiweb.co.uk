@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "auditing passwords with k-anonymity and pwnedpasswords"
 date: 2018-03-18 10:05
-comments: true
-categories:
+tags:
 - security
 - passwords
 - audit

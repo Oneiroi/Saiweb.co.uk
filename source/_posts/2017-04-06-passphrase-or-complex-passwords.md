@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Passphrase or complex passwords?"
 date: 2017-04-06 21:24
-comments: true
-categories:
+tags:
 - passwords
 - security
 - something-you-know

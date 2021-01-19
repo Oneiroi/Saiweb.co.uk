@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 72
-layout: post
 title: IPM_SUBTREE Outlook and the vanishing emails
 date: 2008-07-04 10:07:52 +01:00
 tags: 
@@ -8,10 +7,9 @@ tags:
 - windows
 - exchnage
 - ipm_subtree
-categories: 
+tags: 
 - windows
 wordpress_url: https://blog.oneiroi.co.uk/windows/ipm_subtree-outlook-and-the-vanishing-emails
-comments: true
 ---
 Outlook is one of those programs we all love to hate at some point in time, particularly when it does something completely random like say _lose_ that selection of emails you were trying to move to another folder, if you can find these emails i.e. one was flagged and showing up under "flagged for follow up", the "in folder" field displays IPM_SUBTREE.
 

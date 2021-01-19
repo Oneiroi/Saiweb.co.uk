@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 370
-layout: post
 title: Saiweb Folding@Home Team ID 156680
 date: 2008-12-23 00:29:09 +00:00
 tags: 
@@ -8,12 +7,11 @@ tags:
 - home
 - f@h
 - fah
-categories: 
+tags: 
 - windows
 - linux
 - mac
 wordpress_url: https://blog.oneiroi.co.uk/windows/saiweb-foldinghome-team-id-156680
-comments: true
 ---
 For those not in the know Folding@Home is a piece of software that runs in the background of your desktop, server, heck even your PS3.
 

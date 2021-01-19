@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Openssl unable to load certificate wrong asn1 encoding routines:ASN1_CHECK_TLEN::tag:tasn_dec.c:1319"
 date: 2012-08-10 11:13
-comments: true
-categories:
+tags:
 - openssl
 - x.509
 - pcks7

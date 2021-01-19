@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Kali linux on the X1 Carbon grub-pc encrypted LVM FINALLY!"
 date: 2014-03-05 11:02
-comments: true
-categories:
+tags:
 - linux
 - grub-pc
 - lvm

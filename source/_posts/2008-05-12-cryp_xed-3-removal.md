@@ -1,17 +1,15 @@
 --- 
 wordpress_id: 46
-layout: post
 title: CRYP_XED-3 Removal
 date: 2008-05-12 09:01:40 +01:00
 tags: 
 - virus
 - cryp_xed-3
-categories: 
+tags: 
 - windows
 - hacking
 - security
 wordpress_url: https://blog.oneiroi.co.uk/windows/cryp_xed-3-removal
-comments: true
 ---
 <p><script type="text/javascript"><!--
 google_ad_client = "pub-5002016982726982";

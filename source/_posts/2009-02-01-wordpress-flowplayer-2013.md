@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 493
-layout: post
 title: Wordpress Flowplayer 2.0.1.3
 date: 2009-02-01 18:08:53 +00:00
 tags: 
 - flowplayer
 - wordpress
 - 2.0.1.3
-categories: 
+tags: 
 - php
 wordpress_url: https://blog.oneiroi.co.uk/php/wordpress-flowplayer-2013
-comments: true
 ---
 Wordpress Flowplayer 2.0.1.3 comes with bug fixes and more features.
 

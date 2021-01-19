@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 409
-layout: post
 title: Windows 7, just like XP, vista, well just like windows
 date: 2009-01-13 12:57:43 +00:00
 tags: 
 - windows
 - bsod
-categories: 
+tags: 
 - windows
 wordpress_url: https://blog.oneiroi.co.uk/windows/windows-7-just-like-xp-vista-well-just-like-windows
-comments: true
 ---
 So I decided to take Windows 7 for a spin in VMWare fusion, downloaded the shiny new 3.15GB x64 ISO and away I went ...
 

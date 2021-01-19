@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 19
-layout: post
 title: PHP Security considerations, a quick reference for the newbies.
 date: 2008-03-20 09:57:17 +00:00
 tags: 
@@ -8,12 +7,11 @@ tags:
 - mysql
 - sql
 - injection
-categories: 
+tags: 
 - mysql
 - php
 - security
 wordpress_url: https://blog.oneiroi.co.uk/mysql/php-security-considerations
-comments: true
 ---
 To often I get passed code to review that quite frankly is so full of holes it wouldn't make an adequate sieve...
 

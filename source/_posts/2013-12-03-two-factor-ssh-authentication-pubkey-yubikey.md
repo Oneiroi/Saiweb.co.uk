@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Two factor SSH authentication - pubkey yubikey"
 date: 2013-12-03 19:16
-comments: true
-categories:
+tags:
 - ssh
 - yubikey
 - pam

@@ -1,14 +1,12 @@
 --- 
 wordpress_id: 374
-layout: post
 title: Busy Busy Busy ...
 date: 2008-12-29 09:56:13 +00:00
 tags: 
 - busy
-categories: 
+tags: 
 - general
 wordpress_url: https://blog.oneiroi.co.uk/general/busy-busy-busy
-comments: true
 ---
 Blog updates very well may become few and far between over the next couple of weeks, whilst I literally hammer out some issues with the Joomla database structure breaking mySQL replication *sigh*.
 

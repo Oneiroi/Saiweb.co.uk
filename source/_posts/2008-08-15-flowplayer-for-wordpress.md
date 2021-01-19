@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 146
-layout: post
 title: Flowplayer for Wordpress
 date: 2008-08-15 08:44:24 +01:00
 tags: 
 - flowplayer
 - wordpress
-categories: 
+tags: 
 - php
 wordpress_url: https://blog.oneiroi.co.uk/php/flowplayer-for-wordpress
-comments: true
 ---
 Whilst I wait for a reply here: <a href="https://community.flowplayer.org/node/1051">https://community.flowplayer.org/node/1051</a>
 

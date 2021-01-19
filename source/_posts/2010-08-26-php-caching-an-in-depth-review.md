@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 800
-layout: post
 title: PHP & Caching an in depth review.
 date: 2010-08-26 18:11:59 +01:00
 tags: 
@@ -8,11 +7,10 @@ tags:
 - cache
 - caching
 - faster
-categories:
+tags:
 - php 
 - hosting
 wordpress_url: https://blog.oneiroi.co.uk/hosting/php-caching-an-in-depth-review
-comments: true
 ---
 Sounds simple enough, right?
 

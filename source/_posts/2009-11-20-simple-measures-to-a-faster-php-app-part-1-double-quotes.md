@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 796
-layout: post
 title: Simple measures to a faster PHP app - Part 1 Double Quotes
 date: 2009-11-20 10:25:06 +00:00
 tags: 
@@ -8,10 +7,9 @@ tags:
 - performance.
 - single quotes
 - double quotes
-categories: 
+tags: 
 - php
 wordpress_url: https://blog.oneiroi.co.uk/php/simple-measures-to-a-faster-php-app-part-1-double-quotes
-comments: true
 ---
 In some situations using a double quotes string is required i.e. "this\nstring\nappears\over\nmany\nlines" ...
 

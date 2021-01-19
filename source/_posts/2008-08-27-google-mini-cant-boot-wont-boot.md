@@ -1,14 +1,12 @@
 --- 
 wordpress_id: 159
-layout: post
 title: Google Mini - Can't Boot Wont Boot
 date: 2008-08-27 15:22:03 +01:00
 tags: 
 - google mini
-categories: 
+tags: 
 - general
 wordpress_url: https://blog.oneiroi.co.uk/general/google-mini-cant-boot-wont-boot
-comments: true
 ---
 First off let me start by saying if your google mini is still in warranty <strong>APPLY FOR AN IN WARRANTY REPAIR.</strong>
 

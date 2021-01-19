@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Suricata Logstash Kibana Utilite Pro ARM"
 date: 2014-05-16 12:47
-comments: true
-categories:
+tags:
 - ids
 - ips
 - security

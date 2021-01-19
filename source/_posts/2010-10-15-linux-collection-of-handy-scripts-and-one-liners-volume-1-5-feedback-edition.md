@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 963
-layout: post
 title: Linux collection of handy scripts and one liners - Volume 1.5 (Feedback edition)
 date: 2010-10-15 10:08:12 +01:00
 tags: 
@@ -11,10 +10,9 @@ tags:
 - one
 - liners
 - scripts
-categories: 
+tags: 
 - linux
 wordpress_url: https://blog.oneiroi.co.uk/linux/linux-collection-of-handy-scripts-and-one-liners-volume-1-5-feedback-edition
-comments: true
 ---
 Following reader feedback please see below for an updated version of Volume 1
 

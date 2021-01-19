@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 318
-layout: post
 title: Trac and subversion now available
 date: 2008-12-02 15:49:01 +00:00
 tags: 
 - trac
 - svn
-categories: 
+tags: 
 - general
 wordpress_url: https://blog.oneiroi.co.uk/general/trac-and-subversion-now-available
-comments: true
 ---
 I am still in the midst of getting everything made available.
 

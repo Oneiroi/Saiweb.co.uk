@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 73
-layout: post
 title: Exchange 2007 Legacy Mailboxes
 date: 2008-07-04 10:16:32 +01:00
 tags: 
@@ -9,10 +8,9 @@ tags:
 - "2007"
 - "2003"
 - legacy mailbox
-categories: 
+tags: 
 - windows
 wordpress_url: https://blog.oneiroi.co.uk/windows/exchange-2007-legacy-mailboxes
-comments: true
 ---
 This one comes via <a href="https://www.absolutech.co.uk/">Kerm</a>.
 

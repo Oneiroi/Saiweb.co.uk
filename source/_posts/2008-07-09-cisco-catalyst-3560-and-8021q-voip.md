@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 75
-layout: post
 title: Cisco Catalyst 3560 and 802.1Q VoIP
 date: 2008-07-09 13:51:36 +01:00
 tags: 
@@ -9,12 +8,11 @@ tags:
 - cisco
 - "3650"
 - encapsulation
-categories: 
+tags: 
 - networking
 - cisco
 - voip
 wordpress_url: https://blog.oneiroi.co.uk/networking/cisco-catalyst-3560-and-8021q-voip
-comments: true
 ---
 Some VoiP devices require the use of 802.1Q, encapsulation protocol, to set this up you are going to have to do this using telnet, and on a per port basis.
 

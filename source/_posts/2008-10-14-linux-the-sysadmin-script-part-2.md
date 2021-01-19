@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 231
-layout: post
 title: Linux - The Sysadmin script - Part 2
 date: 2008-10-14 08:40:55 +01:00
 tags: 
@@ -8,12 +7,11 @@ tags:
 - sysadmin
 - bofh
 - mac
-categories: 
+tags: 
 - linux
 - bash-script
 - mac
 wordpress_url: https://blog.oneiroi.co.uk/linux/linux-the-sysadmin-script-part-2
-comments: true
 ---
 Part 2 has finally arrived .... don't all cheer at once now ...
 

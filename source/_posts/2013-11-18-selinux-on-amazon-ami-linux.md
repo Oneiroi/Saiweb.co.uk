@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "SELinux on Amazon AMI Linux"
 date: 2013-11-18 13:00
-comments: true
-categories: 
+tags: 
 - selinux
 - amazon
 - aws

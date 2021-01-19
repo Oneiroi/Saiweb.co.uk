@@ -1,6 +1,5 @@
 --- 
 wordpress_id: 513
-layout: post
 title: jQuery.saiweb 0.2 decode animation
 date: 2009-02-13 20:20:11 +00:00
 tags: 
@@ -8,10 +7,9 @@ tags:
 - jquery.saiweb
 - animation
 - decode
-categories: 
+tags: 
 - jquery
 wordpress_url: https://blog.oneiroi.co.uk/jquery/jquerysaiweb-02-decode-animation
-comments: true
 ---
 So I have decided to add a new animation function to this jQuery plugin and I call this decode, this animation simulates a sentence of text being decoded.
 

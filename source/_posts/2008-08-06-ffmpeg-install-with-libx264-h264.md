@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 122
-layout: post
 title: ffmpeg install with libx264 (h264)
 date: 2008-08-06 09:04:12 +01:00
 tags: 
 - ffmpeg
 - h264
 - libx264
-categories: 
+tags: 
 - linux
 wordpress_url: https://blog.oneiroi.co.uk/linux/ffmpeg-install-with-libx264-h264
-comments: true
 ---
 The information for this is VERY very sparse, so here is a summary of what I have found.
 

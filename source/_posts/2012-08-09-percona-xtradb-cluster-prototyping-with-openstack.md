@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Percona XtraDB Cluster - Prototyping with Openstack"
 date: 2012-08-09 13:38
-comments: true
-categories:
+tags:
 - percona
 - xtradb
 - cluster

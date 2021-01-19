@@ -1,17 +1,15 @@
 --- 
 wordpress_id: 50
-layout: post
 title: Green Giant - eBay Con artists
 date: 2008-05-20 07:59:12 +01:00
 tags: 
 - ebay
 - con
-categories: 
+tags: 
 - hacking
 - linux
 - green_giant
 wordpress_url: https://blog.oneiroi.co.uk/hacking/green-giant-ebay-con-artists
-comments: true
 ---
 <div style=''>So I got my "adjusted" postage ... the seller has increased the
 combined postage to £64 and then applied a £48 discount, yeh you

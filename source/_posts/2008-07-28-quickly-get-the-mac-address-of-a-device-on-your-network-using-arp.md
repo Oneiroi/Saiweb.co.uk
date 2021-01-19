@@ -1,15 +1,13 @@
 --- 
 wordpress_id: 102
-layout: post
 title: Quickly get the MAC address of a device on your network using ARP
 date: 2008-07-28 08:45:34 +01:00
 tags: 
 - arp
-categories: 
+tags: 
 - windows
 - networking
 wordpress_url: https://blog.oneiroi.co.uk/windows/quickly-get-the-mac-address-of-a-device-on-your-network-using-arp
-comments: true
 ---
 This is something I find myself having to do, more and more lately due to this VoIP roll out.
 

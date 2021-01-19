@@ -1,16 +1,14 @@
 --- 
 wordpress_id: 398
-layout: post
 title: Jing PRO MP4 quality issue
 date: 2009-01-08 13:55:52 +00:00
 tags: 
 - ffmpeg
 - mp4
 - jing
-categories: 
+tags: 
 - uncategorized
 wordpress_url: https://blog.oneiroi.co.uk/uncategorized/jing-pro-mp4-quality-issue
-comments: true
 ---
 Ok I purchased Jing PRO to do some more video posts to saiweb ... unfortunately the MP4 quality is lack luster. 
 

@@ -1,14 +1,12 @@
 --- 
 wordpress_id: 616
-layout: post
 title: Update twitter in a single line
 date: 2009-03-20 11:52:44 +00:00
 tags: 
 - twitter
-categories: 
+tags: 
 - linux
 wordpress_url: https://blog.oneiroi.co.uk/linux/update-twitter-in-a-single-line
-comments: true
 ---
 As it turns out twitter account can be updated in a single line, this makes writing "bots" just that little bit easier.
 
