@@ -2,6 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
+
 url: http://blog.oneiroi.co.uk
 title: Oneiroi
 subtitle: Demented Ramblings of a Sysadmin Turned Infosec
@@ -9,6 +10,7 @@ author: David Busby, CISSP
 author_googleplus: 117561367404774597588
 simple_search: http://google.com/search
 description: Technical blog, formerly saiweb.co.uk
+
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -36,12 +38,25 @@ plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
 markdown: rdiscount
+<<<<<<< HEAD
 pygments: true # default python pygments have been replaced by pygments.rb
 
 paginate: 5          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
+=======
+rdiscount:
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+highlighter: pygments # default python pygments have been replaced by pygments.rb
+
+paginate: 10          # Posts per page on the blog index
+paginate_path: "posts/:num"  # Directory base for pagination URLs eg. /posts/2/
+>>>>>>> 5717a50f4e4964ea8423997d6456b04c653f0348
 recent_posts: 5       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
+excerpt_separator: "<!--more-->"
 
 titlecase: true       # Converts page and post titles to titlecase
 
@@ -66,12 +81,14 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
+
 #twitter_user: icleus 
 #twitter_tweet_count: 4
 #twitter_show_replies: true
 #twitter_follow_button: true
 #twitter_show_follower_count: true
 #twitter_tweet_button: true
+
 
 # Google +1
 google_plus_one: true
