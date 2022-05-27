@@ -16,7 +16,7 @@ group :development do
   gem 'liquid', '~> 2.3.0'
 end
 
-gem 'sinatra', '~> 1.3.2'
+gem 'sinatra', '~> 2.2.0'
 gem 'colored'
 gem 'mime-types'
 gem 'uri-handler'
